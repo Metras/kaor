@@ -193,7 +193,6 @@
     </Content>
   </ItemGroup>
   <PropertyGroup>
-    <PostBuildEvent>copy /b $(TargetPath) $(SolutionDir)\kaor\$(OutDir)
-copy /b $(TargetDir)\ICOMR8500.xml $(SolutionDir)\kaor\$(OutDir)</PostBuildEvent>
+    <PostBuildEvent>xcopy /e /y $(ProjectDir)bin\$(ConfigurationName) $(SolutionDir)\kaor\$(OutDir)</PostBuildEvent>
   </PropertyGroup>
 </Project>
