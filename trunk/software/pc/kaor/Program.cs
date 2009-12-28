@@ -64,7 +64,7 @@ namespace kaor
 #endif
 	
 			//revision = revisionFull.Split(' ')[1];
-			string _versionString = "KAOR® v" + version + " build " + revisionSVN;
+			string _versionString = "KAOR® Community Edition v" + version + " build " + revisionSVN;
 			
 			AppDomain.CurrentDomain.SetData("revision", revisionSVN);
 			AppDomain.CurrentDomain.SetData("version", version);

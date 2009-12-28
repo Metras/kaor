@@ -373,7 +373,7 @@ namespace ControlUtils.Splash
 			this.lblVersion.BackColor = System.Drawing.Color.Transparent;
 			this.lblVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.lblVersion.ForeColor = System.Drawing.Color.Gainsboro;
-			this.lblVersion.Location = new System.Drawing.Point(72, 271);
+			this.lblVersion.Location = new System.Drawing.Point(17, 273);
 			this.lblVersion.Name = "lblVersion";
 			this.lblVersion.Size = new System.Drawing.Size(145, 17);
 			this.lblVersion.TabIndex = 0;
