@@ -125,10 +125,6 @@
       <Project>{DEF642D0-F2BF-4BD0-871F-723CCBDC615B}</Project>
       <Name>KaorCore</Name>
     </ProjectReference>
-    <ProjectReference Include="..\RPUICOMR8500\RPUICOMR8500\RPUICOMR8500.csproj">
-      <Project>{DAEEB878-1897-4514-9C98-34AC496FB8EA}</Project>
-      <Name>RPUICOMR8500</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ZedGraph\ZedGraph.csproj">
       <Project>{8CD6FA3F-4934-4DE5-8637-76BF0D173852}</Project>
       <Name>ZedGraph</Name>
@@ -213,6 +209,6 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent>copy /b $(TargetPath) $(SolutionDir)\kaor\$(OutDir)</PostBuildEvent>
+    <PostBuildEvent>xcopy /e /y $(ProjectDir)bin\$(ConfigurationName) $(SolutionDir)\kaor\$(OutDir)</PostBuildEvent>
   </PropertyGroup>
 </Project>

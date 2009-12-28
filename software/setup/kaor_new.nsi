@@ -49,7 +49,7 @@ InstallDir "$PROGRAMFILES\KAOR RCS"
 InstallDirRegKey HKLM "${PRODUCT_DIR_REGKEY}" ""
 ShowInstDetails show
 ShowUnInstDetails show
-SetCompress off
+SetCompress auto
 
 Function .onInit
   !insertmacro MUI_LANGDLL_DISPLAY
