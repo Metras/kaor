@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DEF642D0-F2BF-4BD0-871F-723CCBDC615B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KaorCore</RootNamespace>
+    <AssemblyName>KaorCore</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Balloon.NET, Version=1.0.945.30810, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Balloon.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="BSE.Windows.Forms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\BSE.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="MT.WindowsUI, Version=2.6.4.0, Culture=neutral, PublicKeyToken=6a0e81d0b9165633, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\MT.WindowsUI.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp, Version=1.2.1269.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Picker, Version=1.0.3074.24482, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Picker.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AntennaManager\AntennaManagerCrab8x1.cs" />
+    <Compile Include="AntennaManager\AntennaManagerCrab8x1Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AntennaManager\AntennaManagerCrab8x1Settings.Designer.cs">
+      <DependentUpon>AntennaManagerCrab8x1Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AntennaManager\AntennaManagerDirect.cs" />
+    <Compile Include="AntennaManager\AntennaManagerDirectSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AntennaManager\AntennaManagerDirectSettings.Designer.cs">
+      <DependentUpon>AntennaManagerDirectSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AntennaManager\AntennaManagerDirectUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AntennaManager\AntennaManagerDirectUserControl.designer.cs">
+      <DependentUpon>AntennaManagerDirectUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AntennaManager\Balloon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AntennaManager\Balloon.designer.cs">
+      <DependentUpon>Balloon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AntennaManager\BaseAntennaManager.cs" />
+    <Compile Include="AntennaManager\Crab8x1Control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AntennaManager\Crab8x1Control.designer.cs">
+      <DependentUpon>Crab8x1Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AntennaManager\IAntennaManager.cs" />
+    <Compile Include="Antenna\AntennaEdit\AntennaEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Antenna\AntennaEdit\AntennaEdit.Designer.cs">
+      <DependentUpon>AntennaEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Antenna\AntennaList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Antenna\AntennaList.Designer.cs">
+      <DependentUpon>AntennaList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Antenna\BaseAntenna.cs" />
+    <Compile Include="Antenna\BaseAntennaSettingsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Antenna\BaseAntennaSettingsDialog.Designer.cs">
+      <DependentUpon>BaseAntennaSettingsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Audio\AudioData.cs" />
+    <Compile Include="Audio\AudioManager.cs" />
+    <Compile Include="Audio\AudioRecorder.cs" />
+    <Compile Include="Audio\AudioRecorderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Audio\AudioRecorderControl.Designer.cs">
+      <DependentUpon>AudioRecorderControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Audio\FifoStream.cs" />
+    <Compile Include="Audio\WaveIn.cs" />
+    <Compile Include="Audio\WaveNative.cs" />
+    <Compile Include="Audio\WaveOut.cs" />
+    <Compile Include="Audio\WaveStream.cs" />
+    <Compile Include="I18N\Locale.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Locale.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Marker\BaseRadioMarker.cs" />
+    <Compile Include="Marker\NewMarkerDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marker\NewMarkerDialog.Designer.cs">
+      <DependentUpon>NewMarkerDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RadioControlSystem\BaseRadioControlSystem.cs" />
+    <Compile Include="Antenna\IAntenna.cs" />
+    <Compile Include="Base\GPSCoordinates.cs" />
+    <Compile Include="I18N\ResMgr.cs" />
+    <Compile Include="Interfaces\IAudioData.cs" />
+    <Compile Include="RadioControlSystem\ConfigurationSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RadioControlSystem\ConfigurationSelect.Designer.cs">
+      <DependentUpon>ConfigurationSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RadioControlSystem\RadioConfigControlSimple.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RadioControlSystem\RadioConfigControlSimple.Designer.cs">
+      <DependentUpon>RadioConfigControlSimple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RadioControlSystem\CreateTraceMarkersDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RadioControlSystem\CreateTraceMarkersDialog.Designer.cs">
+      <DependentUpon>CreateTraceMarkersDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RadioControlSystem\FrequencyInputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RadioControlSystem\FrequencyInputDialog.Designer.cs">
+      <DependentUpon>FrequencyInputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RadioControlSystem\RadioConfigControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RadioControlSystem\RadioConfigControl.Designer.cs">
+      <DependentUpon>RadioConfigControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RadioControlSystem\RCSPauseDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RadioControlSystem\RCSPauseDialog.Designer.cs">
+      <DependentUpon>RCSPauseDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RadioControlSystem\SelectRPUTypeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RadioControlSystem\SelectRPUTypeDialog.Designer.cs">
+      <DependentUpon>SelectRPUTypeDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\BaseAudioRecord.cs" />
+    <Compile Include="Report\BaseReportControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Report\BaseReportControl.Designer.cs">
+      <DependentUpon>BaseReportControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\BaseSignalReport.cs" />
+    <Compile Include="Report\SingleFreqSignalReport.cs" />
+    <Compile Include="Report\PdfReport.cs" />
+    <Compile Include="Report\PdfTable.cs" />
+    <Compile Include="Report\PdfUtils.cs" />
+    <Compile Include="Report\RangeSignalReport.cs" />
+    <Compile Include="Report\ReportSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\ReportSettings.Designer.cs">
+      <DependentUpon>ReportSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\ReportsManager.cs" />
+    <Compile Include="RPUManager\RPUClass.cs" />
+    <Compile Include="RPUManager\RPUTaskRequest.cs" />
+    <Compile Include="RPUManager\RPUTaskResponse.cs" />
+    <Compile Include="RPUManager\ScanThread.cs" />
+    <Compile Include="RPUNull\CRPUNull.cs" />
+    <Compile Include="RPUNull\NullPowerMeter.cs" />
+    <Compile Include="RPUNull\RPUNullControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RPUNull\RPUNullControl.Designer.cs">
+      <DependentUpon>RPUNullControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RPUZero\Audio\ZeroAudioDemodulator.cs" />
+    <Compile Include="RPUZero\CRPUZero.cs" />
+    <Compile Include="RPUZero\PowerMeter\ZeroPowerMeter.cs" />
+    <Compile Include="RPUZero\PowerMeter\ZeroTrace.cs" />
+    <Compile Include="RPUZero\RPUZeroControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RPUZero\RPUZeroControl.Designer.cs">
+      <DependentUpon>RPUZeroControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RPU\BaseRPU.cs" />
+    <Compile Include="RPU\BaseScanParams.cs" />
+    <Compile Include="Signal\AudioRecordInfo.cs" />
+    <Compile Include="Signal\BaseSignal.cs" />
+    <Compile Include="Signal\SingleFreqSignalControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Signal\SingleFreqSignalControl.Designer.cs">
+      <DependentUpon>SingleFreqSignalControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Signal\SingleFreqSignalHitPoint.cs" />
+    <Compile Include="Signal\RangeSignal.cs" />
+    <Compile Include="Signal\RangeSignalControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Signal\RangeSignalControl.Designer.cs">
+      <DependentUpon>RangeSignalControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Signal\RangeSignalDefaultSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Signal\RangeSignalDefaultSettings.Designer.cs">
+      <DependentUpon>RangeSignalDefaultSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Signal\RangeSignalDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Signal\RangeSignalDialog.Designer.cs">
+      <DependentUpon>RangeSignalDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Signal\RangeSignalHitPoint.cs" />
+    <Compile Include="Signal\RecordInfo.cs" />
+    <Compile Include="Signal\SignalTraceCycle.cs" />
+    <Compile Include="Signal\SingleFreqSignal.cs" />
+    <Compile Include="Task\BaseTask.cs" />
+    <Compile Include="Task\BaseTaskResponse.cs" />
+    <Compile Include="Task\ITaskProvider.cs" />
+    <Compile Include="Task\TaskMeasurePower.cs" />
+    <Compile Include="Task\TaskMeasureResponse.cs" />
+    <Compile Include="Task\TraceTaskProvider.cs" />
+    <Compile Include="TraceControl\BaseTraceControl.cs" />
+    <Compile Include="TraceControl\BaseTraceTriggerHandler.cs" />
+    <Compile Include="TraceControl\LogTriggerHandler.cs" />
+    <Compile Include="TraceControl\SelectTraceControlForm.cs">
+    </Compile>
+    <Compile Include="TraceControl\SelectTraceControlForm.Designer.cs">
+      <DependentUpon>SelectTraceControlForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TraceControl\SignalTriggerHandler.cs" />
+    <Compile Include="TraceControl\TraceControlDelta.cs" />
+    <Compile Include="TraceControl\TraceControlDeltaSettings.cs">
+    </Compile>
+    <Compile Include="TraceControl\TraceControlDeltaSettings.Designer.cs">
+      <DependentUpon>TraceControlDeltaSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TraceControl\TraceControlAdaptiveBounds.cs" />
+    <Compile Include="Trace\BaseTraceControlsEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trace\BaseTraceControlsEditor.Designer.cs">
+      <DependentUpon>BaseTraceControlsEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trace\NewTraceDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trace\NewTraceDialog.Designer.cs">
+      <DependentUpon>NewTraceDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trace\TraceScanParams.cs" />
+    <Compile Include="Trace\WaterfallFilteredPointList.cs" />
+    <Compile Include="Trace\TraceFilteredPointListMinMax.cs" />
+    <Compile Include="RPUManager\IRPUManager.cs" />
+    <Compile Include="RPUManager\SelectRPUDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPUManager\SelectRPUDialog.Designer.cs">
+      <DependentUpon>SelectRPUDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RPU\IPowerMeter.cs" />
+    <Compile Include="RPU\IRPU.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RPUManager\BaseRPUManager.cs" />
+    <Compile Include="RPU\IAudioDemodulator.cs" />
+    <Compile Include="RPU\ISpectrograph.cs" />
+    <Compile Include="RPU\RPUParams.cs" />
+    <Compile Include="RadioControlSystem\BaseRCSView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RadioControlSystem\BaseRCSView.Designer.cs">
+      <DependentUpon>BaseRCSView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trace\BaseTrace.cs" />
+    <Compile Include="Trace\TraceFilteredPointList.cs" />
+    <Compile Include="Undo\UndoStack.cs" />
+    <Compile Include="Undo\UndoState.cs" />
+    <Compile Include="Utils\ColorUtils.cs" />
+    <Compile Include="Utils\FileSystem.cs" />
+    <Compile Include="Utils\FreqUtils.cs" />
+    <Compile Include="Utils\NativeConstants.cs" />
+    <Compile Include="Utils\NativeDelegates.cs" />
+    <Compile Include="Utils\NativeErrors.cs" />
+    <Compile Include="Utils\NativeMethods.cs" />
+    <Compile Include="Utils\NativeStructs.cs" />
+    <Compile Include="Utils\SafeNativeMethods.cs" />
+    <Compile Include="Utils\KaorVersion.cs" />
+    <Compile Include="ZedGraphAddons\GradientFill.cs" />
+    <Compile Include="ZedGraphAddons\GradientLine.cs" />
+    <Compile Include="ZedGraphAddons\GradientLineItem.cs" />
+    <Compile Include="ZedGraphAddons\MyFilteredPointList.cs" />
+    <Compile Include="User\BaseUser.cs" />
+    <Compile Include="User\IUser.cs" />
+    <Compile Include="ZedGraphAddons\WaterfallBar.cs" />
+    <Compile Include="ZedGraphAddons\WaterfallItem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Marker\NewMarkerDialog.resx">
+      <DependentUpon>NewMarkerDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadioControlSystem\BaseRCSView.resx">
+      <DependentUpon>BaseRCSView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadioControlSystem\FrequencyInputDialog.resx">
+      <DependentUpon>FrequencyInputDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadioControlSystem\RCSPauseDialog.resx">
+      <DependentUpon>RCSPauseDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPUManager\SelectRPUDialog.resx">
+      <DependentUpon>SelectRPUDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraceControl\SelectTraceControlForm.resx">
+      <DependentUpon>SelectTraceControlForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraceControl\TraceControlDeltaSettings.resx">
+      <DependentUpon>TraceControlDeltaSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\KaorCore.Trace.BaseTrace.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ControlUtils\ControlUtils.csproj">
+      <Project>{222CB546-B1CF-4982-AD66-0F38F4B64059}</Project>
+      <Name>ControlUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZedGraph\ZedGraph.csproj">
+      <Project>{8CD6FA3F-4934-4DE5-8637-76BF0D173852}</Project>
+      <Name>ZedGraph</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\KaorCore.Antenna.BaseAntenna.datasource" />
+    <None Include="Properties\DataSources\KaorCore.Base.GPSCoordinates.datasource" />
+    <None Include="Properties\DataSources\KaorCore.Signal.RangeSignal.datasource" />
+    <None Include="Properties\DataSources\KaorCore.Signal.SingleFreqSignal.datasource" />
+    <None Include="Properties\DataSources\KaorCore.TraceControl.BaseTraceControl.datasource" />
+    <None Include="Properties\DataSources\KaorCore.TraceControl.BaseTraceTriggerHandler.datasource" />
+    <EmbeddedResource Include="AntennaManager\AntennaManagerDirectUserControl.resx">
+      <DependentUpon>AntennaManagerDirectUserControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AntennaManager\Balloon.resx">
+      <DependentUpon>Balloon.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AntennaManager\Crab8x1Control.resx">
+      <DependentUpon>Crab8x1Control.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Antenna\AntennaEdit\AntennaEdit.resx">
+      <DependentUpon>AntennaEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadioControlSystem\CreateTraceMarkersDialog.resx">
+      <DependentUpon>CreateTraceMarkersDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadioControlSystem\Images\false.png" />
+    <EmbeddedResource Include="RadioControlSystem\Images\true.png" />
+    <EmbeddedResource Include="Report\BaseReportControl.resx">
+      <DependentUpon>BaseReportControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Signal\RangeSignalControl.resx">
+      <DependentUpon>RangeSignalControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Signal\RangeSignalDialog.resx">
+      <DependentUpon>RangeSignalDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trace\BaseTraceControlsEditor.resx">
+      <DependentUpon>BaseTraceControlsEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AntennaManager\AntennaManagerCrab8x1Settings.resx">
+      <DependentUpon>AntennaManagerCrab8x1Settings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AntennaManager\AntennaManagerDirectSettings.resx">
+      <DependentUpon>AntennaManagerDirectSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Antenna\AntennaList.resx">
+      <DependentUpon>AntennaList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Antenna\BaseAntennaSettingsDialog.resx">
+      <DependentUpon>BaseAntennaSettingsDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Audio\AudioRecorderControl.resx">
+      <DependentUpon>AudioRecorderControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pan.cur">
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadioControlSystem\RadioConfigControlSimple.resx">
+      <DependentUpon>RadioConfigControlSimple.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadioControlSystem\RadioConfigControl.resx">
+      <DependentUpon>RadioConfigControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadioControlSystem\SelectRPUTypeDialog.resx">
+      <DependentUpon>SelectRPUTypeDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPUNull\RPUNullControl.resx">
+      <DependentUpon>RPUNullControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Signal\RangeSignalDefaultSettings.resx">
+      <DependentUpon>RangeSignalDefaultSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trace\NewTraceDialog.resx">
+      <DependentUpon>NewTraceDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zoom.cur">
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AntennaManager\AntennaManagerCrab8x1Settings.ru.resx">
+      <DependentUpon>AntennaManagerCrab8x1Settings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AntennaManager\AntennaManagerDirectSettings.ru.resx">
+      <DependentUpon>AntennaManagerDirectSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Antenna\BaseAntennaSettingsDialog.ru.resx">
+      <DependentUpon>BaseAntennaSettingsDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Audio\AudioRecorderControl.ru.resx">
+      <DependentUpon>AudioRecorderControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="button_idle.png" />
+    <EmbeddedResource Include="button_scan.png" />
+    <EmbeddedResource Include="I18N\Locale.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Locale.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="I18N\Locale.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marker\NewMarkerDialog.ru.resx">
+      <DependentUpon>NewMarkerDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadioControlSystem\BaseRCSView.en.resx">
+      <DependentUpon>BaseRCSView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadioControlSystem\BaseRCSView.ru.resx">
+      <DependentUpon>BaseRCSView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadioControlSystem\ConfigurationSelect.resx">
+      <DependentUpon>ConfigurationSelect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadioControlSystem\CreateTraceMarkersDialog.ru.resx">
+      <DependentUpon>CreateTraceMarkersDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadioControlSystem\FrequencyInputDialog.ru.resx">
+      <DependentUpon>FrequencyInputDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadioControlSystem\RadioConfigControl.ru.resx">
+      <DependentUpon>RadioConfigControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadioControlSystem\RadioConfigControlSimple.ru.resx">
+      <DependentUpon>RadioConfigControlSimple.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadioControlSystem\RCSPauseDialog.ru.resx">
+      <DependentUpon>RCSPauseDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadioControlSystem\SelectRPUTypeDialog.ru.resx">
+      <DependentUpon>SelectRPUTypeDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\ReportSettings.resx">
+      <DependentUpon>ReportSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\ReportSettings.ru.resx">
+      <DependentUpon>ReportSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPUManager\SelectRPUDialog.ru.resx">
+      <DependentUpon>SelectRPUDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPUNull\RPUNullControl.ru.resx">
+      <DependentUpon>RPUNullControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPUZero\RPUZeroControl.resx">
+      <DependentUpon>RPUZeroControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Signal\SingleFreqSignalControl.resx">
+      <DependentUpon>SingleFreqSignalControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Signal\SingleFreqSignalControl.ru.resx">
+      <DependentUpon>SingleFreqSignalControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Signal\RangeSignalControl.ru.resx">
+      <DependentUpon>RangeSignalControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Signal\RangeSignalDefaultSettings.ru.resx">
+      <DependentUpon>RangeSignalDefaultSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trace\BaseTraceControlsEditor.ru.resx">
+      <DependentUpon>BaseTraceControlsEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trace\NewTraceDialog.ru.resx">
+      <DependentUpon>NewTraceDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AI\" />
+    <Folder Include="Resources\" />
+    <Folder Include="TraceView\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

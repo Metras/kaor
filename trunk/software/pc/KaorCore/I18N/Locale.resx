@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="add_marker" xml:space="preserve">
+    <value>Add marker, {0}</value>
+  </data>
+  <data name="add_marker_max" xml:space="preserve">
+    <value>Add marker to trace maximum...</value>
+  </data>
+  <data name="add_marker_max_format" xml:space="preserve">
+    <value>Add marker to maximum of trace "{0}"...</value>
+  </data>
+  <data name="center_frequency" xml:space="preserve">
+    <value>Center frequency</value>
+  </data>
+  <data name="comm_conn_err" xml:space="preserve">
+    <value>Error connecting to antennas switch!</value>
+  </data>
+  <data name="comm_conn_ok" xml:space="preserve">
+    <value>Connection successful!</value>
+  </data>
+  <data name="confirmation" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="confirm_clear_signals" xml:space="preserve">
+    <value>Do you really want to clear all of the signals?</value>
+  </data>
+  <data name="confirm_create_traces" xml:space="preserve">
+    <value>Create traces on selected signals?</value>
+  </data>
+  <data name="confirm_delete_all_markers" xml:space="preserve">
+    <value>Delete all markers?</value>
+  </data>
+  <data name="confirm_delete_cur_markers" xml:space="preserve">
+    <value>Delete current markers?</value>
+  </data>
+  <data name="confirm_delete_cur_signals" xml:space="preserve">
+    <value>Delete current signals?</value>
+  </data>
+  <data name="confirm_delete_cur_trace" xml:space="preserve">
+    <value>Trace "{0}" ({1}) already loaded.
+Delete existent trace?</value>
+  </data>
+  <data name="confirm_delete_marked_signals" xml:space="preserve">
+    <value>Do you really want to delete selected signals?</value>
+  </data>
+  <data name="confirm_delete_reports" xml:space="preserve">
+    <value>Do you really want to delete selected reports?</value>
+  </data>
+  <data name="confirm_delete_selected_markers" xml:space="preserve">
+    <value>Do you really want to delete selected markers?</value>
+  </data>
+  <data name="confirm_delete_trace" xml:space="preserve">
+    <value>Do you really want to delete trace "{0}" ({1}-{2}/{3})?</value>
+  </data>
+  <data name="confirm_ks_load" xml:space="preserve">
+    <value>All existent traces, markers and signals will be deleted.
+Continue loading?</value>
+  </data>
+  <data name="confirm_save_system_settings" xml:space="preserve">
+    <value>Do you really want to save system configuration?</value>
+  </data>
+  <data name="cursor_name" xml:space="preserve">
+    <value>Cursor</value>
+  </data>
+  <data name="db" xml:space="preserve">
+    <value>dB</value>
+  </data>
+  <data name="dbm" xml:space="preserve">
+    <value>dBm</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="err_delete_rpu" xml:space="preserve">
+    <value>Receiver is in use and can't be deleted!</value>
+  </data>
+  <data name="err_ks_not_found" xml:space="preserve">
+    <value>File "{0}" not found!</value>
+  </data>
+  <data name="err_loading_scan_params" xml:space="preserve">
+    <value>Could not restore trace scan settings.
+Scan settings was reset.</value>
+  </data>
+  <data name="err_loading_state" xml:space="preserve">
+    <value>Error loading KAOR state!</value>
+  </data>
+  <data name="err_loading_trace" xml:space="preserve">
+    <value>Error loading trace "{0}"</value>
+  </data>
+  <data name="err_save_report" xml:space="preserve">
+    <value>Error saving report to "{0}"</value>
+  </data>
+  <data name="err_saving_settings" xml:space="preserve">
+    <value>Error saving system configuration to "{0}"</value>
+  </data>
+  <data name="err_turning_on_rpu" xml:space="preserve">
+    <value>Error turning on {0} receiver!</value>
+  </data>
+  <data name="export_report" xml:space="preserve">
+    <value>Export report...</value>
+  </data>
+  <data name="frequency" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="ghz" xml:space="preserve">
+    <value>GHz</value>
+  </data>
+  <data name="hz" xml:space="preserve">
+    <value>Hz</value>
+  </data>
+  <data name="information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="inf_report_saved" xml:space="preserve">
+    <value>Report saved to "{0}"</value>
+  </data>
+  <data name="inf_settings_saved" xml:space="preserve">
+    <value>System configuration is saved to "{0}"
+Previous system configuration is saved to "{1}"</value>
+  </data>
+  <data name="khz" xml:space="preserve">
+    <value>kHz</value>
+  </data>
+  <data name="kma_filter" xml:space="preserve">
+    <value>Markers set (*.kma) | *.kma</value>
+  </data>
+  <data name="ksi_filter" xml:space="preserve">
+    <value>Signals set (*.ksi) | *.ksi</value>
+  </data>
+  <data name="ks_filter" xml:space="preserve">
+    <value>System state (*.ks) | *.ks</value>
+  </data>
+  <data name="ktr_filter" xml:space="preserve">
+    <value>KAOR traces (*.ktr) | *.ktr</value>
+  </data>
+  <data name="load_markers" xml:space="preserve">
+    <value>Load markers set...</value>
+  </data>
+  <data name="load_signals" xml:space="preserve">
+    <value>Load signals set...</value>
+  </data>
+  <data name="marker" xml:space="preserve">
+    <value>Marker</value>
+  </data>
+  <data name="measures_count" xml:space="preserve">
+    <value>Number of measures</value>
+  </data>
+  <data name="mhz" xml:space="preserve">
+    <value>MHz</value>
+  </data>
+  <data name="no_rpu" xml:space="preserve">
+    <value>No recevier</value>
+  </data>
+  <data name="no_scan_params" xml:space="preserve">
+    <value>There is no scan settings for trace "{0}"
+Do you want to setup scan now?</value>
+  </data>
+  <data name="no_scan_traces" xml:space="preserve">
+    <value>There is no scan or control traces</value>
+  </data>
+  <data name="no_selected_signals" xml:space="preserve">
+    <value>There are no selected signals</value>
+  </data>
+  <data name="open_trace" xml:space="preserve">
+    <value>Open trace...</value>
+  </data>
+  <data name="pdf_filter" xml:space="preserve">
+    <value>KAOR report (*.pdf) | *.pdf</value>
+  </data>
+  <data name="power" xml:space="preserve">
+    <value>Power, dBm</value>
+  </data>
+  <data name="power_allocation" xml:space="preserve">
+    <value>Power allocation</value>
+  </data>
+  <data name="question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="range_signal" xml:space="preserve">
+    <value>Range signal</value>
+  </data>
+  <data name="rcs_descr" xml:space="preserve">
+    <value>Radio Control System</value>
+  </data>
+  <data name="rcs_name" xml:space="preserve">
+    <value>Radio Control System</value>
+  </data>
+  <data name="rpu_cant_create_trace" xml:space="preserve">
+    <value>Can't create trace with this receiver type!</value>
+  </data>
+  <data name="rpu_cant_scan" xml:space="preserve">
+    <value>Can't scan with this receiver type!</value>
+  </data>
+  <data name="save_markers" xml:space="preserve">
+    <value>Save markers set...</value>
+  </data>
+  <data name="save_signals" xml:space="preserve">
+    <value>Save signals set...</value>
+  </data>
+  <data name="save_trace" xml:space="preserve">
+    <value>Save trace...</value>
+  </data>
+  <data name="signals_list" xml:space="preserve">
+    <value>List of signals</value>
+  </data>
+  <data name="signal_appear" xml:space="preserve">
+    <value>Signal appearance was detected</value>
+  </data>
+  <data name="signal_disappear" xml:space="preserve">
+    <value>Signal disappearance was detected</value>
+  </data>
+  <data name="span" xml:space="preserve">
+    <value>Span</value>
+  </data>
+  <data name="start_frequency" xml:space="preserve">
+    <value>Start frequency</value>
+  </data>
+  <data name="status_initializing_base" xml:space="preserve">
+    <value>Initializing base system...</value>
+  </data>
+  <data name="status_loading_antennas" xml:space="preserve">
+    <value>Loading antennas configuration...</value>
+  </data>
+  <data name="status_loading_configuration" xml:space="preserve">
+    <value>Loading system configuration...</value>
+  </data>
+  <data name="status_loading_rpu" xml:space="preserve">
+    <value>Loading radios configuration...</value>
+  </data>
+  <data name="status_loading_rpu_params" xml:space="preserve">
+    <value>Loading {0} receiver parameters...</value>
+  </data>
+  <data name="status_save_ok" xml:space="preserve">
+    <value>Saving ОК!</value>
+  </data>
+  <data name="status_saving" xml:space="preserve">
+    <value>Saving {0}</value>
+  </data>
+  <data name="status_turning_on" xml:space="preserve">
+    <value>Turning system on...</value>
+  </data>
+  <data name="status_turning_on_rpu" xml:space="preserve">
+    <value>Turning {0} receiver on...</value>
+  </data>
+  <data name="stop_frequency" xml:space="preserve">
+    <value>Stop frequency</value>
+  </data>
+  <data name="str_antenna_descr" xml:space="preserve">
+    <value>Antenna description</value>
+  </data>
+  <data name="str_new_antenna" xml:space="preserve">
+    <value>New antenna</value>
+  </data>
+  <data name="today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="trace_no_max" xml:space="preserve">
+    <value>Trace "{0}" has no max in visible range</value>
+  </data>
+  <data name="trace_scan_reset" xml:space="preserve">
+    <value>Do you want to reset scan?</value>
+  </data>
+  <data name="unk_filter" xml:space="preserve">
+    <value>Unknown report (*.*) | *.*</value>
+  </data>
+  <data name="warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="wav_filter" xml:space="preserve">
+    <value>KAOR audio record (*.wav) | *.wav</value>
+  </data>
+  <data name="wrong_frequency_format" xml:space="preserve">
+    <value>Wrong frequency format!</value>
+  </data>
+  <data name="confirm_trace_change_params" xml:space="preserve">
+    <value>Trace contains masurement points which will be deleted.
+Do you wish to continue?</value>
+  </data>
+  <data name="err_points_limit" xml:space="preserve">
+    <value>Number of trace points can't be greater then 2000000000!</value>
+  </data>
+  <data name="new_trace" xml:space="preserve">
+    <value>New trace</value>
+  </data>
+  <data name="adaptive_trace_control_descr" xml:space="preserve">
+    <value>Adaptive trace control with upper and lower thresholds</value>
+  </data>
+  <data name="adaptive_trace_control_name" xml:space="preserve">
+    <value>Adaptive trace control</value>
+  </data>
+  <data name="control_reset_ok" xml:space="preserve">
+    <value>Trace control reinitialized!</value>
+  </data>
+  <data name="no_default_signal" xml:space="preserve">
+    <value>No default signal selected!</value>
+  </data>
+  <data name="trace_control" xml:space="preserve">
+    <value>Trace control</value>
+  </data>
+  <data name="alt" xml:space="preserve">
+    <value>alt</value>
+  </data>
+  <data name="err_fstart_fstop" xml:space="preserve">
+    <value>Start frequency can not be less or equal to stop frequency!</value>
+  </data>
+  <data name="lat" xml:space="preserve">
+    <value>lat</value>
+  </data>
+  <data name="lon" xml:space="preserve">
+    <value>lon</value>
+  </data>
+  <data name="ms" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="report_among_them" xml:space="preserve">
+    <value>Among them:</value>
+  </data>
+  <data name="report_AntRpu" xml:space="preserve">
+    <value>Antenna / Receiver</value>
+  </data>
+  <data name="report_band" xml:space="preserve">
+    <value>Band</value>
+  </data>
+  <data name="report_control" xml:space="preserve">
+    <value>Control</value>
+  </data>
+  <data name="report_danger" xml:space="preserve">
+    <value>Dangerous</value>
+  </data>
+  <data name="report_description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="report_frequency" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="report_hit_count" xml:space="preserve">
+    <value>Hits</value>
+  </data>
+  <data name="report_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="report_notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="report_no_signals_selected" xml:space="preserve">
+    <value>No signals selected</value>
+  </data>
+  <data name="report_person" xml:space="preserve">
+    <value>Responsible person:</value>
+  </data>
+  <data name="report_safe" xml:space="preserve">
+    <value>Safe</value>
+  </data>
+  <data name="report_signal" xml:space="preserve">
+    <value>Signal '{0}' report ({1})</value>
+  </data>
+  <data name="report_signals_table" xml:space="preserve">
+    <value>Signals summary table</value>
+  </data>
+  <data name="report_signals_table2" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="report_signal_header" xml:space="preserve">
+    <value>Base frequency: {0} / Signal band: {1} / Signal description: {2} / Hit count: {3}</value>
+  </data>
+  <data name="report_suspic" xml:space="preserve">
+    <value>Suspicious</value>
+  </data>
+  <data name="report_test_record" xml:space="preserve">
+    <value>Test record</value>
+  </data>
+  <data name="report_test_report" xml:space="preserve">
+    <value>Test report</value>
+  </data>
+  <data name="report_time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="report_total" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="report_total_hits" xml:space="preserve">
+    <value>Total hits: {0}</value>
+  </data>
+  <data name="report_unknown" xml:space="preserve">
+    <value>Undefined</value>
+  </data>
+  <data name="confirm_delete_antenna" xml:space="preserve">
+    <value>Do you really want to delete antenna "{0}"?</value>
+  </data>
+  <data name="confirm_save_report" xml:space="preserve">
+    <value>Reports settings was saved!</value>
+  </data>
+  <data name="err_saving_report_settings" xml:space="preserve">
+    <value>Error saving report settings!</value>
+  </data>
+  <data name="report_signals" xml:space="preserve">
+    <value>Signals report</value>
+  </data>
+  <data name="selected_markers" xml:space="preserve">
+    <value>Selected markers:</value>
+  </data>
+  <data name="confirm_clear_hits" xml:space="preserve">
+    <value>Clear signal hits count?</value>
+  </data>
+  <data name="invalid_altitude" xml:space="preserve">
+    <value>Invalid altude specified!</value>
+  </data>
+  <data name="invalid_direction" xml:space="preserve">
+    <value>Invalid direction specified!</value>
+  </data>
+  <data name="invalid_dnwidth" xml:space="preserve">
+    <value>Invalid direction diagram width specified!</value>
+  </data>
+  <data name="invalid_latitude" xml:space="preserve">
+    <value>Invalid latitude specified!</value>
+  </data>
+  <data name="invalid_longitude" xml:space="preserve">
+    <value>Invalid longitude specified!</value>
+  </data>
+  <data name="limit_max_freq" xml:space="preserve">
+    <value>Value can't be greater than {0} Hz.</value>
+  </data>
+  <data name="limit_min_freq" xml:space="preserve">
+    <value>Value can't be less than {0} Hz.</value>
+  </data>
+  <data name="confirm_file_overwrite" xml:space="preserve">
+    <value>File {0} already exists. Do you want to overwrite it?</value>
+  </data>
+  <data name="err_manager_invalid_antenna" xml:space="preserve">
+    <value>Incorrect antenna selected for Direct Antenna Manager!</value>
+  </data>
+  <data name="no_rpus_present" xml:space="preserve">
+    <value>There is no receiver selected!</value>
+  </data>
+  <data name="load_rcs_state" xml:space="preserve">
+    <value>Select RCS state file to load...</value>
+  </data>
+  <data name="save_rcs_state" xml:space="preserve">
+    <value>Select RCS state file to save into...</value>
+  </data>
+  <data name="add_signal_menu" xml:space="preserve">
+    <value>Add signal at {0}/{1:F1} dBm</value>
+  </data>
+  <data name="single_freq_signal" xml:space="preserve">
+    <value>Single frequncy signal</value>
+  </data>
+  <data name="error_deleting_report" xml:space="preserve">
+    <value>Error deleting {0}!</value>
+  </data>
+  <data name="add_marker_at" xml:space="preserve">
+    <value>Add text marker at {0}/{1:F1} dBm</value>
+  </data>
+</root>

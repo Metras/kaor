@@ -1,0 +1,3742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="splitContainer3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainer3.IsSplitterFixed" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="splitContainer3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="splitContainer3.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="lblPower.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPower.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <metadata name="helpProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>468, 54</value>
+  </metadata>
+  <data name="lblPower.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lblPower.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblPower.Text" xml:space="preserve">
+    <value>Power:</value>
+  </data>
+  <data name="&gt;&gt;lblPower.Name" xml:space="preserve">
+    <value>lblPower</value>
+  </data>
+  <data name="&gt;&gt;lblPower.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPower.Parent" xml:space="preserve">
+    <value>splitContainer3.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblPower.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="zgSmall.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="zgSmall.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="zgSmall.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 3</value>
+  </data>
+  <data name="zgSmall.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="zgSmall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 40</value>
+  </data>
+  <data name="zgSmall.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;zgSmall.Name" xml:space="preserve">
+    <value>zgSmall</value>
+  </data>
+  <data name="&gt;&gt;zgSmall.Type" xml:space="preserve">
+    <value>ZedGraph.ZedGraphControl, ZedGraph, Version=5.1.4.20865, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;zgSmall.Parent" xml:space="preserve">
+    <value>splitContainer3.Panel1</value>
+  </data>
+  <data name="&gt;&gt;zgSmall.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer3.Panel1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="splitContainer3.Panel1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel1.Name" xml:space="preserve">
+    <value>splitContainer3.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer3</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitZgViews.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="splitZgViews.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="splitZgViews.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="zgMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="zgMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="zgMain.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="zgMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>576, 272</value>
+  </data>
+  <data name="zgMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;zgMain.Name" xml:space="preserve">
+    <value>zgMain</value>
+  </data>
+  <data name="&gt;&gt;zgMain.Type" xml:space="preserve">
+    <value>ZedGraph.ZedGraphControl, ZedGraph, Version=5.1.4.20865, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;zgMain.Parent" xml:space="preserve">
+    <value>splitZgViews.Panel1</value>
+  </data>
+  <data name="&gt;&gt;zgMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="toolStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>576, 0</value>
+  </metadata>
+  <data name="toolStrip2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="toolBtnSpanCenter.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIlJREFUOE9jYKAC
+        aMBlxn8Ghv8gjMcOsF4MA5jZ7MCayDOAWcUXbACQHhgDYM4H0WS5AK8BjKr70QIULRBh/geqAhm0iZEb
+        EQtIYYNkCKoBMNthCmDeAPGRXTaYDGBuAyckkPNgcY8cSKAwgMsxKjeD5aBhAfEScyvWlAgzhKxoRHYB
+        3QygKEMDAG5NZqgAqOL8AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnSpanCenter.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnSpanCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="toolBtnSpanCenter.Text" xml:space="preserve">
+    <value>Center frequency</value>
+  </data>
+  <data name="toolBtnSpanBegin.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHtJREFUOE9jYKAU
+        /Gdg+A/CZJrTANKJYQAzmx2xBmIxgFnFF2wAkCbCVTQwAOZ8Ir2B6QK8BjCq7kfzFpoBMP8DVWGEA/aw
+        QTUA3dnIfBwuG3ADGNvgCQlr3EP9DZZjVG4GByCyGANjK9aUSEQCginBnpTpawAJtmFVCgB0RGfAnXmz
+        3AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnSpanBegin.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnSpanBegin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="toolBtnSpanBegin.Text" xml:space="preserve">
+    <value>Start frequency</value>
+  </data>
+  <data name="toolBtnSpanEnd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHJJREFUOE9jYKAC
+        aCDHjP8MDP9BGKQXwwBmNjuwBD6A2wBmFV+wAUB6YAyAOZ+QN3B6Aa8BjKr7Yd7CbgDM/0BVGOGAFjZY
+        DUB3NjIf3WWDzACQ87DGPdTfYDlG5WZwAELF8KZEQqkQJD+4DCDGxTjVAAAXHGezxGN2fgAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="toolBtnSpanEnd.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnSpanEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="toolBtnSpanEnd.Text" xml:space="preserve">
+    <value>Stop frequency</value>
+  </data>
+  <data name="toolBtnSpan.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAG5JREFUOE9jYKAU
+        /Gdg+A/CpJoD14fNAGY2O4IG4jaAWcUXbACQxucq2hkAcz4hb+B0AV4DGFX3w7yF3QCY/4GqMMIBLWyw
+        GoDubGQ+ussGoQFY4x7qb7Aco3IzOAChYnhTIjHJehAZQIxz8akBAPG1lzWKObplAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnSpan.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnSpan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="toolBtnSpan.Text" xml:space="preserve">
+    <value>Span</value>
+  </data>
+  <data name="toolStripSeparator14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 6</value>
+  </data>
+  <data name="toolBtnMove.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHBJREFUOE9jYKAG
+        YGaz+w/EvmSbBTWAfEOQDCDPEDQDSDcEiwGkGYLDABRDQIGMM7DxGPAfFjPIajBii9hABKnDGtW4ohHm
+        bGRXoLkIknZw+Q2f12ByeBMf0S4gNgnjDANiDMAbC0QagDsdEGMALjUA0CtU9/Wbt+4AAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="toolBtnMove.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnMove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="toolBtnMove.Text" xml:space="preserve">
+    <value>Pan</value>
+  </data>
+  <data name="toolStripSeparator17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 6</value>
+  </data>
+  <data name="toolBtnZoom.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAARFJREFUOE+dU8Fq
+        wkAQnagsCOaPbD4gxkvBmz/gpeCp10Dv9U96ED9Axf6J4Ae0EKIpcZ/bl45pNooLQ3be7ryZfTMJ5HcN
+        JBmKlM+Z+ZoT6x/DhUjw8S2rHbGuiUrsf47bgJiEEk9xAAsledkXxQZf+EHvaVldtBveqzBkBjiQ0Qzg
+        oSxTbcQZWP+KvfAOsB6ofRB7CVj2LQKtAXW4YM6ZmHaCiemY6FNXUmnACpreT1IKqsVUIjoN7EqtrTNr
+        PAQBs0IrD8FfF0gCIhgC0AXXpfi1kQBgfQ7y/PTGsrX6XgKXKRmypQyCj8x3k7Rl0CS2unFrNb5DL0nT
+        lN1DcjUL/2bcw4Dy1Y/32FNc55Ix7AzO7QQguO4T5wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnZoom.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnZoom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="toolBtnZoom.Text" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="toolBtnUnZoom.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolBtnUnZoom.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAI1JREFUOE9jYKAV
+        YGaz+08Mxmk/SPM/BoaY/wwMxrgwSA1RBoAUYjNkiBgAcz42b2D1AiOL7SZQwMACkSQDYNFGlgEgzZ4s
+        YeC4xxY1oFhA9gayZWDnvmHoAWNsiQdkILIByN5C0QwzBJmGuQinATD/EuMCbN6Ae5eYMEBPjRjhhR4L
+        ZGUmJja7o6TkcACi7dE5JSm52wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnUnZoom.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnUnZoom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="toolBtnUnZoom.Text" xml:space="preserve">
+    <value>Previous view</value>
+  </data>
+  <data name="toolBtnUnZoomAll.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolBtnUnZoomAll.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAI9JREFUOE9jYKAU
+        /Gdg+A/CuMxhZrP7jw+DdBI04B8Dgy82DDKYJANAGpANGmIGwJyP7A28XmBmtWsGxQy6RoIGABX4wqKN
+        ZANgmj1ZwsBxjy+NgWID7oWvDAwfYZrfMPT8B2G8iQdoMooBfxkYNoA0wDTjo2Euo64LYHmB7DBAzkzY
+        YoFQeGANbFg6IJTbAXDn6edKv4MAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnUnZoomAll.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnUnZoomAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="toolBtnUnZoomAll.Text" xml:space="preserve">
+    <value>Reset view</value>
+  </data>
+  <data name="toolStripSeparator20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 6</value>
+  </data>
+  <data name="toolBtnPrint.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAVdJREFUOE+1U21L
+        wmAUFYJ+Vn8pijBBRPyyCisoSMuthhlmSVEfsgQjifoUSiikkGYrX9popbKMXuDkc8WJDnUFDQ6M3eee
+        c3fOfSyW/3p84glGRscGoq8232zmxQi09+8uVLUPlJUaEuk7Ik5lyjCQbAbPqFhvfCEWv8be4QUhGI4j
+        EDpFTlL0qXL3L0YCL3+EklwzKKvVBqSSimS6QARzi7swEPi3Yi31t09EY8ku9Z3982aDrKtz7iBmF7Y7
+        E6wKESre3JZInf0vA1OWVQ2PlVdcXmXpjGsmgPmlML2TB77146GO90uECFhRAkzDyflhcwqdCYbl3Vu3
+        uzYwZV/rJhg0QVmpg5nGwMisDh/GrSvmCIpPVeSb2bPmbL5CTZM2r+4ZebDsOaAPvVMUis/UlMo8YGLa
+        YzDa6hBaKbDVbROwbM1Aj7C9y7wY/VWUnDtkXOO/3OwffInh449UbQYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnPrint.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="toolBtnPrint.Text" xml:space="preserve">
+    <value>Print preview</value>
+  </data>
+  <data name="toolBtnPageSetup.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAALdJREFUOE9jYKAW
+        mDxjw390PGnahv8Tpq773zd5zf+rt57/x2sXSPPD////M7PZgWlk3D1h1f/IxJb/V24+w23I5OkbwJqx
+        4Y6+FUDNT8CGXL7xFLshE6etw+mCjt7lYM0wjNUr/VPW4jQA5CqQITCDsBoACihcYQALF7ABCS3YvdA7
+        aTVlBnRNWEmZAZ19FBoA8h9FYQAyAFc6gInjDUSquADkBVh846JxRiPMeSAFhDC1MjDYHADWzqS5UR5I
+        nwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnPageSetup.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnPageSetup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="toolBtnPageSetup.Text" xml:space="preserve">
+    <value>Page setup</value>
+  </data>
+  <data name="toolBtnCopyClipboard.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAKRJREFUOE/FkzEO
+        gCAMRY0mHMujegFXb2DcHJzcPYQzUuInpbTCJknTAfr4v5Su+331btxlDG685/U4m8RR8eW95wFgE8QC
+        BGBUVoVYgGDDa1EAAZiWLbNBxdIagBmkBQDYm3fKCUIA3M4zV8AB3FZ8JdkDQDQAt0T7KgCHhOzYUNrj
+        OQGMYSoKVIA1bfAqZQOSLHwB5DOqPagpsAaqqqDpI4VDD4WUg6rM4dilAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnCopyClipboard.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnCopyClipboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="toolBtnCopyClipboard.Text" xml:space="preserve">
+    <value>Copy to clipboard</value>
+  </data>
+  <data name="toolStrip2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>576, 0</value>
+  </data>
+  <data name="toolStrip2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="toolStrip2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 272</value>
+  </data>
+  <data name="toolStrip2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="toolStrip2.Text" xml:space="preserve">
+    <value>toolStrip2</value>
+  </data>
+  <data name="&gt;&gt;toolStrip2.Name" xml:space="preserve">
+    <value>toolStrip2</value>
+  </data>
+  <data name="&gt;&gt;toolStrip2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip2.Parent" xml:space="preserve">
+    <value>splitZgViews.Panel1</value>
+  </data>
+  <data name="&gt;&gt;toolStrip2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitZgViews.Panel1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="splitZgViews.Panel1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;splitZgViews.Panel1.Name" xml:space="preserve">
+    <value>splitZgViews.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitZgViews.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitZgViews.Panel1.Parent" xml:space="preserve">
+    <value>splitZgViews</value>
+  </data>
+  <data name="&gt;&gt;splitZgViews.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="zgWaterfall.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="zgWaterfall.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="zgWaterfall.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="zgWaterfall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>576, 274</value>
+  </data>
+  <data name="zgWaterfall.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;zgWaterfall.Name" xml:space="preserve">
+    <value>zgWaterfall</value>
+  </data>
+  <data name="&gt;&gt;zgWaterfall.Type" xml:space="preserve">
+    <value>ZedGraph.ZedGraphControl, ZedGraph, Version=5.1.4.20865, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;zgWaterfall.Parent" xml:space="preserve">
+    <value>splitZgViews.Panel2</value>
+  </data>
+  <data name="&gt;&gt;zgWaterfall.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="toolStrip4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>576, 0</value>
+  </metadata>
+  <data name="toolStrip4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="toolBtnWaterfallZeroSpan.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAJxJREFUOE9jZCAD
+        MLPZ+QK1bQJiP6K1v2Ho+Q9TDDQAzIbRRBlCbQN8QbZDvUKUAxiQXYBVB8g0bKZCxf9iGMBmr8HMZhsM
+        NwxXwMDE0Q1gYrWLQ9YMth0WsjC/wVwFEkcxAGg70IAwDNvxRRPIAKCB4HhHsR1bfGLzDpoBqLajRwe2
+        AAV7ARZwbHaqxMUdkiqC0UjIxGFgAC4vAgBNYku4yjjqrQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnWaterfallZeroSpan.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnWaterfallZeroSpan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="toolBtnWaterfallZeroSpan.Text" xml:space="preserve">
+    <value>Zero span view</value>
+  </data>
+  <data name="toolBtnWaterfallWaterfall.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAElJREFUOE9jYMAB
+        mNns/jOELPvPsO79/9zz3/6DAIgNEgPLEQIj3QCQ/8kOA2I044yFgdMMShOE/Eww8RAygFDCI+iCUQNw
+        Z18Ave04cIcFSeQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnWaterfallWaterfall.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnWaterfallWaterfall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="toolBtnWaterfallWaterfall.Text" xml:space="preserve">
+    <value>Spectrogram view</value>
+  </data>
+  <data name="toolStripSeparator23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 6</value>
+  </data>
+  <data name="toolBtnWaterfallPan.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHBJREFUOE9jYKAG
+        YGaz+w/EvmSbBTWAfEOQDCDPEDQDSDcEiwGkGYLDABRDQIGMM7DxGPAfFjPIajBii9hABKnDGtW4ohHm
+        bGRXoLkIknZw+Q2f12ByeBMf0S4gNgnjDANiDMAbC0QagDsdEGMALjUA0CtU9/Wbt+4AAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="toolBtnWaterfallPan.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnWaterfallPan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="toolBtnWaterfallPan.Text" xml:space="preserve">
+    <value>Pan</value>
+  </data>
+  <data name="toolStripSeparator21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 6</value>
+  </data>
+  <data name="toolBtnWaterfallZoom.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAARFJREFUOE+dU8Fq
+        wkAQnagsCOaPbD4gxkvBmz/gpeCp10Dv9U96ED9Axf6J4Ae0EKIpcZ/bl45pNooLQ3be7ryZfTMJ5HcN
+        JBmKlM+Z+ZoT6x/DhUjw8S2rHbGuiUrsf47bgJiEEk9xAAsledkXxQZf+EHvaVldtBveqzBkBjiQ0Qzg
+        oSxTbcQZWP+KvfAOsB6ofRB7CVj2LQKtAXW4YM6ZmHaCiemY6FNXUmnACpreT1IKqsVUIjoN7EqtrTNr
+        PAQBs0IrD8FfF0gCIhgC0AXXpfi1kQBgfQ7y/PTGsrX6XgKXKRmypQyCj8x3k7Rl0CS2unFrNb5DL0nT
+        lN1DcjUL/2bcw4Dy1Y/32FNc55Ix7AzO7QQguO4T5wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnWaterfallZoom.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnWaterfallZoom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="toolBtnWaterfallZoom.Text" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="toolBtnWaterfallUnZoom.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolBtnWaterfallUnZoom.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAI1JREFUOE9jYKAV
+        YGaz+08Mxmk/SPM/BoaY/wwMxrgwSA1RBoAUYjNkiBgAcz42b2D1AiOL7SZQwMACkSQDYNFGlgEgzZ4s
+        YeC4xxY1oFhA9gayZWDnvmHoAWNsiQdkILIByN5C0QwzBJmGuQinATD/EuMCbN6Ae5eYMEBPjRjhhR4L
+        ZGUmJja7o6TkcACi7dE5JSm52wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnWaterfallUnZoom.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnWaterfallUnZoom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="toolBtnWaterfallUnZoom.Text" xml:space="preserve">
+    <value>Previous view</value>
+  </data>
+  <data name="toolBtnWaterfallUnzoomAll.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolBtnWaterfallUnzoomAll.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAI9JREFUOE9jYKAU
+        /Gdg+A/CuMxhZrP7jw+DdBI04B8Dgy82DDKYJANAGpANGmIGwJyP7A28XmBmtWsGxQy6RoIGABX4wqKN
+        ZANgmj1ZwsBxjy+NgWID7oWvDAwfYZrfMPT8B2G8iQdoMooBfxkYNoA0wDTjo2Euo64LYHmB7DBAzkzY
+        YoFQeGANbFg6IJTbAXDn6edKv4MAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnWaterfallUnzoomAll.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnWaterfallUnzoomAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="toolBtnWaterfallUnzoomAll.Text" xml:space="preserve">
+    <value>Reset view</value>
+  </data>
+  <data name="toolStripSeparator22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 6</value>
+  </data>
+  <data name="toolBtnWaterfallPrint.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAVdJREFUOE+1U21L
+        wmAUFYJ+Vn8pijBBRPyyCisoSMuthhlmSVEfsgQjifoUSiikkGYrX9popbKMXuDkc8WJDnUFDQ6M3eee
+        c3fOfSyW/3p84glGRscGoq8232zmxQi09+8uVLUPlJUaEuk7Ik5lyjCQbAbPqFhvfCEWv8be4QUhGI4j
+        EDpFTlL0qXL3L0YCL3+EklwzKKvVBqSSimS6QARzi7swEPi3Yi31t09EY8ku9Z3982aDrKtz7iBmF7Y7
+        E6wKESre3JZInf0vA1OWVQ2PlVdcXmXpjGsmgPmlML2TB77146GO90uECFhRAkzDyflhcwqdCYbl3Vu3
+        uzYwZV/rJhg0QVmpg5nGwMisDh/GrSvmCIpPVeSb2bPmbL5CTZM2r+4ZebDsOaAPvVMUis/UlMo8YGLa
+        YzDa6hBaKbDVbROwbM1Aj7C9y7wY/VWUnDtkXOO/3OwffInh449UbQYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnWaterfallPrint.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnWaterfallPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="toolBtnWaterfallPrint.Text" xml:space="preserve">
+    <value>Print preview</value>
+  </data>
+  <data name="toolBtnWaterfallPageSetup.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAALdJREFUOE9jYKAW
+        mDxjw390PGnahv8Tpq773zd5zf+rt57/x2sXSPPD////M7PZgWlk3D1h1f/IxJb/V24+w23I5OkbwJqx
+        4Y6+FUDNT8CGXL7xFLshE6etw+mCjt7lYM0wjNUr/VPW4jQA5CqQITCDsBoACihcYQALF7ABCS3YvdA7
+        aTVlBnRNWEmZAZ19FBoA8h9FYQAyAFc6gInjDUSquADkBVh846JxRiPMeSAFhDC1MjDYHADWzqS5UR5I
+        nwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnWaterfallPageSetup.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnWaterfallPageSetup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="toolBtnWaterfallPageSetup.Text" xml:space="preserve">
+    <value>Page setup</value>
+  </data>
+  <data name="toolBtnWaterfallCopy.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAKRJREFUOE/FkzEO
+        gCAMRY0mHMujegFXb2DcHJzcPYQzUuInpbTCJknTAfr4v5Su+331btxlDG685/U4m8RR8eW95wFgE8QC
+        BGBUVoVYgGDDa1EAAZiWLbNBxdIagBmkBQDYm3fKCUIA3M4zV8AB3FZ8JdkDQDQAt0T7KgCHhOzYUNrj
+        OQGMYSoKVIA1bfAqZQOSLHwB5DOqPagpsAaqqqDpI4VDD4WUg6rM4dilAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnWaterfallCopy.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnWaterfallCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="toolBtnWaterfallCopy.Text" xml:space="preserve">
+    <value>Copy to clipboard</value>
+  </data>
+  <data name="toolStrip4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>576, 0</value>
+  </data>
+  <data name="toolStrip4.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="toolStrip4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 274</value>
+  </data>
+  <data name="toolStrip4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="toolStrip4.Text" xml:space="preserve">
+    <value>toolStrip4</value>
+  </data>
+  <data name="&gt;&gt;toolStrip4.Name" xml:space="preserve">
+    <value>toolStrip4</value>
+  </data>
+  <data name="&gt;&gt;toolStrip4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip4.Parent" xml:space="preserve">
+    <value>splitZgViews.Panel2</value>
+  </data>
+  <data name="&gt;&gt;toolStrip4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitZgViews.Panel2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="splitZgViews.Panel2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;splitZgViews.Panel2.Name" xml:space="preserve">
+    <value>splitZgViews.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitZgViews.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitZgViews.Panel2.Parent" xml:space="preserve">
+    <value>splitZgViews</value>
+  </data>
+  <data name="&gt;&gt;splitZgViews.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitZgViews.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="splitZgViews.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 550</value>
+  </data>
+  <data name="splitZgViews.SplitterDistance" type="System.Int32, mscorlib">
+    <value>272</value>
+  </data>
+  <data name="splitZgViews.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;splitZgViews.Name" xml:space="preserve">
+    <value>splitZgViews</value>
+  </data>
+  <data name="&gt;&gt;splitZgViews.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitZgViews.Parent" xml:space="preserve">
+    <value>splitContainer3.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitZgViews.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainer3.Panel2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="splitContainer3.Panel2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel2.Name" xml:space="preserve">
+    <value>splitContainer3.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer3</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer3.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="splitContainer3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 591</value>
+  </data>
+  <data name="splitContainer3.SplitterDistance" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="splitContainer3.SplitterWidth" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="splitContainer3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Name" xml:space="preserve">
+    <value>splitContainer3</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainer1.Panel1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="splitContainer1.Panel1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainer1.Panel1MinSize" type="System.Int32, mscorlib">
+    <value>280</value>
+  </data>
+  <data name="clmVisible.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="clmVisible.Width" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="clmControl.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="clmControl.Width" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="clmName.Text" xml:space="preserve">
+    <value>Trace</value>
+  </data>
+  <data name="lstScanTraces.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>765, 17</value>
+  </metadata>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACu
+        MwAAAk1TRnQBSQFMAgEBEAEAARMBAAEEAQABEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABUAMAAQEBAAEgBgABUP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8AmgABMgIBAU0BMgIB
+        AU0MAAL/AecD/wHnA/8B5wP/AecB/wQAATICAQFNhAABMgIBAU0BgQEqAScB/wEyAgEBTRAAAYEBKgEn
+        Af8BgQEqAScB/wGBASoBJwH/AYEBKgEnAf8BgQEqAScB/xgAATICAQFNAYEBKgEnAf8BgQEqAScB/wEy
+        AgEBTQwAAv8B5wH/ATsCCAH/ATsCCAP/AecD/wHnAf8BMgIBAU0gAAL/AecD/wHnA/8B5wP/AecD/wHn
+        A/8B5wP/AecD/wHnA/8B5wP/AecD/wHnA/8B5wP/AecD/wHnAf8sAAGBASoBJwH/AYEBKgEnAf8BgQEq
+        AScB/xAAAYEBKgEnAf8BgQEqAScB/wGBASoBJwH/AYEBKgEnAf8BgQEqAScB/xgAAYEBKgEnAf8BgQEq
+        AScB/wGBASoBJwH/EAAC/wHnAf8BOwIIAf8BOwIIAf8BOwIIA/8B5wP/AecB/wEyAgEBTRwAAv8B5wH/
+        ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/
+        ATcCCAH/ATcCCAP/AecB/zAAAYEBKgEnAf88AAGBASoBJwH/AYEBKgEnAf8BgQEqAScB/wEyAgEBTRAA
+        Av8B5wH/ATsCCAH/ATsCCAH/ATsCCAH/ATsCCAP/AecD/wHnAf8BMgIBAU0YAAL/AecB/wE3AggB/wE3
+        AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3
+        AggD/wHnAf8gAAEyAgEBTQGBASoBJwH/CAABgQEqAScB/wgAAYEBKgEnAf8BMgIBAU0oAAGBASoBJwH/
+        AYEBKgEnAf8BgQEqAScB/wEyAgEBTRQAAv8B5wH/ATsCCAH/ATsCCAH/ATsCCAH/ATsCCAH/ATsCCAP/
+        AecD/wHnAf8BSQICAYMUAAL/AecB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3
+        AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggD/wHnAf8IAAGBASoBJwH/ATICAQFNEAABgQEq
+        AScB/wGBASoBJwH/AYEBKgEnAf8BgQEqAScB/wGBASoBJwH/AYEBKgEnAf8BgQEqAScB/wGBASoBJwH/
+        AYEBKgEnAf8IAAEpAgEBPAFMAgIBjgGBASoBJwH/AYEBKgEnAf8BgQEqAScB/wFMAgIBjgFEAgEBdwGB
+        ASoBJwH/AYEBKgEnAf8BgQEqAScB/xwAAv8B5wH/ATsCCAH/ATsCCAH/ATsCCAH/ATsCCAH/ATsCCAH/
+        ATsCCAP/AecD/wHnAf8BMgIBAU0QAAL/AecB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3
+        AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggD/wHnAf8IAAGBASoBJwH/AYEBKgEn
+        Af8BMgIBAU0MAAEyAgEBTQGBASoBJwH/CAABgQEqAScB/wgAAYEBKgEnAf8BMgIBAU0EAAE5AgEBXAGB
+        ASoBJwH/AYEBKgEnAf8BQQIBAW4BSQICAYMBQQIBAW4BgQEqAScB/wGBASoBJwH/AYEBKgEnAf8BgQEq
+        AScB/yAAAv8B5wH/ATsCCAH/ATsCCAH/ATsCCAH/ATsCCAH/ATsCCAH/ATsCCAH/ATsCCAP/AecD/wHn
+        Af8BMgIBAU0MAAL/AecB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3
+        AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggD/wHnAf8IAAGBASoBJwH/AYEBKgEnAf8BgQEqAScB/wEy
+        AgEBTRgAAYEBKgEnAf8QAAEpAgEBPAGBASoBJwH/AT8CAQFpAUgCAgGAAVwCAwHAAVwCAwHAAVwCAwHA
+        BAABPwIBAWkBgQEqAScB/wFEAgEBdyAAAv8B5wH/ATsCCAH/ATsCCAH/ATsCCAH/ATsCCAH/ATsCCAH/
+        ATsCCAH/ATsCCAH/ATsCCAP/AecB/wEyAgEBTQEyAgEBTQgAAv8B5wH/ATcCCAH/ATcCCAH/ATcCCAH/
+        ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAP/AecB/wgA
+        AYEBKgEnAf8BgQEqAScB/wGBASoBJwH/AYEBKgEnAf8BgQEqAScB/wGBASoBJwH/AYEBKgEnAf8IAAGB
+        ASoBJwH/AYEBKgEnAf8BgQEqAScB/wwAAUwCAgGOAYEBKgEnAf8BSAICAYABXAIDAcABXAIDAcAIAAFI
+        AgIBgAQAAYEBKgEnAf8BTAICAY4gAAL/AecB/wE7AggB/wE7AggB/wE7AggB/wE7AggB/wE7AggB/wE7
+        AggB/wE7AggB/wE7AggD/wHnAf8BSQICAYMMAAL/AecB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3
+        AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggD/wHnAf8IAAGBASoBJwH/
+        AYEBKgEnAf8BgQEqAScB/wGBASoBJwH/AYEBKgEnAf8BgQEqAScB/wEyAgEBTQgAATICAQFNAYEBKgEn
+        Af8BMgIBAU0MAAGBASoBJwH/AUECAQFuBAABSAICAYABSAICAYABSAICAYABSAICAYABSAICAYABSAIC
+        AYABQQIBAW4BgQEqAScB/yAAAv8B5wH/ATsCCAH/ATsCCAH/ATsCCAH/ATsCCAH/ATsCCAH/ATsCCAH/
+        ATsCCAP/AecD/wHnAf8BMgIBAU0MAAL/AecB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3
+        AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggB/wE3AggD/wHnAf8IAAGBASoBJwH/AYEBKgEn
+        Af8BgQEqAScB/wGBASoBJwH/AYEBKgEnAf8BMgIBAU0kAAGBASoBJwH/AQYCAQEGAUgCAgGAAUgCAgGA
+        AUgCAgGAAUgCAgGAAUgCAgGAAUgCAgGAAUgCAgGAAQYCAQEGAVwCAwHFBAABgQEqAScB/wGBASoBJwH/
+        FAAC/wHnAf8BOwIIAf8BOwIIAf8BOwIIAf8BOwIIAf8BOwIIAf8BOwIIA/8B5wP/AecB/wEyAgEBTRAA
+        Av8B5wH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/
+        ATcCCAH/ATcCCAH/ATcCCAP/AecB/wgAAYEBKgEnAf8BgQEqAScB/wGBASoBJwH/AYEBKgEnAf8BMgIB
+        AU0oAAGBASoBJwH/AUECAQFuAUgCAgGAAUgCAgGAAUgCAgGAAUgCAgGAAUgCAgGAAUgCAgGAAUgCAgGA
+        DAABgQEqAScB/wGBASoBJwH/FAAC/wHnAf8BOwIIAf8BOwIIAf8BOwIIAf8BOwIIAf8BOwIIA/8B5wP/
+        AecB/wEyAgEBTRQAAv8B5wH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/
+        ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAP/AecB/wgAAYEBKgEnAf8BgQEqAScB/wGBASoBJwH/
+        ATICAQFNLAABTAICAY4BgQEqAScB/wFIAgIBgAFIAgIBgAFIAgIBgAFIAgIBgAFIAgIBgAFIAgIBgAFI
+        AgIBgAQAAYEBKgEnAf8BgQEqAScB/wGBASoBJwH/AYEBKgEnAf8BgQEqAScB/wGBASoBJwH/DAAC/wHn
+        Af8BOwIIAf8BOwIIAf8BOwIIAf8BOwIIA/8B5wP/AecB/wEyAgEBTRgAAv8B5wH/ATcCCAH/ATcCCAH/
+        ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAP/
+        AecB/wgAAYEBKgEnAf8BgQEqAScB/wEyAgEBTTAAASkCAQE8AYEBKgEnAf8BPwIBAWkEAAFIAgIBgAFI
+        AgIBgAFIAgIBgAFIAgIBgAE/AgEBaQQAAYEBKgEnAf8BgQEqAScB/wGBASoBJwH/AYEBKgEnAf8BgQEq
+        AScB/wGBASoBJwH/DAAC/wHnAf8BOwIIAf8BOwIIAf8BOwIIA/8B5wP/AecB/wEyAgEBTRwAAv8B5wH/
+        ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/ATcCCAH/
+        ATcCCAH/ATcCCAP/AecB/wgAAYEBKgEnAf8BMgIBAU04AAE5AgEBXAGBASoBJwH/AYEBKgEnAf8BQQIB
+        AW4BWgIDAcEBQQIBAW4BgQEqAScB/wFYAgIBsgwAAYEBKgEnAf8BgQEqAScB/xQAAv8B5wH/ATsCCAH/
+        ATsCCAP/AecD/wHnAf8BMgIBAU0gAAL/AecD/wHnA/8B5wP/AecD/wHnA/8B5wP/AecD/wHnA/8B5wP/
+        AecD/wHnA/8B5wP/AecD/wHnAf9MAAEpAgEBPAFMAgIBjgGBASoBJwH/AYEBKgEnAf8BgQEqAScB/wFM
+        AgIBjgEpAgEBPAwAAYEBKgEnAf8BgQEqAScB/xQAAv8B5wP/AecD/wHnA/8B5wH/ATICAQFN/AABBAIB
+        AQQBAwIBAQOEAAGZAUMC/yAAAZkCQwH/AYECQwH/AYECQwH/AYECQwH/AYECQwH/AYECQwH/AYECQwH/
+        AYECQwH/AYECQwH/AZkCQwH/JAAC/wHnA/8B5wP/AecB/zQAAv8B5wP/AecD/wHnAf9EAAGZAUMC/yAA
+        AYECQwH/A/EB/wPxAf8D8QH/A/EB/wPxAf8D8QH/A/EB/wPxAf8BgQJDAf8gAAL/AecB/wOBAf8B2QGn
+        AYED/wHnAf8wAAL/AecB/wGBAUMBgQH/AYwBQwHsA/8B5wH/RAABmQFDAv8gAAGBAkMB/wPxAf8D8QH/
+        A/EB/wPxAf8D8QH/A/EB/wPxAf8D8QH/AYECQwH/HAAC/wHnAf8DgQH/AdkBpwGBAf8B2QGnAYED/wHn
+        Af8MAAOBAf8cAAL/AecB/wGBAUMBgQH/AYwBQwHsAf8BjAFDAewD/wHnAf8MAAGBAUMBgQH/NAABmQFD
+        Av8gAAGBAkMB/wPxAf8BgQJDAf8BgQJDAf8BgQJDAf8BgQJDAf8BgQJDAf8D8QH/A/EB/wGBAkMB/xAA
+        Av8B5wP/AecD/wHnAf8DgQH/AdkBpwGBAf8B2QGnAYEB/wHZAacBgQP/AecB/wQAA4EB/wQAATICAQFN
+        A4EB/wwAAv8B5wP/AecD/wHnAf8BgQFDAYEB/wGMAUMB7AH/AYwBQwHsAf8BjAFDAewD/wHnAf8EAAGB
+        AUMBgQH/BAABMgIBAU0BgQFDAYEB/wgAAYECQwH/AZkCQwH/DAABmQJDAf8BgQJDAf8BmQJDAf8IAAGZ
+        AUMC/yAAAYECQwH/A/EB/wPxA/8BzAP/AcwD/wHMA/8BzAP/AcwB/wPxAf8BgQJDAf8QAAL/AecB/wHZ
+        AacBgQH/AaYCgQH/AdkBpwGBAf8B2QGnAYEB/wHZAacBgQH/AdkBpwGBA/8B5wH/BAABMgIBAU0DgQH/
+        ATICAQFNATICAQFNA4EB/wgAAv8B5wH/AYwBQwHsAf8BgQFDAZ4B/wGMAUMB7AH/AYwBQwHsAf8BjAFD
+        AewB/wGMAUMB7AP/AecB/wQAATICAQFNAYEBQwGBAf8BMgIBAU0BMgIBAU0BgQFDAYEB/wgAAYECQwH/
+        DAABgQJDAf8EAAGBAkMB/wgAAZkBQwL/IAABgQJDAf8D8QH/AYECQwH/AYECQwH/AYECQwH/AYECQwH/
+        AYECQwL/AewBzAH/A/EB/wGBAkMB/xAAAv8B5wH/AdkBpwGBAf8BvAGCAYEB/wHZAacBgQH/AdkBpwGB
+        Af8B2QGnAYEB/wHZAacBgQP/AecB/wQAATICAQFNATICAQFNA4EB/wEyAgEBTQOBAf8IAAL/AecB/wGM
+        AUMB7AH/AYEBQwHJAf8BjAFDAewB/wGMAUMB7AH/AYwBQwHsAf8BjAFDAewD/wHnAf8EAAEyAgEBTQEy
+        AgEBTQGBAUMBgQH/ATICAQFNAYEBQwGBAf8IAAGBAkMB/wwAAYECQwH/BAABgQJDAf8IAAGZAUMC/yAA
+        AYECQwH/A/EB/wPxA/8BzAP/AcwD/wHMA/8BzAP/AcwB/wPxAf8BgQJDAf8QAAL/AecB/wHZAacBgQH/
+        AdIBqgGjAf8B2QGnAYEB/wHZAacBgQH/AdkBpwGBAf8B2QGnAYED/wHnAf8IAAEyAgEBTQOBAf8BMgIB
+        AU0DgQH/CAAC/wHnAf8BjAFDAewB/wGqAYEB8AH/AYwBQwHsAf8BjAFDAewB/wGMAUMB7AH/AYwBQwHs
+        A/8B5wH/CAABMgIBAU0BgQFDAYEB/wEyAgEBTQGBAUMBgQH/CAABmQJDAf8BgQJDAf8EAAGBAkMB/wGZ
+        AkMB/wQAAZkCQwH/AYECQwH/BAABmQFDAv8gAAGBAkMB/wPxAf8BgQJDAf8BgQJDAf8BgQJDAf8BgQJD
+        Af8BgQJDAf8D8QH/A/EB/wGBAkMB/xAAAv8B5wH/AdkBpwGBAf8B0gGqAaMB/wHZAacBgQH/AdkBpwGB
+        Af8B2QGnAYEB/wHZAacBgQP/AecB/wgAATICAQFNA4EB/wEyAgEBTQOBAf8IAAL/AecB/wGMAUMB7AH/
+        AaoBgQHwAf8BjAFDAewB/wGMAUMB7AH/AYwBQwHsAf8BjAFDAewD/wHnAf8IAAEyAgEBTQGBAUMBgQH/
+        ATICAQFNAYEBQwGBAf8MAAGBAkMB/wQAAYECQwH/DAABgQJDAf8EAAGZAUMC/yAAAYECQwH/A/EB/wPx
+        Af8D8QH/A/EB/wPxAf8D8QH/A/EB/wPxAf8BgQJDAf8QAAL/AecB/wHZAacBgQH/AbwBggGBAf8B2QGn
+        AYEB/wHZAacBgQH/AdkBpwGBAf8B2QGnAYED/wHnAf8EAAEyAgEBTQEyAgEBTQOBAf8BMgIBAU0DgQH/
+        CAAC/wHnAf8BjAFDAewB/wGBAUMByQH/AYwBQwHsAf8BjAFDAewB/wGMAUMB7AH/AYwBQwHsA/8B5wH/
+        BAABMgIBAU0BMgIBAU0BgQFDAYEB/wEyAgEBTQGBAUMBgQH/DAABmQJDAf8BgQJDAf8BmQJDAf8MAAGZ
+        AkMB/wGBAkMB/wGZAUMC/yAAAYECQwH/A/EC/wHsAcwB/wPxAf8D8QH/A/EB/wPxAf8D8QH/A/EB/wGB
+        AkMB/xAAAv8B5wH/AdkBpwGBAf8BpgKBAf8B2QGnAYEB/wHZAacBgQH/AdkBpwGBAf8B2QGnAYED/wHn
+        Af8EAAEyAgEBTQOBAf8BMgIBAU0BMgIBAU0DgQH/CAAC/wHnAf8BjAFDAewB/wGBAUMBngH/AYwBQwHs
+        Af8BjAFDAewB/wGMAUMB7AH/AYwBQwHsA/8B5wH/BAABMgIBAU0BgQFDAYEB/wEyAgEBTQEyAgEBTQGB
+        AUMBgQH/LAABmQFDAv8gAAGBAkMB/wPxAf8D8QP/AcwD/wHMA/8BzAP/AcwD/wHMAf8D8QH/AYECQwH/
+        EAAC/wHnA/8B5wP/AecB/wOBAf8B2QGnAYEB/wHZAacBgQH/AdkBpwGBA/8B5wH/BAADgQH/BAABMgIB
+        AU0DgQH/DAAC/wHnA/8B5wP/AecB/wGBAUMBgQH/AYwBQwHsAf8BjAFDAewB/wGMAUMB7AP/AecB/wQA
+        AYEBQwGBAf8EAAEyAgEBTQGBAUMBgQH/MAABmQFDAv8gAAGBAkMB/wPxAf8BgQJDAf8BgQJDAf8BgQJD
+        Af8BgQJDAf8BgQJDAf8D8QH/A/EB/wGBAkMB/xwAAv8B5wH/A4EB/wHZAacBgQH/AdkBpwGBA/8B5wH/
+        DAADgQH/HAAC/wHnAf8BgQFDAYEB/wGMAUMB7AH/AYwBQwHsA/8B5wH/DAABgQFDAYEB/zQAAZkBQwL/
+        IAABgQJDAf8D8QH/A/EB/wPxAf8D8QH/A/EB/wPxAf8D8QH/A/EB/wGBAkMB/yAAAv8B5wH/A4EB/wHZ
+        AacBgQP/AecB/zAAAv8B5wH/AYEBQwGBAf8BjAFDAewD/wHnAf9EAAGZAUMC/yAAAZkCQwH/AYECQwH/
+        AYECQwH/AYECQwH/AYECQwH/AYECQwH/AYECQwH/AYECQwH/AYECQwH/AZkCQwH/JAAC/wHnA/8B5wP/
+        AecB/zQAAv8B5wP/AecD/wHnAf+4AAEGAgEBBv8AIQABgQJDAf8BgQJDAf+UAAH/AYEBQwL/AYEBQwH/
+        HAAB/wFDAYEC/wFDAYEB/zgAAYECQwH/AYECQwH/lAAB/wGBAUMC/wGBAUMB/xwAAf8BQwGBAv8BQwGB
+        Af84AAGBAkMB/wGBAkMB/5QAAf8BgQFDAv8BgQFDAf8cAAH/AUMBgQL/AUMBgQH/OAABgQJDAf8BgQJD
+        Af+UAAH/AYEBQwL/AYEBQwH/HAAB/wFDAYEC/wFDAYEB/zgAAYECQwH/AYECQwH/TAADgQH/A4EB/wOB
+        Af8CgQFDAf8CgQFDAf8BQwKBAf8wAAH/AYEBQwL/AYEBQwH/HAAB/wFDAYEC/wFDAYEB/zgAAYECQwH/
+        AYECQwH/GAABgQJDAf8BgQJDAf8BgQJDAf8BgQJDAf8cAAOGAf8D3QH/AcwCgQL/AcwBQwL/AcwBQwL/
+        AZkBQwL/AYEBQwH/AcwCgQH/A5YB/ywAAf8BgQFDAv8BgQFDAf8cAAH/AUMBgQL/AUMBgQH/OAABgQJD
+        Af8BgQJDAf8QAAGBAkMB/wGBAkMB/wGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGBAkMB/xQAAYEBmQHM
+        Af8D3QH/AcwCmQL/AcwBQwH/AoEBQwH/A0MB/wKBAUMC/wGBAUMC/wGBAUMB/wPMAf8DsgH/KAAB/wGB
+        AUMC/wGBAUMB/xwAAf8BQwGBAv8BQwGBAf8EAAGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGZ
+        AUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGBAkMB/wGBAkMB/wQA
+        AYECQwH/AYECQwH/AYECQwH/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/
+        AYECQwH/AYECQwH/DAADgQH/AcwCmQL/AcwBgQL/AcwBQwH/A0MB/wOBAf8BgQJDAv8BgQFDAf8BzAGB
+        AUMB/wPMAf8DmQH/A4EB/yAAAf8BgQFDAv8BgQFDAv8BgQFDAv8BgQFDAf8YAAH/AUMBgQL/AUMBgQH/
+        BAABmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BmQFD
+        Av8BmQFDAv8BmQFDAv8BmQFDAv8BgQJDAf8BgQJDAf8EAAGBAkMB/wGZAUMC/wGZAUMC/wGZAUMC/wGZ
+        AUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGBAkMB/wwAA4EB/wHM
+        AZkBgQL/AZkBQwH/AoEBQwH/AYEBQwGBAf8EAAH/AYEBQwH/AYECQwH/A4EB/wOBAf8gAAH/AYEBQwL/
+        AYEBQwL/AYEBQwL/AYEBQwL/AYEBQwL/AYEBQwH/FAAB/wFDAYEC/wFDAYEB/wQAAZkBQwL/AZkBQwL/
+        AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/
+        AZkBQwL/AYECQwH/AYECQwH/BAABgQJDAf8BmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BmQFD
+        Av8BmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BgQJDAf8QAAGBAUMBgQH/AYECQwL/AYEBQwL/
+        AYEBQwH/AYECQwH/AYECQwH/A4EB/wOBAf8gAAH/AYEBQwL/AYEBQwH/BAAB/wGBAUMC/wGBAUMB/wQA
+        Af8BgQFDAv8BgQFDAf8QAAH/AUMBgQL/AUMBgQH/BAABmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BmQFD
+        Av8BmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BgQJDAf8BgQJD
+        Af8EAAGBAkMB/wGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGZ
+        AUMC/wGZAUMC/wGZAUMC/wGBAkMB/0wAAf8BgQFDAv8BgQFDAf8IAAH/AYEBQwL/AYEBQwH/CAAB/wGB
+        AUMC/wGBAUMB/wwAAf8BQwGBAv8BQwGBAf8EAAGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGZ
+        AUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGZAUMC/wGBAkMB/wGBAkMB/wQA
+        AYECQwH/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/
+        AZkBQwL/AZkBQwL/AYECQwH/SAAB/wGBAUMC/wGBAUMB/wwAAf8BgQFDAv8BgQFDAf8MAAH/AYEBQwL/
+        AYEBQwH/CAAB/wFDAYEC/wFDAYEB/wQAAZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/
+        AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AYECQwH/AYECQwH/BAABgQJD
+        Af8BmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BgQJDAf8BgQJDAf8BgQJDAf8BgQJDAf8BmQFDAv8BmQFD
+        Av8BmQFDAv8BgQJDAf9EAAH/AYEBQwL/AYEBQwH/EAAB/wGBAUMC/wGBAUMB/xAAAf8BgQFDAv8BgQFD
+        Af8EAAH/AUMBgQL/AUMBgQH/BAABmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BmQFD
+        Av8BmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BmQFDAv8BgQJDAf8BgQJDAf8EAAGBAkMB/wGZ
+        AUMC/wGZAUMC/wGBAkMB/wGBAkMB/xAAAYECQwH/AZkBQwL/AZkBQwL/AYECQwH/RAAB/wGBAUMB/xQA
+        Af8BgQFDAv8BgQFDAf8UAAH/AYEBQwH/BAAB/wFDAYEC/wFDAYEB/wQAAZkBQwL/AZkBQwL/AZkBQwL/
+        AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/AZkBQwL/
+        AYECQwH/AYECQwH/BAABgQJDAf8BgQJDAf8BgQJDAf8cAAGBAkMB/wGBAkMB//8ANQABmQJDAf8BmQJD
+        Af8BzAJDAf9QAAPAAf8EAAPAAf8DwAH/A8AB/wOGAf8DhgH/A8AB/ywAAZkCgQH/AZkCgQH/AZkCgQH/
+        AZkCgQH/AZkCgQH/AZkCgQH/AcwCQwH/EAABmQJDAf8DgQH/A4EB/wGZAkMB/xgAAYECQwH/A4EB/wOB
+        Af8BgQJDAf9IAAPAAf8DwAH/A8AB/wOGAf8DQwH/A0MB/wNDAf8DQwH/A0MB/wOGAf8DhgH/A8AB/wQA
+        A8AB/wPAAf8UAAOBAf8DgQH/A4EB/wOBAf8DgQH/A4EB/wOBAf8DgQH/AcwCQwH/DAABgQJDAf8CgQGZ
+        Af8CgQGZAf8DgQH/AZkCQwH/EAABgQJDAf8BQwKBAf8CgQHMAf8CgQGZAf8DgQH/EAABzAJDAf8DQwH/
+        A0MB/wNDAf8BmQJDAf8gAAPAAf8DwAH/A4YB/wNDAf8DQwH/A4YB/wPAAf8DwAH/A8AB/wPAAf8DhgH/
+        A0MB/wOGAf8DhgH/A8AB/wPAAf8MAAGZAkMB/wFDAoEB/wFDAoEB/wFDAoEB/wFDAoEB/wFDAoEB/wFD
+        AoEB/wFDAoEB/wFDAoEB/wOBAf8DgQH/AcwCQwH/CAADgQH/AoEBzAH/AoEBzAH/AoEBmQH/A4EB/wHM
+        AkMB/wgAAYECQwH/AUMCgQH/AoEBzAH/AoEBzAH/AoEBmQH/A4EB/xAAA0MB/wPAAf8CzAGZAf8CmQGB
+        Af8DQwH/AZkCQwH/HAADwAH/A0MB/wNDAf8DwAH/A8AB/wNDAf8EAAPAAf8DwAH/BAADQwH/AoEBQwH/
+        A4YB/wOGAf8DhgH/A8AB/wgAAZkCQwH/AUMBgQGZAf8BgQGZAv8BgQGZAv8BgQGZAv8BgQGZAv8BgQGZ
+        Av8BgQGZAv8BgQGZAv8BgQGZAv8BQwGBAZkB/wOBAf8DgQH/AcwCQwH/BAABgQJDAf8DgQH/AoEBzAH/
+        AoEBzAH/AoEBmQH/A4EB/wHMAkMB/wGBAkMB/wJDAYEB/wKBAcwB/wKBAcwB/wKBAcwB/wKBAZkB/wGB
+        AkMB/wwAAcwCQwH/A4EB/wGkAqAB/wLMAZkB/wLMAZkB/wOZAf8DQwH/AZkCQwH/HAACgQFDAf8CgQFD
+        Af8DQwH/BAADwAP/AUMB/wGBAkMB/wGBAkMB/wGBAkMB/wgAA8AB/wGBAkMB/wOGAf8DhgH/BAABmQJD
+        Af8CgQHMAf8CgQHMAf8CgQHMAf8CgQHMAf8CgQGZAf8BQwKBAf8BQwKBAf8CgQGZAf8CgQGZAf8CgQGZ
+        Af8CgQHMAf8BQwKBAf8DgQH/A4EB/wgAAYECQwH/A4EB/wKBAcwB/wKBAcwB/wKBAZkB/wOBAf8CQwGB
+        Af8CgQHMAf8CgQHMAf8CgQHMAf8CgQHMAf8DgQH/AZkCQwH/DAADQwH/A8AB/wLMAZkB/wLMAZkB/wLM
+        AZkB/wLMAZkB/wOZAf8DQwH/AZkCQwH/FAADhgH/A8AB/wNDAf8DwAH/A8AD/wFDA/8BQwL/AkMC/wJD
+        Av8CQwH/A8AB/wgAA8AB/wGBAkMB/wOGAf8BmQJDAf8BQwGBAZkB/wFDAYEBzAH/AUMBgQHMAf8BQwGB
+        AZkB/wOBAf8DgQH/A4EB/wKBAUMB/wKBAUMB/wFDAoEB/wFDAoEB/wOBAf8CgQGZAf8BQwKBAf8DgQH/
+        DAABgQJDAf8CQwGBAf8CgQHMAf8CgQHMAf8CgQHMAf8CgQHMAf8CgQHMAf8CgQHMAf8CgQHMAf8DgQH/
+        AZkCQwH/DAABzAJDAf8DgQH/AswBmQH/AswBmQH/AswBmQH/A0MB/wPjAf8CzAGZAf8DmQH/A0MB/wGZ
+        AkMB/xAAA4YB/wNDAf8BgQJDAf8BgQJDAf8DQwH/AYECQwL/AkMB/wNDAf8DQwL/AkMB/wGBAkMB/wPA
+        Af8DwAH/AoEBQwH/AoEBQwH/A8AB/wFDAoEB/wFDAYEBzAH/AUMBgQGZAf8DhgH/A90B/wHMAoEC/wHM
+        AUMC/wHMAUMC/wGZAUMC/wGBAUMB/wHMAoEB/wOWAf8DgQH/AUMCgQH/AoEBmQH/AUMCgQH/EAABgQJD
+        Af8CQwGBAf8CgQHMAf8CgQHMAf8CgQHMAf8CgQHMAf8CgQHMAf8DgQH/AZkCQwH/EAADQwH/A8wB/wLM
+        AZkB/wLMAZkB/wNDAf8BmQJDAf8DQwH/A9cB/wLMAZkB/wOZAf8DQwH/AZkCQwH/DAACgQFDAf8CgQFD
+        Af8DQwH/AYECQwH/AoEBQwP/AUMC/wJDAf8DQwL/AkMB/wQAA0MB/wPAAf8BgQJDAf8DhgH/A0MB/wQA
+        AkMBgQH/AUMBgQGZAf8BgQGZAcwB/wPdAf8BzAKZAv8BzAFDAf8CgQFDAf8DQwH/AoEBQwL/AYEBQwL/
+        AYEBQwH/A8wB/wOyAf8CgQGZAf8BQwKBAf8CgQGZAf8MAAGBAkMB/wOBAf8CgQHMAf8CgQHMAf8CgQHM
+        Af8CgQHMAf8CgQHMAf8CQwGBAf8BgQJDAf8UAANDAf8D4wH/A+MB/wNDAf8BzAJDAf8BzAJDAf8BmQJD
+        Af8DQwH/A9cB/wLMAZkB/wOZAf8DQwH/AZkCQwH/CAACgQFDAf8CgQFDAf8CgQFDAf8DQwH/AYECQwH/
+        AoEBQwL/AkMC/wJDAv8CQwP/AUMB/wGBAkMB/wGBAkMB/wPAAf8DQwH/A8AB/wQAAUMCgQH/AkMBgQH/
+        A4EB/wHMApkC/wHMAYEC/wHMAUMB/wNDAf8DgQH/AYECQwL/AYEBQwH/AcwBgQFDAf8DzAH/A5kB/wOB
+        Af8DgQH/AUMCgQH/CAABgQJDAf8DgQH/AoEBzAH/AoEBzAH/AoEBzAH/AoEBzAH/AoEBzAH/AoEBzAH/
+        AoEBmQH/A4EB/wGZAkMB/xAAAcwCQwH/A0MB/wNDAf8BzAJDAf8MAAHMAkMB/wNDAf8D1wH/AswBmQH/
+        A5kB/wNDAf8BmQJDAf8EAAPAAf8DwAH/A8AB/wKBAUMB/wNDAf8DQwH/A0MB/wNDAf8DQwH/A0MB/wND
+        Af8DwAH/A0MB/wPAAf8IAAFDAoEB/wFDAYEBmQH/AkMBgQH/A4EB/wHMAZkBgQL/AZkBQwH/AoEBQwH/
+        AYEBQwGBAf8EAAH/AYEBQwH/AYECQwH/A4EB/wOBAf8DgQH/A0MB/wJDAYEB/wQAAZkCgQH/A4EB/wKB
+        AcwB/wKBAcwB/wKBAcwB/wKBAcwB/wJDAYEB/wGBAkMB/wKBAcwB/wKBAcwB/wFDAYEBmQH/AkMBgQH/
+        AZkCQwH/LAABzAJDAf8DQwH/A9cB/wLMAZkB/wKZAYEB/wNDAf8IAAPAAf8DwAH/A4YB/wOGAf8DwAH/
+        A8AB/wPAAf8DwAH/A8AB/wOGAf8DQwH/A8AB/wwAAZkCQwH/AoEBmQH/AUMBgQGZAf8CQwGBAf8BgQFD
+        AYEB/wGBAkMC/wGBAUMC/wGBAUMB/wGBAkMB/wGBAkMB/wOBAf8DgQH/A0MB/wNDAf8BQwKBAf8BgQJD
+        Af8EAAGBAkMB/wKBAcwB/wKBAcwB/wKBAcwB/wKBAcwB/wOBAf8BgQJDAf8BzAJDAf8DgQH/AoEBzAH/
+        AoEBzAH/AoEBmQH/AkMBgQH/AZkCQwH/LAABzAJDAf8DQwH/A9cB/wHMApkB/wNDAf8EAANDAf8EAAPA
+        Af8DwAH/A4YB/wQAAoEBQwH/A4YB/wKBAUMB/wKBAUMB/wPAAf8MAAPAAf8DwAH/BAABmQJDAf8CgQHM
+        Af8BQwGBAZkB/wFDAYEBmQH/AUMCgQH/AkMBgQH/AUMCgQH/AUMCgQH/AUMCgQH/AUMCgQH/AkMBgQH/
+        AUMCgQH/AUMCgQH/A0MB/wgAA4EB/wKBAcwB/wKBAcwB/wKBAcwB/wFDAoEB/wGBAkMB/wgAAZkCQwH/
+        A4EB/wKBAcwB/wKBAcwB/wKBAZkB/wGBAkMB/zAAAcwCQwH/A0MB/wNDAf8BmQJDAf8EAAPAAf8DQwH/
+        A0MB/wOGAf8DwAH/A4YB/wOGAf8DwAH/A8AB/wwAA8AB/wKBAUMB/wNDAf8MAAGZAkMB/wGBAZkBzAH/
+        AoEBzAH/AUMBgQHMAf8BQwGBAcwB/wFDAYEBmQH/AUMBgQGZAf8BQwKBAf8BQwKBAf8BQwGBAZkB/wFD
+        AoEB/wGBAkMB/wGZAkMB/wgAA4EB/wGBAZkBzAH/AoEBzAH/AUMCgQH/AYECQwH/EAABmQJDAf8DgQH/
+        AoEBzAH/AoEBmQH/A4EB/0gAA8AB/wNDAf8DQwH/A0MB/wKBAUMB/wKBAUMB/wPAAf8DwAH/A8AB/wPA
+        Af8DQwH/A0MB/wNDAf8UAAGZAkMB/wOBAf8CgQGZAf8CgQGZAf8CgQGZAf8CgQGZAf8BQwKBAf8BQwKB
+        Af8BQwKBAf8DgQH/EAABgQJDAf8DgQH/A4EB/wGBAkMB/xgAAZkCQwH/AYECQwH/AYECQwH/AZkCQwH/
+        UAADwAH/A0MB/wNDAf8DQwH/A0MB/wNDAf8DQwH/A0MB/wNDAf9UAAHMAkMB/wGZAkMB/wGZAkMB//AA
+        AUIBTQE+BwABPgMAASgDAAFAAwABUAMAAQEBAAEBBQABgAECFgAD/4EAA/8B/AHhAX8D/wHHAYMB8AHg
+        AX8BgAEBAf8BxwGDAfEB4AE/AYABAQH/Ae8B/wHhAeABHwGAAQEB/gFsAf8BwwHgAQ8BgAEBAZ4BAAHA
+        AQ8B4AEHAYABAQGOAWwBgAEfAeABAwGAAQEBhwHvAQEBHwHgAQEBgAEBAYABxwEGAZ8B4AEDAYABAQGA
+        AccBIAEfAeABAwGAAQEBgQH/AQABEwHgAQcBgAEBAYMB/wEAAXMB4AEPAYABAQGHAf8BAAFAAeABHwGA
+        AQEBjwH/ARABQAHgAT8BgAEBAZ8B/wGAAXMB4AF/AYABAQL/AcABcwHgB/8B/gF/A/8B3wHgAQcB/AF/
+        AfwBfwH/Ad8B4AEHAfgBfwH4AX8B/wHfAeABBwHwAXcB8AF3Af8B3wHgAQcBgAFTAYABUwE4Ad8B4AEH
+        AYABQQGAAUEBugHfAeABBwGAAUEBgAFBAboB3wHgAQcBgAFhAYABYQGSAV8B4AEHAYABYQGAAWEB1wFf
+        AeABBwGAAUEBgAFBAccBHwHgAQcBgAFBAYABQQH/Ad8B4AEHAYABUwGAAVMB/wHfAeABBwHwAXcB8AF3
+        Af8B3wHgAQcB+AF/AfgBfwH/Ad8B4AEHAfwBfwH8AX8E/wH+Cf8BPwP/Af4BfwE/Af8BPwP/Af4BfwE/
+        Af8BPwP/Af4BfwE/Af8BPwP/Af4BfwE/Af8BPwH/AfgBHwH+AX8BPwH/AT8BDwHgAQ8B/gF/AT8B/wE8
+        AQcBwAEHAf4BfwEgAQABIAEBAcABAwH8AT8BIAEAASABAAHgAYcB+AEfASABAAEgAQAB8AEPAfIBTwEg
+        AQABIAEAAv8B5gFnASABAAEgAQAC/wHOAXMBIAEAASABAAL/AZ4BeQEgAQABIAHwAv8BvgF9ASABAAEj
+        AfkJ/wHxAv8B6AEfAfwBBwGHAeEC/wGAAQQB+AEDAYMBwQHgAf8CAAHgAQECgQHgAX8BAgFAAcABAAGA
+        AQEBwAE/AYgBMAGAAQABwAEBAcABHwEAARgCAAHgAQMBgAEPBAAB8AEHAYABBwEAAUECAAHgAQ8BgAED
+        AQABAQIAAcABBwGHAQEBAAEDAQACgAEDAf8BgQGAAQcCAAGAAQEB/wHBAUQBHAGAAQECgQH/AeEBAAFx
+        AcABAQGDAcEC/wGAAQMB4AEHAYcB4QL/AeABDwL/AY8H/ws=
+</value>
+  </data>
+  <data name="lstScanTraces.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 50</value>
+  </data>
+  <data name="lstScanTraces.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lstScanTraces.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 0</value>
+  </data>
+  <data name="lstScanTraces.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lstScanTraces.Name" xml:space="preserve">
+    <value>lstScanTraces</value>
+  </data>
+  <data name="&gt;&gt;lstScanTraces.Type" xml:space="preserve">
+    <value>ControlUtils.ObjectListView.ObjectListView, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lstScanTraces.Parent" xml:space="preserve">
+    <value>xPanelTraces</value>
+  </data>
+  <data name="&gt;&gt;lstScanTraces.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 25</value>
+  </metadata>
+  <data name="toolBtnNewTrace.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHdJREFUOE9jYKAU
+        8DL4/CcVo9gJ0vzw/38wZlj3HoxhfGw0SD1OA/BphMlhNYAiL1Aahgyk2o43DAgFIsi1PAweomQHIlQj
+        KBYQMUGMF9DCCdUAEgIRphGVJs4FxqxQZ2MaQkxKxOsFZAMIpUSyAxHmTRLCi3ilAKNEWzkvv+enAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnNewTrace.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnNewTrace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnNewTrace.Text" xml:space="preserve">
+    <value>New trace</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolBtnOpenTrace.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIpJREFUOE9jZCAS
+        8DL4+KIr/cywZTMR2u1ZQJqf////Hx2DDQURhDBIIzabwOLYTEYXw+VMXAYT4S2IErgBUC/8B9LYMEbg
+        wWwAG0BAM8xArIaQYgC6y8AGUmIAOFYGoQH+vk3g1AaiccQIXByrF5ATEFkGkOUCkFOITAtw5/MweIeg
+        pESi0y4WhQAq8irX3qHvJwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnOpenTrace.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnOpenTrace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnOpenTrace.Text" xml:space="preserve">
+    <value>Open trace</value>
+  </data>
+  <data name="toolBtnSaveTrace.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAJlJREFUOE9jYKAG
+        EGdw5eZm8J7Py+Dz/+LTt3gxSA1IrSCDCz/cbqDgeZAECD///x8DI8vB2EB6P7IBYM0kGvCffgYgewvJ
+        C9hdgKyAEBurFwhpIuiCuSsO/a9tXoEXwwzBcAFIo79vEzxGCLkGqwGENOH1AsgFA2WAdz7IZlJcAMwP
+        9+FhwM3gq4ecH4jwxnkeBh8bamRkBgC3sWmpNd2cVAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnSaveTrace.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnSaveTrace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnSaveTrace.Text" xml:space="preserve">
+    <value>Save trace</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolBtnEditTrace.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMFJREFUOE9jZCAB
+        MLPZ/UdS7vf316EtRGsHaUbHRGsGKQTbvv/z/+f//8MNAhvAy+DjC8T/cWF0zSBDULwC0kgIgDSAbIZp
+        xmoANheADEbWDHM+it+RXeBkUZwc7teUD/IWzFU4/Q4zBWYAugtgtsMCDsPv6AaANIBsRnYBLNqw+h2b
+        AeiBSVS844sFZANwJhpiDMCb4ggFIshbDAyhzES5ABSIYpxBAWlxfVXI4QGyhCgDcKVIQgbgzQvQ9OGL
+        ywUA6qR6ApekRBoAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnEditTrace.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnEditTrace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnEditTrace.Text" xml:space="preserve">
+    <value>Edit trace</value>
+  </data>
+  <data name="toolBtnTraceGo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAOdJREFUOE+tUkEK
+        wjAQ3Fw8tT/yBbG9CN76AS8FT70K3utPPPkABZ8i+AFBioU102ZpLM0KxcCSzWYzO9kdQ34llC2JeG3I
+        7CTGxEcic3rS+SaxyT0lW6SUsbfy3rZX55dDzBZRAFRGYkKrLZIezPvQEO/vwXBiuYQaCeOH4dkXqCP0
+        O+rlD4DuO1EAos1CA8C9CgAGU/8XUGmo2gN2zXN2eTmTRADAV3sQTkFAAATD42EKtoqOcqyDpnkfvnXQ
+        a0QVE5jISEVAOCdkq0BkOohWIQRxfq6yiV3+HWQuizxgMu8rXhsAyj/XMuWdJ7KyeQAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="toolBtnTraceGo.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="toolBtnTraceGo.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnTraceGo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnTraceGo.Text" xml:space="preserve">
+    <value>Go to trace</value>
+  </data>
+  <data name="toolStripSeparator16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolBtnDeleteTrace.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIJJREFUOE9jZMAC
+        eBi80xgZGGciS/1n+J/+hWHrLGzqGUAaQHjCzO3/Yfj5////kTGyHEw93DCQAC+Dz39SMEgPimtgphJL
+        Y3iFFNtBamljACzQQAEGsgXGB7FBYsh8rC4YNQARaEM0EEHxCotvXF6AiTMwhDJjzZUMDPVMhJI0ukYA
+        Dx+ccoDbRrkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnDeleteTrace.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnDeleteTrace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnDeleteTrace.Text" xml:space="preserve">
+    <value>Delete trace</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolBtnScanParams.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAFNJREFUOE9jYKA3
+        eMPQ858iO4eAAcxsdr5A/B9EI/sVKv6XoBdAmkEaYTTMEBgfrwEw22EGwFyBLE7IAJQowuYa2hmAJ+BQ
+        ApRgIBJKZaMGYIYQACGePBUAWs6IAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnScanParams.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnScanParams.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnScanParams.Text" xml:space="preserve">
+    <value>Scan settings</value>
+  </data>
+  <data name="toolBtnArmScanTrace.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAGxJREFUOE9jYKAU
+        8DL4/AdhkDkwNoyPy2xkPXBNMAPeMPT8B2EURUgmgcSR1eA0AN0gmIEwcZglBA1A1oDOBnsVPQzwaRgi
+        BmALLGxOh0c1vuhCjjKUqENOILgMgKlBTlxYExghAwim9FEDGADLAftf6/4uFgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnArmScanTrace.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnArmScanTrace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnArmScanTrace.Text" xml:space="preserve">
+    <value>Trace control settings</value>
+  </data>
+  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolBtnTraceMarkers.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHNJREFUOE9jYKAW
+        +M/AAESYgGhxohVC7cBQP7AGMLPZ+QLxfxCNHgpEuQykGaQQRBNjAIaFuAzA5TIM9dgMgGmGuQzmPXRx
+        BpjfoQrBYQHyBoyGhQEucaIV4jQAFmhINqHECCFxeKATFV1IUTTIUiIlORoAh994wcUzH1oAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="toolBtnTraceMarkers.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnTraceMarkers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnTraceMarkers.Text" xml:space="preserve">
+    <value>Create markers by threshold</value>
+  </data>
+  <data name="toolBtnReplayTrace.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHdJREFUOE9jZEAC
+        z////4/MZ/j/30+SiWkzihg+DsgAXgYfMAaxwfjfP1+yDCDLEGQXkOUSbAaQ5BJcBhBtCD4DiDKEkAFw
+        Q/7+bcYaM0QbAIxarNFLyACCaYNmgQi3GZffYQFC9YRE0M/oUUGVzAS3FZq1CeVGAEWpQ7m3Pz1pAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnReplayTrace.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnReplayTrace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnReplayTrace.Text" xml:space="preserve">
+    <value>Replay trace record</value>
+  </data>
+  <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="toolStrip1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 25</value>
+  </data>
+  <data name="toolStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="toolStrip1.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Name" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
+    <value>xPanelTraces</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="xPanelTraces.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="xPanelTraces.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 25</value>
+  </data>
+  <data name="xPanelTraces.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="xPanelTraces.Text" xml:space="preserve">
+    <value>Scan traces</value>
+  </data>
+  <data name="&gt;&gt;xPanelTraces.Name" xml:space="preserve">
+    <value>xPanelTraces</value>
+  </data>
+  <data name="&gt;&gt;xPanelTraces.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.XPanderPanel, BSE.Windows.Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;xPanelTraces.Parent" xml:space="preserve">
+    <value>xPanderPanelList1</value>
+  </data>
+  <data name="&gt;&gt;xPanelTraces.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="olvMarkerVisible.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="olvMarkerVisible.Width" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="olvMarkerFreq.Text" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="olvMarkerFreq.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="olvMarkerName.Text" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="lstMarkers.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lstMarkers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 50</value>
+  </data>
+  <data name="lstMarkers.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lstMarkers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 0</value>
+  </data>
+  <data name="lstMarkers.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lstMarkers.Name" xml:space="preserve">
+    <value>lstMarkers</value>
+  </data>
+  <data name="&gt;&gt;lstMarkers.Type" xml:space="preserve">
+    <value>ControlUtils.ObjectListView.ObjectListView, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lstMarkers.Parent" xml:space="preserve">
+    <value>xPanelMarkers</value>
+  </data>
+  <data name="&gt;&gt;lstMarkers.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="toolStrip3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 25</value>
+  </metadata>
+  <data name="toolBtnNewMarker.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHdJREFUOE9jYKAU
+        8DL4/CcVo9gJ0vzw/38wZlj3HoxhfGw0SD1OA/BphMlhNYAiL1Aahgyk2o43DAgFIsi1PAweomQHIlQj
+        KBYQMUGMF9DCCdUAEgIRphGVJs4FxqxQZ2MaQkxKxOsFZAMIpUSyAxHmTRLCi3ilAKNEWzkvv+enAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnNewMarker.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnNewMarker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnNewMarker.Text" xml:space="preserve">
+    <value>Add marker</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolBtnLoadMarkers.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIpJREFUOE9jZCAS
+        8DL4+KIr/cywZTMR2u1ZQJqf////Hx2DDQURhDBIIzabwOLYTEYXw+VMXAYT4S2IErgBUC/8B9LYMEbg
+        wWwAG0BAM8xArIaQYgC6y8AGUmIAOFYGoQH+vk3g1AaiccQIXByrF5ATEFkGkOUCkFOITAtw5/MweIeg
+        pESi0y4WhQAq8irX3qHvJwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnLoadMarkers.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnLoadMarkers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnLoadMarkers.Text" xml:space="preserve">
+    <value>Open markers set</value>
+  </data>
+  <data name="toolBtnSaveMarkers.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAJlJREFUOE9jYKAG
+        EGdw5eZm8J7Py+Dz/+LTt3gxSA1IrSCDCz/cbqDgeZAECD///x8DI8vB2EB6P7IBYM0kGvCffgYgewvJ
+        C9hdgKyAEBurFwhpIuiCuSsO/a9tXoEXwwzBcAFIo79vEzxGCLkGqwGENOH1AsgFA2WAdz7IZlJcAMwP
+        9+FhwM3gq4ecH4jwxnkeBh8bamRkBgC3sWmpNd2cVAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnSaveMarkers.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnSaveMarkers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnSaveMarkers.Text" xml:space="preserve">
+    <value>Save markers set</value>
+  </data>
+  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolBtnEditMarker.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMFJREFUOE9jZCAB
+        MLPZ/UdS7vf316EtRGsHaUbHRGsGKQTbvv/z/+f//8MNAhvAy+DjC8T/cWF0zSBDULwC0kgIgDSAbIZp
+        xmoANheADEbWDHM+it+RXeBkUZwc7teUD/IWzFU4/Q4zBWYAugtgtsMCDsPv6AaANIBsRnYBLNqw+h2b
+        AeiBSVS844sFZANwJhpiDMCb4ggFIshbDAyhzES5ABSIYpxBAWlxfVXI4QGyhCgDcKVIQgbgzQvQ9OGL
+        ywUA6qR6ApekRBoAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnEditMarker.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="toolBtnEditMarker.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnEditMarker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnEditMarker.Text" xml:space="preserve">
+    <value>Edit marker</value>
+  </data>
+  <data name="toolBtnMarkerGo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAOdJREFUOE+tUkEK
+        wjAQ3Fw8tT/yBbG9CN76AS8FT70K3utPPPkABZ8i+AFBioU102ZpLM0KxcCSzWYzO9kdQ34llC2JeG3I
+        7CTGxEcic3rS+SaxyT0lW6SUsbfy3rZX55dDzBZRAFRGYkKrLZIezPvQEO/vwXBiuYQaCeOH4dkXqCP0
+        O+rlD4DuO1EAos1CA8C9CgAGU/8XUGmo2gN2zXN2eTmTRADAV3sQTkFAAATD42EKtoqOcqyDpnkfvnXQ
+        a0QVE5jISEVAOCdkq0BkOohWIQRxfq6yiV3+HWQuizxgMu8rXhsAyj/XMuWdJ7KyeQAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="toolBtnMarkerGo.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnMarkerGo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnMarkerGo.Text" xml:space="preserve">
+    <value>Go to marker</value>
+  </data>
+  <data name="toolStripSeparator19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolBtnDeleteMarker.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIJJREFUOE9jZMAC
+        eBi80xgZGGciS/1n+J/+hWHrLGzqGUAaQHjCzO3/Yfj5////kTGyHEw93DCQAC+Dz39SMEgPimtgphJL
+        Y3iFFNtBamljACzQQAEGsgXGB7FBYsh8rC4YNQARaEM0EEHxCotvXF6AiTMwhDJjzZUMDPVMhJI0ukYA
+        Dx+ccoDbRrkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnDeleteMarker.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnDeleteMarker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnDeleteMarker.Text" xml:space="preserve">
+    <value>Delete marker</value>
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolBtnClearMarkers.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAaFJREFUOE+FUz1L
+        A0EQ3VxQJChYKBhj7iOfaMQiCcFCAkpExFjYCBa2io0/QBT9CSm1F/wDol3UTkGwSpPgiRZqyB1aWQjJ
+        6ptzzz05zMHA7ex7b2dm3waY9LVisbzSDpSf271rIaWTkvc+Okp9NPh50gny02HTvJX3WD9b2jgcyh2b
+        +Rlu64l/AxhgwXFFkHhUU0RsRNN8b3Cal/rmeFRZpMA/chfhScIACw4JoGxbN2ri5AdVa0HdL1ZDxf1q
+        OHPlYI0auMzW4gfi5LuxcTrhJjLBB1jZN7I9824l4DJLjV2ChBJBArmbCLDAgMuaetzGAn2+cE5h5pxh
+        WqUFWkO4cnTu7gOLfXBdAQxLCAAsKoHIXwFguwqABLJoR67AV0BuAWAIoCIhgrZEhZ4W5CHKLQgB5OR2
+        sPYMUVwjTPJab9ApcgViiO5gi7NkNvICrlE2Umtnl0T8BJCzvsm/Vv8xEtxo68lNYWVreYVX17eda317
+        p8A/cna24FoZHM+DQuI6kun6mIBpaoktD1ksnoxkAQM6G5ni92raE8hhj/wvfV/FEvvz1S8PQQAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnClearMarkers.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnClearMarkers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnClearMarkers.Text" xml:space="preserve">
+    <value>Delete all markers</value>
+  </data>
+  <data name="toolStrip3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="toolStrip3.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="toolStrip3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 25</value>
+  </data>
+  <data name="toolStrip3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="toolStrip3.Text" xml:space="preserve">
+    <value>toolStrip3</value>
+  </data>
+  <data name="&gt;&gt;toolStrip3.Name" xml:space="preserve">
+    <value>toolStrip3</value>
+  </data>
+  <data name="&gt;&gt;toolStrip3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip3.Parent" xml:space="preserve">
+    <value>xPanelMarkers</value>
+  </data>
+  <data name="&gt;&gt;toolStrip3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="xPanelMarkers.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="xPanelMarkers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 25</value>
+  </data>
+  <data name="xPanelMarkers.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="xPanelMarkers.Text" xml:space="preserve">
+    <value>Markers</value>
+  </data>
+  <data name="&gt;&gt;xPanelMarkers.Name" xml:space="preserve">
+    <value>xPanelMarkers</value>
+  </data>
+  <data name="&gt;&gt;xPanelMarkers.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.XPanderPanel, BSE.Windows.Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;xPanelMarkers.Parent" xml:space="preserve">
+    <value>xPanderPanelList1</value>
+  </data>
+  <data name="&gt;&gt;xPanelMarkers.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="olvSignalVisible.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="olvSignalVisible.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="olvSignalFStart.Text" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="olvSignalFStart.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="olvSignalFStart.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="olvSignalFStop.Text" xml:space="preserve">
+    <value>Band</value>
+  </data>
+  <data name="olvSignalFStop.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="olvSignalTitle.Text" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="olvSignalTitle.Width" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="olvHits.Text" xml:space="preserve">
+    <value>Hits</value>
+  </data>
+  <data name="olvHits.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="lstSignals.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <metadata name="imageList2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>246, 54</value>
+  </metadata>
+  <data name="imageList2.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACm
+        BwAAAk1TRnQBSQFMAwEBAAEEAQABBAEAARABAAEQAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMA
+        AUADAAEQAwABAQEAAQgGAAEEGAABgAIAAYADAAKAAQABgAMAAYABAAGAAQACgAIAA8ABAAHAAdwBwAEA
+        AfABygGmAQABMwUAATMBAAEzAQABMwEAAjMCAAMWAQADHAEAAyIBAAMpAQADVQEAA00BAANCAQADOQEA
+        AYABfAH/AQACUAH/AQABkwEAAdYBAAH/AewBzAEAAcYB1gHvAQAB1gLnAQABkAGpAa0CAAH/ATMDAAFm
+        AwABmQMAAcwCAAEzAwACMwIAATMBZgIAATMBmQIAATMBzAIAATMB/wIAAWYDAAFmATMCAAJmAgABZgGZ
+        AgABZgHMAgABZgH/AgABmQMAAZkBMwIAAZkBZgIAApkCAAGZAcwCAAGZAf8CAAHMAwABzAEzAgABzAFm
+        AgABzAGZAgACzAIAAcwB/wIAAf8BZgIAAf8BmQIAAf8BzAEAATMB/wIAAf8BAAEzAQABMwEAAWYBAAEz
+        AQABmQEAATMBAAHMAQABMwEAAf8BAAH/ATMCAAMzAQACMwFmAQACMwGZAQACMwHMAQACMwH/AQABMwFm
+        AgABMwFmATMBAAEzAmYBAAEzAWYBmQEAATMBZgHMAQABMwFmAf8BAAEzAZkCAAEzAZkBMwEAATMBmQFm
+        AQABMwKZAQABMwGZAcwBAAEzAZkB/wEAATMBzAIAATMBzAEzAQABMwHMAWYBAAEzAcwBmQEAATMCzAEA
+        ATMBzAH/AQABMwH/ATMBAAEzAf8BZgEAATMB/wGZAQABMwH/AcwBAAEzAv8BAAFmAwABZgEAATMBAAFm
+        AQABZgEAAWYBAAGZAQABZgEAAcwBAAFmAQAB/wEAAWYBMwIAAWYCMwEAAWYBMwFmAQABZgEzAZkBAAFm
+        ATMBzAEAAWYBMwH/AQACZgIAAmYBMwEAA2YBAAJmAZkBAAJmAcwBAAFmAZkCAAFmAZkBMwEAAWYBmQFm
+        AQABZgKZAQABZgGZAcwBAAFmAZkB/wEAAWYBzAIAAWYBzAEzAQABZgHMAZkBAAFmAswBAAFmAcwB/wEA
+        AWYB/wIAAWYB/wEzAQABZgH/AZkBAAFmAf8BzAEAAcwBAAH/AQAB/wEAAcwBAAKZAgABmQEzAZkBAAGZ
+        AQABmQEAAZkBAAHMAQABmQMAAZkCMwEAAZkBAAFmAQABmQEzAcwBAAGZAQAB/wEAAZkBZgIAAZkBZgEz
+        AQABmQEzAWYBAAGZAWYBmQEAAZkBZgHMAQABmQEzAf8BAAKZATMBAAKZAWYBAAOZAQACmQHMAQACmQH/
+        AQABmQHMAgABmQHMATMBAAFmAcwBZgEAAZkBzAGZAQABmQLMAQABmQHMAf8BAAGZAf8CAAGZAf8BMwEA
+        AZkBzAFmAQABmQH/AZkBAAGZAf8BzAEAAZkC/wEAAcwDAAGZAQABMwEAAcwBAAFmAQABzAEAAZkBAAHM
+        AQABzAEAAZkBMwIAAcwCMwEAAcwBMwFmAQABzAEzAZkBAAHMATMBzAEAAcwBMwH/AQABzAFmAgABzAFm
+        ATMBAAGZAmYBAAHMAWYBmQEAAcwBZgHMAQABmQFmAf8BAAHMAZkCAAHMAZkBMwEAAcwBmQFmAQABzAKZ
+        AQABzAGZAcwBAAHMAZkB/wEAAswCAALMATMBAALMAWYBAALMAZkBAAPMAQACzAH/AQABzAH/AgABzAH/
+        ATMBAAGZAf8BZgEAAcwB/wGZAQABzAH/AcwBAAHMAv8BAAHMAQABMwEAAf8BAAFmAQAB/wEAAZkBAAHM
+        ATMCAAH/AjMBAAH/ATMBZgEAAf8BMwGZAQAB/wEzAcwBAAH/ATMB/wEAAf8BZgIAAf8BZgEzAQABzAJm
+        AQAB/wFmAZkBAAH/AWYBzAEAAcwBZgH/AQAB/wGZAgAB/wGZATMBAAH/AZkBZgEAAf8CmQEAAf8BmQHM
+        AQAB/wGZAf8BAAH/AcwCAAH/AcwBMwEAAf8BzAFmAQAB/wHMAZkBAAH/AswBAAH/AcwB/wEAAv8BMwEA
+        AcwB/wFmAQAC/wGZAQAC/wHMAQACZgH/AQABZgH/AWYBAAFmAv8BAAH/AmYBAAH/AWYB/wEAAv8BZgEA
+        ASEBAAGlAQADXwEAA3cBAAOGAQADlgEAA8sBAAOyAQAD1wEAA90BAAPjAQAD6gEAA/EBAAP4AQAB8AH7
+        Af8BAAGkAqABAAOAAwAB/wIAAf8DAAL/AQAB/wMAAf8BAAH/AQAC/wIAA///AEcAAUoBZgFsAmUBIzgA
+        AewB8QGtAtkB0wHNAacB7TYAAVIB8QG1AdkBDQEAAQ0BzQFCAbwB7zUAAUQBtQHbAdkBAAEOAV8BQgHH
+        AbwBkgEUNQABFAG0AdMBDQEMAQABQgEEAW0BQzcAAQwBBAJCAgQBEQEO/wB1AAFCAU0BPgcAAT4DAAEo
+        AwABQAMAARADAAEBAQABAQUAAYAXAAP/AQAC/wYAAv8GAAL/BgAC/wYAAv8GAAH4AR8GAAHgAQ8GAAHA
+        AQcGAAHAAQMGAAHgAYcGAAHwAQ8GAAL/BgAC/wYAAv8GAAL/BgAC/wYACw==
+</value>
+  </data>
+  <data name="lstSignals.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 50</value>
+  </data>
+  <data name="lstSignals.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lstSignals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 0</value>
+  </data>
+  <data name="lstSignals.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lstSignals.Name" xml:space="preserve">
+    <value>lstSignals</value>
+  </data>
+  <data name="&gt;&gt;lstSignals.Type" xml:space="preserve">
+    <value>ControlUtils.ObjectListView.ObjectListView, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lstSignals.Parent" xml:space="preserve">
+    <value>xPanelSignals</value>
+  </data>
+  <data name="&gt;&gt;lstSignals.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="toolStrip5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 25</value>
+  </metadata>
+  <data name="RangeSignalToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="RangeSignalToolStripMenuItem.Text" xml:space="preserve">
+    <value>Range signal</value>
+  </data>
+  <data name="singleFrequencySinalToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="singleFrequencySinalToolStripMenuItem.Text" xml:space="preserve">
+    <value>Single frequency signal</value>
+  </data>
+  <data name="toolBtnNewSignal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHdJREFUOE9jYKAU
+        8DL4/CcVo9gJ0vzw/38wZlj3HoxhfGw0SD1OA/BphMlhNYAiL1Aahgyk2o43DAgFIsi1PAweomQHIlQj
+        KBYQMUGMF9DCCdUAEgIRphGVJs4FxqxQZ2MaQkxKxOsFZAMIpUSyAxHmTRLCi3ilAKNEWzkvv+enAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnNewSignal.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnNewSignal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 22</value>
+  </data>
+  <data name="toolBtnNewSignal.Text" xml:space="preserve">
+    <value>New signal</value>
+  </data>
+  <data name="toolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolBtnLoadSignals.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIpJREFUOE9jZCAS
+        8DL4+KIr/cywZTMR2u1ZQJqf////Hx2DDQURhDBIIzabwOLYTEYXw+VMXAYT4S2IErgBUC/8B9LYMEbg
+        wWwAG0BAM8xArIaQYgC6y8AGUmIAOFYGoQH+vk3g1AaiccQIXByrF5ATEFkGkOUCkFOITAtw5/MweIeg
+        pESi0y4WhQAq8irX3qHvJwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnLoadSignals.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnLoadSignals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnLoadSignals.Text" xml:space="preserve">
+    <value>Open signals set</value>
+  </data>
+  <data name="toolBtnSaveSignals.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAJlJREFUOE9jYKAG
+        EGdw5eZm8J7Py+Dz/+LTt3gxSA1IrSCDCz/cbqDgeZAECD///x8DI8vB2EB6P7IBYM0kGvCffgYgewvJ
+        C9hdgKyAEBurFwhpIuiCuSsO/a9tXoEXwwzBcAFIo79vEzxGCLkGqwGENOH1AsgFA2WAdz7IZlJcAMwP
+        9+FhwM3gq4ecH4jwxnkeBh8bamRkBgC3sWmpNd2cVAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnSaveSignals.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnSaveSignals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnSaveSignals.Text" xml:space="preserve">
+    <value>Save signals set</value>
+  </data>
+  <data name="toolStripSeparator11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolBtnEditSignal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMFJREFUOE9jZCAB
+        MLPZ/UdS7vf316EtRGsHaUbHRGsGKQTbvv/z/+f//8MNAhvAy+DjC8T/cWF0zSBDULwC0kgIgDSAbIZp
+        xmoANheADEbWDHM+it+RXeBkUZwc7teUD/IWzFU4/Q4zBWYAugtgtsMCDsPv6AaANIBsRnYBLNqw+h2b
+        AeiBSVS844sFZANwJhpiDMCb4ggFIshbDAyhzES5ABSIYpxBAWlxfVXI4QGyhCgDcKVIQgbgzQvQ9OGL
+        ywUA6qR6ApekRBoAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnEditSignal.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnEditSignal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnEditSignal.Text" xml:space="preserve">
+    <value>Edit signal</value>
+  </data>
+  <data name="toolStripSeparator18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolBtnDeleteSignal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIJJREFUOE9jZMAC
+        eBi80xgZGGciS/1n+J/+hWHrLGzqGUAaQHjCzO3/Yfj5////kTGyHEw93DCQAC+Dz39SMEgPimtgphJL
+        Y3iFFNtBamljACzQQAEGsgXGB7FBYsh8rC4YNQARaEM0EEHxCotvXF6AiTMwhDJjzZUMDPVMhJI0ukYA
+        Dx+ccoDbRrkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnDeleteSignal.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnDeleteSignal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnDeleteSignal.Text" xml:space="preserve">
+    <value>Delete signal</value>
+  </data>
+  <data name="toolStripSeparator12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolBtnClearSignals.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAaFJREFUOE+FUz1L
+        A0EQ3VxQJChYKBhj7iOfaMQiCcFCAkpExFjYCBa2io0/QBT9CSm1F/wDol3UTkGwSpPgiRZqyB1aWQjJ
+        6ptzzz05zMHA7ex7b2dm3waY9LVisbzSDpSf271rIaWTkvc+Okp9NPh50gny02HTvJX3WD9b2jgcyh2b
+        +Rlu64l/AxhgwXFFkHhUU0RsRNN8b3Cal/rmeFRZpMA/chfhScIACw4JoGxbN2ri5AdVa0HdL1ZDxf1q
+        OHPlYI0auMzW4gfi5LuxcTrhJjLBB1jZN7I9824l4DJLjV2ChBJBArmbCLDAgMuaetzGAn2+cE5h5pxh
+        WqUFWkO4cnTu7gOLfXBdAQxLCAAsKoHIXwFguwqABLJoR67AV0BuAWAIoCIhgrZEhZ4W5CHKLQgB5OR2
+        sPYMUVwjTPJab9ApcgViiO5gi7NkNvICrlE2Umtnl0T8BJCzvsm/Vv8xEtxo68lNYWVreYVX17eda317
+        p8A/cna24FoZHM+DQuI6kun6mIBpaoktD1ksnoxkAQM6G5ni92raE8hhj/wvfV/FEvvz1S8PQQAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnClearSignals.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnClearSignals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnClearSignals.Text" xml:space="preserve">
+    <value>Delete all signals</value>
+  </data>
+  <data name="toolStripSeparator13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="unknownToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="unknownToolStripMenuItem.Text" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="greenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="greenToolStripMenuItem.Text" xml:space="preserve">
+    <value>Safe</value>
+  </data>
+  <data name="yellowToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="yellowToolStripMenuItem.Text" xml:space="preserve">
+    <value>Suspicious</value>
+  </data>
+  <data name="redToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="redToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dangerous</value>
+  </data>
+  <data name="toolBtnSignalFilter.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMFJREFUOE9jYKAU
+        8DL4/CcVo9gJ0vz8/38wZlj3HoxhfLAYIYBsALJGmGagvC/Uhf+gdB6GC3B5AaQQJLfj9I0Dtz59XwCi
+        QXxCjkK34N/drz/mP//7dyaIBhrwjwQX2LOAbNx69Mqxa28+Ldl+6vpBDBfgC0SQTXwM3jloYQCONbgr
+        8AUitlhADi+wIaSkAQYGD3agFkaYHnYG9/ckBSiyYpAhYANIcQFMLUkpET1x4Y0FdMXY+FgNINUbZAcc
+        No0ANllRZewae8gAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnSignalFilter.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnSignalFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 22</value>
+  </data>
+  <data name="toolBtnSignalFilter.Text" xml:space="preserve">
+    <value>Signals filter</value>
+  </data>
+  <data name="toolBtnSignalsReport.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAKBJREFUOE9jZMAC
+        eBl8fIHCm7DJIYn5fWbYshmrGqAB/5///48Xg9TANYNsBAkQwL7IhqIbALQPPwBpWLrpJBiDDMJqADYX
+        wIxF9xZOFzhZFCeH+zXlg7yF7CaiDCDkAoJeANkIsplsF+ALRqICkZABBKORUBgQNAAWBmKcQQFpcX1V
+        JMcCIS+guRCUXyAAJEEIoCQc9BxEbF4gkDvJkwYAOfn6ihrlqP4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnSignalsReport.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnSignalsReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnSignalsReport.Text" xml:space="preserve">
+    <value>Signals report</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolBtnCreateSignalTraces.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAH5JREFUOE/tklEO
+        gCAMQ0tMPJY3wMN6QHE1VsaCmvirhAVW8W0pJLhRgGIxey3uE7BY2OwMAlYg3wXPXBb4OmAYp2xRuHoT
+        oy4TpZ+G8md+5BoAey7dAeptiCaAupAuAPPjzA5sqjPRNaparxsVad6CaK8AMi508Gjo/5SrAxu5FOL9
+        1CTRVwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnCreateSignalTraces.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnCreateSignalTraces.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnCreateSignalTraces.Text" xml:space="preserve">
+    <value>Create trace on signal</value>
+  </data>
+  <data name="toolStrip5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="toolStrip5.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="toolStrip5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 25</value>
+  </data>
+  <data name="toolStrip5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="toolStrip5.Text" xml:space="preserve">
+    <value>toolStrip5</value>
+  </data>
+  <data name="&gt;&gt;toolStrip5.Name" xml:space="preserve">
+    <value>toolStrip5</value>
+  </data>
+  <data name="&gt;&gt;toolStrip5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip5.Parent" xml:space="preserve">
+    <value>xPanelSignals</value>
+  </data>
+  <data name="&gt;&gt;toolStrip5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="xPanelSignals.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="xPanelSignals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 25</value>
+  </data>
+  <data name="xPanelSignals.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="xPanelSignals.Text" xml:space="preserve">
+    <value>Signals</value>
+  </data>
+  <data name="&gt;&gt;xPanelSignals.Name" xml:space="preserve">
+    <value>xPanelSignals</value>
+  </data>
+  <data name="&gt;&gt;xPanelSignals.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.XPanderPanel, BSE.Windows.Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;xPanelSignals.Parent" xml:space="preserve">
+    <value>xPanderPanelList1</value>
+  </data>
+  <data name="&gt;&gt;xPanelSignals.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="splitContainer4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="splitContainer4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="splitContainer4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="splitContainer4.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="btnCreateReport.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAK1JREFUOE9j/P//
+        PwM64GP09QWKbcKQQBXw+/R/82YGkAHomJfB5/9zoCA+DFIDthxEADm+IAEC2BfZQHQDQKbhBSANSzed
+        BGOQQVgNwOYCmKno3sLpAmfLkuRwv+Z8kLeQnUSUAYRcQNALIBtBNpPtAnyhSFQgEjKAYDQSCgOCBsDC
+        QIwrOCAtrq+K5Fgg5AU0F4KiGZ6UCSVEeMpDzzck5QVsGQ9rbsSmEJcYANm0pfU/UYMWAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="btnCreateReport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCreateReport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 3</value>
+  </data>
+  <data name="btnCreateReport.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnCreateReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnCreateReport.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="btnCreateReport.ToolTip" xml:space="preserve">
+    <value>Signal report</value>
+  </data>
+  <data name="&gt;&gt;btnCreateReport.Name" xml:space="preserve">
+    <value>btnCreateReport</value>
+  </data>
+  <data name="&gt;&gt;btnCreateReport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCreateReport.Parent" xml:space="preserve">
+    <value>splitContainer4.Panel1</value>
+  </data>
+  <data name="&gt;&gt;btnCreateReport.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSpectrogram.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnSpectrogram.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAF5JREFUOE9j+P//
+        PwM2zMxm958hZNl/hnXv/+ee/wZUAlQIZIPEQHIwPVg1gyRHugEg/5MdBsRoxhkLpGoGxRY8GsnRjGEA
+        voSD7GzkhIfiAmJSHnqqHTUALRrJCUQAOE+fF25DkBIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnSpectrogram.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSpectrogram.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 3</value>
+  </data>
+  <data name="btnSpectrogram.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSpectrogram.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnSpectrogram.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnSpectrogram.ToolTip" xml:space="preserve">
+    <value>Signal spectrogram</value>
+  </data>
+  <data name="btnSpectrogram.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnSpectrogram.Name" xml:space="preserve">
+    <value>btnSpectrogram</value>
+  </data>
+  <data name="&gt;&gt;btnSpectrogram.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSpectrogram.Parent" xml:space="preserve">
+    <value>splitContainer4.Panel1</value>
+  </data>
+  <data name="&gt;&gt;btnSpectrogram.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnReplaySignalCycles.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnReplaySignalCycles.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIZJREFUOE9j/P//
+        PwMMvGBgQHAggn4SDAyb4QqwMUAGwPBzIIOXwQeMQWwo9kVWg86GawZJIBtArCF4DSDGEIIGEDKEKAPw
+        GUK0AbgMIckAJEOaYbFBrgG+wBgDRy9JBmBLG0QbgCthEWUAkma434kOA0JJmnZJmZDNOL2ApBGoBpzB
+        8OZGAId6i5+2D+auAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnReplaySignalCycles.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnReplaySignalCycles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 3</value>
+  </data>
+  <data name="btnReplaySignalCycles.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnReplaySignalCycles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnReplaySignalCycles.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnReplaySignalCycles.ToolTip" xml:space="preserve">
+    <value>Replay signal</value>
+  </data>
+  <data name="btnReplaySignalCycles.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnReplaySignalCycles.Name" xml:space="preserve">
+    <value>btnReplaySignalCycles</value>
+  </data>
+  <data name="&gt;&gt;btnReplaySignalCycles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReplaySignalCycles.Parent" xml:space="preserve">
+    <value>splitContainer4.Panel1</value>
+  </data>
+  <data name="&gt;&gt;btnReplaySignalCycles.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnSetSignalFreq.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAOJJREFUOE+dkj0O
+        wjAMhdulG5woRyALcy/QJRJT10rs5SYsXAAkroLYWVCFwPiFWDJRmlIqPTW1na/+K4mowLMsreHXmrXx
+        hs+zY+1vdDgr2/cRgEWxqlkU5C7P14nPTtlqxKWEyyYENgi4EnVa7GuC34wBegTEFyMIsuvHAHC6CYAv
+        JweoJgDVFMCl6heoNDTbA3Z2rOOdJYEAhClle6Cn4CFKmJJMoU1mkNqDYXhsoz3wOzIKCBBk4keqhO9W
+        22JIcrtSf4rAVmJ+BqhmSoYeMgsQQ/4FWFWOnZ2B1M4QgOwbMF5Wd93hOqwAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnSetSignalFreq.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSetSignalFreq.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 3</value>
+  </data>
+  <data name="btnSetSignalFreq.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSetSignalFreq.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnSetSignalFreq.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnSetSignalFreq.ToolTip" xml:space="preserve">
+    <value>Go to signal</value>
+  </data>
+  <data name="&gt;&gt;btnSetSignalFreq.Name" xml:space="preserve">
+    <value>btnSetSignalFreq</value>
+  </data>
+  <data name="&gt;&gt;btnSetSignalFreq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetSignalFreq.Parent" xml:space="preserve">
+    <value>splitContainer4.Panel1</value>
+  </data>
+  <data name="&gt;&gt;btnSetSignalFreq.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnSignalRevertChanges.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnSignalRevertChanges.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAM9JREFUOE9j/P//
+        PwMyYGG3TwHy/YFYD4jFoXIvgfQlIN745+fBOSgaQAaAMDObnSEQbwLiX0D8HwcGyYHUGML0IWs+hkcj
+        uoEgtWBDYAaATMVlKy7xTWADgBpTkJ0NFPy/5cyNh+gGgsRAckjiIO+kgAzYjKwYphDZEGxiUD2bQQbg
+        tK2ic/EhEMblKpBekAE/sPkfphGkGcTGEUY/qGIAxV6gOBApi0ZoMiY/ISHlA/KTMsWZCZazoAaBwgQU
+        sKDYAaUREAaxQWIpyGpBbAAOmag63RczVgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnSignalRevertChanges.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnSignalRevertChanges.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSignalRevertChanges.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 3</value>
+  </data>
+  <data name="btnSignalRevertChanges.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSignalRevertChanges.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnSignalRevertChanges.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnSignalRevertChanges.ToolTip" xml:space="preserve">
+    <value>Undo last changes</value>
+  </data>
+  <data name="btnSignalRevertChanges.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnSignalRevertChanges.Name" xml:space="preserve">
+    <value>btnSignalRevertChanges</value>
+  </data>
+  <data name="&gt;&gt;btnSignalRevertChanges.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSignalRevertChanges.Parent" xml:space="preserve">
+    <value>splitContainer4.Panel1</value>
+  </data>
+  <data name="&gt;&gt;btnSignalRevertChanges.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnNextSignalChart.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAKhJREFUOE9j/P//
+        PwNFAGQAL4PPfyj2BfFhGCgmgUsOpgasGKRo6aaTMEOckQzgQTIAJI9iAdj1MAOeAxlIhoAVorkAqytR
+        DMBhCEwjMg13CYYB6IaAnI3mDRSXYDWAFENwGoBsCDQ8sLqEdgYgxwi+cKB+IGJJC8RHIxbNTFiiECU1
+        YkvKsFTIAtQMwlgTEEZeQM5MQDYXUn7AmoRRDIDGMztyTiSWDQBl7QSEuSn/rgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnNextSignalChart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnNextSignalChart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 3</value>
+  </data>
+  <data name="btnNextSignalChart.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnNextSignalChart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnNextSignalChart.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnNextSignalChart.ToolTip" xml:space="preserve">
+    <value>Next signal</value>
+  </data>
+  <data name="&gt;&gt;btnNextSignalChart.Name" xml:space="preserve">
+    <value>btnNextSignalChart</value>
+  </data>
+  <data name="&gt;&gt;btnNextSignalChart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNextSignalChart.Parent" xml:space="preserve">
+    <value>splitContainer4.Panel1</value>
+  </data>
+  <data name="&gt;&gt;btnNextSignalChart.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnPrevSignalChart.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnPrevSignalChart.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAKxJREFUOE+lk1EK
+        gCAMhi2EIOq9+/Sax+wC3aKTdAzbxMHcZkUGkjj/b7/TdTFG1/QhQI7ZbQFGzGPhcR5LyV/ECJloD8xX
+        hO7HmeAKIDIXDiiG4guUClARpyxSrAA1cV5P9aDMKC4Af8QSQGfl/5Ctq8yWg2YAv/PChVU85YBXmT0e
+        AiH8uYjskZhOPl3jC6S3IOZLrBzHw2YvIVWAhDB3oxVTzWR1p9FwA63dLQIEhHa9hSQAAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="btnPrevSignalChart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPrevSignalChart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 3</value>
+  </data>
+  <data name="btnPrevSignalChart.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnPrevSignalChart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="btnPrevSignalChart.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnPrevSignalChart.ToolTip" xml:space="preserve">
+    <value>Previous signal</value>
+  </data>
+  <data name="&gt;&gt;btnPrevSignalChart.Name" xml:space="preserve">
+    <value>btnPrevSignalChart</value>
+  </data>
+  <data name="&gt;&gt;btnPrevSignalChart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPrevSignalChart.Parent" xml:space="preserve">
+    <value>splitContainer4.Panel1</value>
+  </data>
+  <data name="&gt;&gt;btnPrevSignalChart.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="splitContainer4.Panel1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="splitContainer4.Panel1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Panel1.Name" xml:space="preserve">
+    <value>splitContainer4.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer4</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainer4.Panel1MinSize" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="splitContainer4.Panel2.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="splitContainer4.Panel2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="splitContainer4.Panel2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Panel2.Name" xml:space="preserve">
+    <value>splitContainer4.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer4</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer4.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="splitContainer4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 395</value>
+  </data>
+  <data name="splitContainer4.SplitterDistance" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="splitContainer4.SplitterWidth" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="splitContainer4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Name" xml:space="preserve">
+    <value>splitContainer4</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.Parent" xml:space="preserve">
+    <value>xPanelSignalChart</value>
+  </data>
+  <data name="&gt;&gt;splitContainer4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xPanelSignalChart.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="xPanelSignalChart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 420</value>
+  </data>
+  <data name="xPanelSignalChart.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="xPanelSignalChart.Text" xml:space="preserve">
+    <value>Signal card</value>
+  </data>
+  <data name="&gt;&gt;xPanelSignalChart.Name" xml:space="preserve">
+    <value>xPanelSignalChart</value>
+  </data>
+  <data name="&gt;&gt;xPanelSignalChart.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.XPanderPanel, BSE.Windows.Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;xPanelSignalChart.Parent" xml:space="preserve">
+    <value>xPanderPanelList1</value>
+  </data>
+  <data name="&gt;&gt;xPanelSignalChart.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="olvReportType.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="olvReportType.Width" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="olvReportTime.Text" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="olvReportName.Text" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="lstReports.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lstReports.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAA7QodC10LPQvtC00L3RjwX8////KFN5c3RlbS5XaW5kb3dzLkZvcm1zLkhvcml6b250YWxBbGln
+        bm1lbnQBAAAAB3ZhbHVlX18ACAIAAAAAAAAACgYFAAAACGxzdFRvZGF5Cw==
+</value>
+  </data>
+  <data name="lstReports.Groups1" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAArQktGH0LXRgNCwBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJbHN0VmNoZXJhCw==
+</value>
+  </data>
+  <data name="lstReports.Groups2" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAA1MaXN0Vmlld0dyb3VwBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdu
+        bWVudAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHbHN0RGF0ZQs=
+</value>
+  </data>
+  <data name="lstReports.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 50</value>
+  </data>
+  <data name="lstReports.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lstReports.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 0</value>
+  </data>
+  <data name="lstReports.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lstReports.Name" xml:space="preserve">
+    <value>lstReports</value>
+  </data>
+  <data name="&gt;&gt;lstReports.Type" xml:space="preserve">
+    <value>ControlUtils.ObjectListView.ObjectListView, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lstReports.Parent" xml:space="preserve">
+    <value>xPanelReports</value>
+  </data>
+  <data name="&gt;&gt;lstReports.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="toolStripReports.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 25</value>
+  </metadata>
+  <data name="reportsAudioFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 22</value>
+  </data>
+  <data name="reportsAudioFilter.Text" xml:space="preserve">
+    <value>Manual audio records</value>
+  </data>
+  <data name="reportsSignalAudioFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 22</value>
+  </data>
+  <data name="reportsSignalAudioFilter.Text" xml:space="preserve">
+    <value>Auto audio records</value>
+  </data>
+  <data name="reportsPDFFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 22</value>
+  </data>
+  <data name="reportsPDFFilter.Text" xml:space="preserve">
+    <value>Signal reports</value>
+  </data>
+  <data name="toolStripDropDownButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMFJREFUOE9jYKAU
+        8DL4/CcVo9gJ0vz8/38wZlj3HoxhfLAYIYBsALJGmGagvC/Uhf+gdB6GC3B5AaQQJLfj9I0Dtz59XwCi
+        QXxCjkK34N/drz/mP//7dyaIBhrwjwQX2LOAbNx69Mqxa28+Ldl+6vpBDBfgC0SQTXwM3jloYQCONbgr
+        8AUitlhADi+wIaSkAQYGD3agFkaYHnYG9/ckBSiyYpAhYANIcQFMLUkpET1x4Y0FdMXY+FgNINUbZAcc
+        No0ANllRZewae8gAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripDropDownButton2.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripDropDownButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 22</value>
+  </data>
+  <data name="toolStripDropDownButton2.Text" xml:space="preserve">
+    <value>Reports filter</value>
+  </data>
+  <data name="toolStripSeparator15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolBtnExportReport.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAI1JREFUOE9jYKAU
+        8DL4+ALxfwLYF6c9II2EHIFXDUwSmwtgBhNlAEixk0VxcrhfUz7IW8iuIsoAqrgAZDM2F3AzeDtQFIhg
+        zXEK/8E4RhE1RoiJBRQD0A2BGwCzgRQa5BqKDABZRpEBKC7AEcy/f/++z8vgnQ8PRCxhgDcvAKNwPheD
+        lwHOWCCUD2guDwD/q5Pt9FY6egAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnExportReport.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="toolBtnExportReport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnExportReport.Text" xml:space="preserve">
+    <value>Export report</value>
+  </data>
+  <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolBtnDeleteReports.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIJJREFUOE9jZMAC
+        eBi80xgZGGciS/1n+J/+hWHrLGzqGUAaQHjCzO3/Yfj5////kTGyHEw93DCQAC+Dz39SMEgPimtgphJL
+        Y3iFFNtBamljACzQQAEGsgXGB7FBYsh8rC4YNQARaEM0EEHxCotvXF6AiTMwhDJjzZUMDPVMhJI0ukYA
+        Dx+ccoDbRrkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnDeleteReports.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolBtnDeleteReports.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolBtnDeleteReports.Text" xml:space="preserve">
+    <value>Delete reports</value>
+  </data>
+  <data name="toolStripReports.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="toolStripReports.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="toolStripReports.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 25</value>
+  </data>
+  <data name="toolStripReports.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="toolStripReports.Text" xml:space="preserve">
+    <value>toolStrip4</value>
+  </data>
+  <data name="&gt;&gt;toolStripReports.Name" xml:space="preserve">
+    <value>toolStripReports</value>
+  </data>
+  <data name="&gt;&gt;toolStripReports.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripReports.Parent" xml:space="preserve">
+    <value>xPanelReports</value>
+  </data>
+  <data name="&gt;&gt;toolStripReports.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="xPanelReports.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="xPanelReports.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 25</value>
+  </data>
+  <data name="xPanelReports.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="xPanelReports.Text" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="&gt;&gt;xPanelReports.Name" xml:space="preserve">
+    <value>xPanelReports</value>
+  </data>
+  <data name="&gt;&gt;xPanelReports.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.XPanderPanel, BSE.Windows.Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;xPanelReports.Parent" xml:space="preserve">
+    <value>xPanderPanelList1</value>
+  </data>
+  <data name="&gt;&gt;xPanelReports.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panel2.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctrlRadioConfig.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ctrlRadioConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ctrlRadioConfig.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ctrlRadioConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 0</value>
+  </data>
+  <data name="ctrlRadioConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ctrlRadioConfig.Name" xml:space="preserve">
+    <value>ctrlRadioConfig</value>
+  </data>
+  <data name="&gt;&gt;ctrlRadioConfig.Type" xml:space="preserve">
+    <value>KaorCore.RadioControlSystem.RadioConfigControlSimple, KaorCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctrlRadioConfig.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;ctrlRadioConfig.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="panel2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 0</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>xPanelConfig</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xPanelConfig.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="xPanelConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 25</value>
+  </data>
+  <data name="xPanelConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="xPanelConfig.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;xPanelConfig.Name" xml:space="preserve">
+    <value>xPanelConfig</value>
+  </data>
+  <data name="&gt;&gt;xPanelConfig.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.XPanderPanel, BSE.Windows.Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;xPanelConfig.Parent" xml:space="preserve">
+    <value>xPanderPanelList1</value>
+  </data>
+  <data name="&gt;&gt;xPanelConfig.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="xPanderPanelList1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="xPanderPanelList1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 40</value>
+  </data>
+  <data name="xPanderPanelList1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="xPanderPanelList1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="xPanderPanelList1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 551</value>
+  </data>
+  <data name="xPanderPanelList1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="xPanderPanelList1.Text" xml:space="preserve">
+    <value>xPanderPanelList1</value>
+  </data>
+  <data name="&gt;&gt;xPanderPanelList1.Name" xml:space="preserve">
+    <value>xPanderPanelList1</value>
+  </data>
+  <data name="&gt;&gt;xPanderPanelList1.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.XPanderPanelList, BSE.Windows.Forms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;xPanderPanelList1.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;xPanderPanelList1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnLoadRCSState.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIdJREFUOE9j/P//
+        PwMxgI/R1xdd3af/mzczgAzAh3kZfFiA2Pc5UBE6BokzgAhCGKQRmyUgcQZsJqOL4XIh2ABKMNwAqBf+
+        A2ls2BevCwhohhmI1RCwC4g0AN1lYAMpMQAcK4PQAH/fJnBqA9E4YgQujtULyAmILAPIcgGZURkC9wIl
+        SRmkFwApUAMqa5vvFQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnLoadRCSState.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLoadRCSState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="btnLoadRCSState.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnLoadRCSState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 29</value>
+  </data>
+  <data name="btnLoadRCSState.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnLoadRCSState.ToolTip" xml:space="preserve">
+    <value>Open system state...</value>
+  </data>
+  <data name="&gt;&gt;btnLoadRCSState.Name" xml:space="preserve">
+    <value>btnLoadRCSState</value>
+  </data>
+  <data name="&gt;&gt;btnLoadRCSState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLoadRCSState.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnLoadRCSState.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSaveRCSState.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAJhJREFUOE9j/P//
+        PwNFAGQAL4MPNxDPB+L/F5++xYtBaqBq+cGWQw04D5X4/xwogI6R5WBsIL0f2QCQqWBMggFA/QgX0NYA
+        ZFcheQG7C5AVEGJj9QIhTQRdMHfFof+1zSvwYpghGC4AafT3bYIHKCHXYDWAkCa8XgC5YMAMyAfZTKIL
+        7iOHgR7QAHh+IMIbILU2cANADHIxAEnI8DCzS1ieAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnSaveRCSState.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSaveRCSState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 6</value>
+  </data>
+  <data name="btnSaveRCSState.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSaveRCSState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 29</value>
+  </data>
+  <data name="btnSaveRCSState.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnSaveRCSState.ToolTip" xml:space="preserve">
+    <value>Save system state</value>
+  </data>
+  <data name="&gt;&gt;btnSaveRCSState.Name" xml:space="preserve">
+    <value>btnSaveRCSState</value>
+  </data>
+  <data name="&gt;&gt;btnSaveRCSState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSaveRCSState.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnSaveRCSState.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnQuit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnQuit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAALlJREFUOE9j/P//
+        PwM6YGG3xxREU/Tn50FGsBDIAHTMzGYHFAIDXygGqfEFioPwf6g8WB+xBvhOn7GhGaSxfsJK8gyAad5y
+        5gZhA6BeQvYC2OkgzQQNYIhT+A/EIL+D/Q3DpBoAMgRmENgQnAZAFcI0YKOpZwDMFXijEc1FZIcB+YGI
+        lCrJi0aQAUhJGZakwYmHqHQAMwCW5pFpkAEEkzI0w8AyDjIN1wxSA/MqSmbCoxmeC5E1gwwBAHRiTgoL
+        5v91AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnQuit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnQuit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 6</value>
+  </data>
+  <data name="btnQuit.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnQuit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 29</value>
+  </data>
+  <data name="btnQuit.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnQuit.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;btnQuit.Name" xml:space="preserve">
+    <value>btnQuit</value>
+  </data>
+  <data name="&gt;&gt;btnQuit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnQuit.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnQuit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkBtnMode.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="chkBtnMode.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkBtnMode.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="chkBtnMode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAHQAAAAdCAYAAAB7YUi1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAABuVJREFUaEPtmldz
+        1FYUxyXd9ZCQSZ7yGUgvNFMNJIAhGAIPmUnvBEwKmOKydANuYKpNaLbpPELymJdMHlLI8KFO/v8jXe1d
+        WVotazMERjtzbK2k1b1zfzr1Hl9EvOLzFK0AgUZQSbaQJ3QNYo5VQD+aJV4t+fgl8T59WbzPXxHvy1fF
+        +/o18Ta/Lt6WN8Xb9pZ4P84Wf8cc8XfNk6BzvgQ9CyTYu1DM/kViDi4Wc2iJmMOQ3lACHAc4p3Jgsfj7
+        FopfhnQ1i79nvng754m3fY4+V5/PcTgex+X4nAfnw3nVmvfsWbIRoMoNyHS/5B9gDq7kzckdn79Lu5/3
+        NAb0EyzcZ1jAL7CQXNRvEzA75oq/GzABJCgvqIAkxCNLxRxrEdMH6V9WkWPLJDjaIgGuK2CC3btIfLwM
+        fmdzOlSOy/E5D86H83pEQPMWPOt6vS9CErD9ngVy4rkXxIodOx/oLixkUnbj3J4F4nUuFK97kXjlxeLt
+        WyLegaXiHVoqfi/BQPqWSzC4QszQO2JOvCvmJOTUSjFnVkmJcpayOpRz4X9eM6chuC8YhuB3Pn7vD0D6
+        Voh3dLl4eL53qCUcj+NyfM6D8+G8OL/knC3khIa6i/I4jgmiHuDuy5I2zykCJUxIFxawBwu5Fwu6Hwt7
+        EDAPt4jvwjwOmMMOSEIkvBHIaGso59dUjkfwHdct2OBkAuoxAD0CwTgcT8fl+JwH58N57YY8IUAtnMFn
+        ZqoJ5X/KdhxbIXALLOulaxxoDe1UmEcizRyINBMwS9A21UgFSYCRXFgrJVd+BlgLF/eZSGOroUJLCfVh
+        tfR/qqF5VsFq8CMEirefZi1NO3vh/2ASg/4QZgnmsnQKcmalNBEmtZHQLkAuAual96R0uSLm0loxOG9w
+        jwFYkwZ1EKYXz1fTeximN01L1ewmtLQAGkW5k/yn9Z0wb2WYuch3+vBpVdoJU1uCzyydJkxop4VpQV4B
+        yCvrpDTmCL9fXicGoGOwhEoTDL+qmjoEnwp/qloKa1DtSzGfbppdSAFU491KHmrfaBdowtxuuTfEELnq
+        M/TPHdXO5pvtk67xRPnfCYAEzLE2af9rpOqe9j9HQ8AAa6GmPgQne36/FGlp5EvzgqNCQ1M01AJNmNtV
+        1zt03QNoTUDfGWnnmrudel59Js0szKtCfXBVzMR6MddC4cdc2yDmKr7z/LgDFb/T6+egqdRSRL6MemOg
+        9KWZZteJdgugaUBT/CdSh9XXd4ZAkaYYpCmlEzC3CITW3O0KgdJvwtQ20V+Ot0UA10tw/X0V/e0NHhMq
+        hFBVU0PTq0Bpes+sDs3uccfsusGRG+0m/WgBNAOom67sQ7pAoDccoBoMJYBG2qnmNAKqMG9uFB/Cj39r
+        I6BCYqhtoem9GGp166/d0nq3O4TP3BTBkYcXqNqP1khfCqA5QJ2AKAbaDw0lUKYqCIbW3os0FEBVOwl0
+        ItRQaiRh+rc2hUBvb4qhqvmNtJS+NPmpAEW0y8CIOWlcZMjIRwugNYAykmwIaJu8eOvDClBoJUEmgQYA
+        Wn5wTc2uBWpGkcYgL63W0AygGukmUpcC6KPRUAJp/3u0poa2/rY/9JspQINTCIxgcnv+uAyTW2jo1Gq5
+        zO0cH7rll5S05f4d9aHNt7dNMpU8oREuIlv60K33z6feY++jD836hEALHzp1oMkqEXyXW1Rwo1wW35tY
+        s01EuQZ+1ELV4IgRbo0oVytHRZSr9dzpreVm5KHxDksiD41Lfk4eWhoLUxc3DzWMbGvkoQa/T+ahcfmv
+        yEMVcmPF+azCfLTLoltmto5ri/KqpU4Nl9FuVClixKtgrYyvn1QpCrUTpT88x/pPpizxVprddSkqRQr1
+        4fdD1Y9yH7So5ebtlEzH9WK3hWXJYrclrMnzjx5QddOK8yzUF/uhmYHJdGhk8hnTr6Fp/TlxP5FtDntD
+        vK1o2vr+bfHRyKWNYewlYlMYG8J60UPE/qGB5VI6jlrvcLS1xr1SCqpKKjym70Xaw2iZ/UbB0bC/yEdz
+        mTaNsWGsAw1jP6FhDOPpuJsxvvYVYT55fUVTaBJrtKdouGmGWDk741mhXJn5vEreS5AHNDmnfB+aBtTt
+        +PsKi/gNGrW+w6K2oxvvB0DdMVcCNoh1R1APoNOPzWGAY/rQFEawQxFcAqaw/jsEiIMoH7KEiCYybRZD
+        F6DC7AFMt1EM4+h4HJfjcx71dP49BqD1vghZvUJuC0pWp5/Tl7QhtrRVJrfO5qV6Gpye5nuyOvUaOV+r
+        a9BeS+sExPpuoFh+k4AmLxTf49hCFy4hdXXtNQLYhZcCMhWiyyoOigqAIcBGJQU6F78m+Hp6cqNn5IIs
+        NHQK8BqB3gjwNJOaN/Z/U9TusjasCZwAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="chkBtnMode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkBtnMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 6</value>
+  </data>
+  <data name="chkBtnMode.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkBtnMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 29</value>
+  </data>
+  <data name="chkBtnMode.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkBtnMode.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkBtnMode.ToolTip" xml:space="preserve">
+    <value>Scan and control mode</value>
+  </data>
+  <data name="&gt;&gt;chkBtnMode.Name" xml:space="preserve">
+    <value>chkBtnMode</value>
+  </data>
+  <data name="&gt;&gt;chkBtnMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkBtnMode.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;chkBtnMode.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnAbout.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAOpJREFUOE9j/P//
+        PwMIsLDb+wKpTWAOFDi29SJzwezdxSaMKIIgA5jZ7HyB+P/Zs2eBXAgA8V16TqOIgfgg9ciYJM24DADb
+        hoxBCnFhbC74f+zJfziGOf3Zs2f/kTHMQKwGINsGMwBkaO2EbRguI8kFUG/VgwwDsuuh/AT0QMTqBWTN
+        MC/CDCHagOtvEGGDZAhKVIKiEacLKiqnLwMZAjMIpwuwBSJQcQLIcJghIBopqn1h3sDpAlAUwgxBTydQ
+        PtgQsAG4ohE5fYDYIHVohvnidQG2xATLNzCDwAaQmpSRDHmIkrPQUxkxfADWwmAU4j7BiwAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="btnAbout.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 6</value>
+  </data>
+  <data name="btnAbout.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 29</value>
+  </data>
+  <data name="btnAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnAbout.ToolTip" xml:space="preserve">
+    <value>About...</value>
+  </data>
+  <data name="&gt;&gt;btnAbout.Name" xml:space="preserve">
+    <value>btnAbout</value>
+  </data>
+  <data name="&gt;&gt;btnAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAbout.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnAbout.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="panel1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 40</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer1.Panel2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="splitContainer1.Panel2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>895, 591</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>600</value>
+  </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="bgwRedraw.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>655, 17</value>
+  </metadata>
+  <metadata name="bgwDrawCycles.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 54</value>
+  </metadata>
+  <metadata name="bgwWaterfall.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>351, 54</value>
+  </metadata>
+  <data name="lblFreq.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFreq.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFreq.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="lblFreq.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFreq.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="lblFreq.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblFreq.Text" xml:space="preserve">
+    <value>Freq:</value>
+  </data>
+  <data name="&gt;&gt;lblFreq.Name" xml:space="preserve">
+    <value>lblFreq</value>
+  </data>
+  <data name="&gt;&gt;lblFreq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFreq.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFreq.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>895, 591</value>
+  </data>
+  <data name="&gt;&gt;toolBtnSpanCenter.Name" xml:space="preserve">
+    <value>toolBtnSpanCenter</value>
+  </data>
+  <data name="&gt;&gt;toolBtnSpanCenter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnSpanBegin.Name" xml:space="preserve">
+    <value>toolBtnSpanBegin</value>
+  </data>
+  <data name="&gt;&gt;toolBtnSpanBegin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnSpanEnd.Name" xml:space="preserve">
+    <value>toolBtnSpanEnd</value>
+  </data>
+  <data name="&gt;&gt;toolBtnSpanEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnSpan.Name" xml:space="preserve">
+    <value>toolBtnSpan</value>
+  </data>
+  <data name="&gt;&gt;toolBtnSpan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator14.Name" xml:space="preserve">
+    <value>toolStripSeparator14</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnMove.Name" xml:space="preserve">
+    <value>toolBtnMove</value>
+  </data>
+  <data name="&gt;&gt;toolBtnMove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator17.Name" xml:space="preserve">
+    <value>toolStripSeparator17</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnZoom.Name" xml:space="preserve">
+    <value>toolBtnZoom</value>
+  </data>
+  <data name="&gt;&gt;toolBtnZoom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnUnZoom.Name" xml:space="preserve">
+    <value>toolBtnUnZoom</value>
+  </data>
+  <data name="&gt;&gt;toolBtnUnZoom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnUnZoomAll.Name" xml:space="preserve">
+    <value>toolBtnUnZoomAll</value>
+  </data>
+  <data name="&gt;&gt;toolBtnUnZoomAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator20.Name" xml:space="preserve">
+    <value>toolStripSeparator20</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnPrint.Name" xml:space="preserve">
+    <value>toolBtnPrint</value>
+  </data>
+  <data name="&gt;&gt;toolBtnPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnPageSetup.Name" xml:space="preserve">
+    <value>toolBtnPageSetup</value>
+  </data>
+  <data name="&gt;&gt;toolBtnPageSetup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnCopyClipboard.Name" xml:space="preserve">
+    <value>toolBtnCopyClipboard</value>
+  </data>
+  <data name="&gt;&gt;toolBtnCopyClipboard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnWaterfallZeroSpan.Name" xml:space="preserve">
+    <value>toolBtnWaterfallZeroSpan</value>
+  </data>
+  <data name="&gt;&gt;toolBtnWaterfallZeroSpan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnWaterfallWaterfall.Name" xml:space="preserve">
+    <value>toolBtnWaterfallWaterfall</value>
+  </data>
+  <data name="&gt;&gt;toolBtnWaterfallWaterfall.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator23.Name" xml:space="preserve">
+    <value>toolStripSeparator23</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnWaterfallPan.Name" xml:space="preserve">
+    <value>toolBtnWaterfallPan</value>
+  </data>
+  <data name="&gt;&gt;toolBtnWaterfallPan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator21.Name" xml:space="preserve">
+    <value>toolStripSeparator21</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnWaterfallZoom.Name" xml:space="preserve">
+    <value>toolBtnWaterfallZoom</value>
+  </data>
+  <data name="&gt;&gt;toolBtnWaterfallZoom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnWaterfallUnZoom.Name" xml:space="preserve">
+    <value>toolBtnWaterfallUnZoom</value>
+  </data>
+  <data name="&gt;&gt;toolBtnWaterfallUnZoom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnWaterfallUnzoomAll.Name" xml:space="preserve">
+    <value>toolBtnWaterfallUnzoomAll</value>
+  </data>
+  <data name="&gt;&gt;toolBtnWaterfallUnzoomAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator22.Name" xml:space="preserve">
+    <value>toolStripSeparator22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnWaterfallPrint.Name" xml:space="preserve">
+    <value>toolBtnWaterfallPrint</value>
+  </data>
+  <data name="&gt;&gt;toolBtnWaterfallPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnWaterfallPageSetup.Name" xml:space="preserve">
+    <value>toolBtnWaterfallPageSetup</value>
+  </data>
+  <data name="&gt;&gt;toolBtnWaterfallPageSetup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnWaterfallCopy.Name" xml:space="preserve">
+    <value>toolBtnWaterfallCopy</value>
+  </data>
+  <data name="&gt;&gt;toolBtnWaterfallCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clmVisible.Name" xml:space="preserve">
+    <value>clmVisible</value>
+  </data>
+  <data name="&gt;&gt;clmVisible.Type" xml:space="preserve">
+    <value>ControlUtils.ObjectListView.OLVColumn, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;clmControl.Name" xml:space="preserve">
+    <value>clmControl</value>
+  </data>
+  <data name="&gt;&gt;clmControl.Type" xml:space="preserve">
+    <value>ControlUtils.ObjectListView.OLVColumn, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;clmName.Name" xml:space="preserve">
+    <value>clmName</value>
+  </data>
+  <data name="&gt;&gt;clmName.Type" xml:space="preserve">
+    <value>ControlUtils.ObjectListView.OLVColumn, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
+    <value>imageList1</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnNewTrace.Name" xml:space="preserve">
+    <value>toolBtnNewTrace</value>
+  </data>
+  <data name="&gt;&gt;toolBtnNewTrace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnOpenTrace.Name" xml:space="preserve">
+    <value>toolBtnOpenTrace</value>
+  </data>
+  <data name="&gt;&gt;toolBtnOpenTrace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnSaveTrace.Name" xml:space="preserve">
+    <value>toolBtnSaveTrace</value>
+  </data>
+  <data name="&gt;&gt;toolBtnSaveTrace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnEditTrace.Name" xml:space="preserve">
+    <value>toolBtnEditTrace</value>
+  </data>
+  <data name="&gt;&gt;toolBtnEditTrace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnTraceGo.Name" xml:space="preserve">
+    <value>toolBtnTraceGo</value>
+  </data>
+  <data name="&gt;&gt;toolBtnTraceGo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator16.Name" xml:space="preserve">
+    <value>toolStripSeparator16</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnDeleteTrace.Name" xml:space="preserve">
+    <value>toolBtnDeleteTrace</value>
+  </data>
+  <data name="&gt;&gt;toolBtnDeleteTrace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnScanParams.Name" xml:space="preserve">
+    <value>toolBtnScanParams</value>
+  </data>
+  <data name="&gt;&gt;toolBtnScanParams.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnArmScanTrace.Name" xml:space="preserve">
+    <value>toolBtnArmScanTrace</value>
+  </data>
+  <data name="&gt;&gt;toolBtnArmScanTrace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator8.Name" xml:space="preserve">
+    <value>toolStripSeparator8</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnTraceMarkers.Name" xml:space="preserve">
+    <value>toolBtnTraceMarkers</value>
+  </data>
+  <data name="&gt;&gt;toolBtnTraceMarkers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnReplayTrace.Name" xml:space="preserve">
+    <value>toolBtnReplayTrace</value>
+  </data>
+  <data name="&gt;&gt;toolBtnReplayTrace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;olvMarkerVisible.Name" xml:space="preserve">
+    <value>olvMarkerVisible</value>
+  </data>
+  <data name="&gt;&gt;olvMarkerVisible.Type" xml:space="preserve">
+    <value>ControlUtils.ObjectListView.OLVColumn, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;olvMarkerFreq.Name" xml:space="preserve">
+    <value>olvMarkerFreq</value>
+  </data>
+  <data name="&gt;&gt;olvMarkerFreq.Type" xml:space="preserve">
+    <value>ControlUtils.ObjectListView.OLVColumn, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;olvMarkerName.Name" xml:space="preserve">
+    <value>olvMarkerName</value>
+  </data>
+  <data name="&gt;&gt;olvMarkerName.Type" xml:space="preserve">
+    <value>ControlUtils.ObjectListView.OLVColumn, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toolBtnNewMarker.Name" xml:space="preserve">
+    <value>toolBtnNewMarker</value>
+  </data>
+  <data name="&gt;&gt;toolBtnNewMarker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
+    <value>toolStripSeparator5</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnLoadMarkers.Name" xml:space="preserve">
+    <value>toolBtnLoadMarkers</value>
+  </data>
+  <data name="&gt;&gt;toolBtnLoadMarkers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnSaveMarkers.Name" xml:space="preserve">
+    <value>toolBtnSaveMarkers</value>
+  </data>
+  <data name="&gt;&gt;toolBtnSaveMarkers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Name" xml:space="preserve">
+    <value>toolStripSeparator7</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnEditMarker.Name" xml:space="preserve">
+    <value>toolBtnEditMarker</value>
+  </data>
+  <data name="&gt;&gt;toolBtnEditMarker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnMarkerGo.Name" xml:space="preserve">
+    <value>toolBtnMarkerGo</value>
+  </data>
+  <data name="&gt;&gt;toolBtnMarkerGo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator19.Name" xml:space="preserve">
+    <value>toolStripSeparator19</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnDeleteMarker.Name" xml:space="preserve">
+    <value>toolBtnDeleteMarker</value>
+  </data>
+  <data name="&gt;&gt;toolBtnDeleteMarker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Name" xml:space="preserve">
+    <value>toolStripSeparator6</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnClearMarkers.Name" xml:space="preserve">
+    <value>toolBtnClearMarkers</value>
+  </data>
+  <data name="&gt;&gt;toolBtnClearMarkers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;olvSignalVisible.Name" xml:space="preserve">
+    <value>olvSignalVisible</value>
+  </data>
+  <data name="&gt;&gt;olvSignalVisible.Type" xml:space="preserve">
+    <value>ControlUtils.ObjectListView.OLVColumn, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;olvSignalFStart.Name" xml:space="preserve">
+    <value>olvSignalFStart</value>
+  </data>
+  <data name="&gt;&gt;olvSignalFStart.Type" xml:space="preserve">
+    <value>ControlUtils.ObjectListView.OLVColumn, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;olvSignalFStop.Name" xml:space="preserve">
+    <value>olvSignalFStop</value>
+  </data>
+  <data name="&gt;&gt;olvSignalFStop.Type" xml:space="preserve">
+    <value>ControlUtils.ObjectListView.OLVColumn, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;olvSignalTitle.Name" xml:space="preserve">
+    <value>olvSignalTitle</value>
+  </data>
+  <data name="&gt;&gt;olvSignalTitle.Type" xml:space="preserve">
+    <value>ControlUtils.ObjectListView.OLVColumn, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;olvHits.Name" xml:space="preserve">
+    <value>olvHits</value>
+  </data>
+  <data name="&gt;&gt;olvHits.Type" xml:space="preserve">
+    <value>ControlUtils.ObjectListView.OLVColumn, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;imageList2.Name" xml:space="preserve">
+    <value>imageList2</value>
+  </data>
+  <data name="&gt;&gt;imageList2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnNewSignal.Name" xml:space="preserve">
+    <value>toolBtnNewSignal</value>
+  </data>
+  <data name="&gt;&gt;toolBtnNewSignal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RangeSignalToolStripMenuItem.Name" xml:space="preserve">
+    <value>RangeSignalToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;RangeSignalToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;singleFrequencySinalToolStripMenuItem.Name" xml:space="preserve">
+    <value>singleFrequencySinalToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;singleFrequencySinalToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator10.Name" xml:space="preserve">
+    <value>toolStripSeparator10</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnLoadSignals.Name" xml:space="preserve">
+    <value>toolBtnLoadSignals</value>
+  </data>
+  <data name="&gt;&gt;toolBtnLoadSignals.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnSaveSignals.Name" xml:space="preserve">
+    <value>toolBtnSaveSignals</value>
+  </data>
+  <data name="&gt;&gt;toolBtnSaveSignals.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator11.Name" xml:space="preserve">
+    <value>toolStripSeparator11</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnEditSignal.Name" xml:space="preserve">
+    <value>toolBtnEditSignal</value>
+  </data>
+  <data name="&gt;&gt;toolBtnEditSignal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator18.Name" xml:space="preserve">
+    <value>toolStripSeparator18</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnDeleteSignal.Name" xml:space="preserve">
+    <value>toolBtnDeleteSignal</value>
+  </data>
+  <data name="&gt;&gt;toolBtnDeleteSignal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator12.Name" xml:space="preserve">
+    <value>toolStripSeparator12</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnClearSignals.Name" xml:space="preserve">
+    <value>toolBtnClearSignals</value>
+  </data>
+  <data name="&gt;&gt;toolBtnClearSignals.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator13.Name" xml:space="preserve">
+    <value>toolStripSeparator13</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnSignalFilter.Name" xml:space="preserve">
+    <value>toolBtnSignalFilter</value>
+  </data>
+  <data name="&gt;&gt;toolBtnSignalFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;unknownToolStripMenuItem.Name" xml:space="preserve">
+    <value>unknownToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;unknownToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;greenToolStripMenuItem.Name" xml:space="preserve">
+    <value>greenToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;greenToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;yellowToolStripMenuItem.Name" xml:space="preserve">
+    <value>yellowToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;yellowToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;redToolStripMenuItem.Name" xml:space="preserve">
+    <value>redToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;redToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnSignalsReport.Name" xml:space="preserve">
+    <value>toolBtnSignalsReport</value>
+  </data>
+  <data name="&gt;&gt;toolBtnSignalsReport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Name" xml:space="preserve">
+    <value>toolStripSeparator4</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnCreateSignalTraces.Name" xml:space="preserve">
+    <value>toolBtnCreateSignalTraces</value>
+  </data>
+  <data name="&gt;&gt;toolBtnCreateSignalTraces.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;olvReportType.Name" xml:space="preserve">
+    <value>olvReportType</value>
+  </data>
+  <data name="&gt;&gt;olvReportType.Type" xml:space="preserve">
+    <value>ControlUtils.ObjectListView.OLVColumn, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;olvReportTime.Name" xml:space="preserve">
+    <value>olvReportTime</value>
+  </data>
+  <data name="&gt;&gt;olvReportTime.Type" xml:space="preserve">
+    <value>ControlUtils.ObjectListView.OLVColumn, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;olvReportName.Name" xml:space="preserve">
+    <value>olvReportName</value>
+  </data>
+  <data name="&gt;&gt;olvReportName.Type" xml:space="preserve">
+    <value>ControlUtils.ObjectListView.OLVColumn, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toolStripDropDownButton2.Name" xml:space="preserve">
+    <value>toolStripDropDownButton2</value>
+  </data>
+  <data name="&gt;&gt;toolStripDropDownButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reportsAudioFilter.Name" xml:space="preserve">
+    <value>reportsAudioFilter</value>
+  </data>
+  <data name="&gt;&gt;reportsAudioFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reportsSignalAudioFilter.Name" xml:space="preserve">
+    <value>reportsSignalAudioFilter</value>
+  </data>
+  <data name="&gt;&gt;reportsSignalAudioFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reportsPDFFilter.Name" xml:space="preserve">
+    <value>reportsPDFFilter</value>
+  </data>
+  <data name="&gt;&gt;reportsPDFFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator15.Name" xml:space="preserve">
+    <value>toolStripSeparator15</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnExportReport.Name" xml:space="preserve">
+    <value>toolBtnExportReport</value>
+  </data>
+  <data name="&gt;&gt;toolBtnExportReport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator9.Name" xml:space="preserve">
+    <value>toolStripSeparator9</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBtnDeleteReports.Name" xml:space="preserve">
+    <value>toolBtnDeleteReports</value>
+  </data>
+  <data name="&gt;&gt;toolBtnDeleteReports.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bgwRedraw.Name" xml:space="preserve">
+    <value>bgwRedraw</value>
+  </data>
+  <data name="&gt;&gt;bgwRedraw.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bgwDrawCycles.Name" xml:space="preserve">
+    <value>bgwDrawCycles</value>
+  </data>
+  <data name="&gt;&gt;bgwDrawCycles.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bgwWaterfall.Name" xml:space="preserve">
+    <value>bgwWaterfall</value>
+  </data>
+  <data name="&gt;&gt;bgwWaterfall.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;helpProvider1.Name" xml:space="preserve">
+    <value>helpProvider1</value>
+  </data>
+  <data name="&gt;&gt;helpProvider1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.HelpProvider, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>BaseRCSView</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

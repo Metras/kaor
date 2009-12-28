@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="add_marker" xml:space="preserve">
+    <value>Добавить маркер, {0}</value>
+  </data>
+  <data name="add_marker_max" xml:space="preserve">
+    <value>Маркер на максимум сигнала...</value>
+  </data>
+  <data name="add_marker_max_format" xml:space="preserve">
+    <value>Маркер на максимум трассы "{0}"...</value>
+  </data>
+  <data name="center_frequency" xml:space="preserve">
+    <value>Центральная частота</value>
+  </data>
+  <data name="comm_conn_err" xml:space="preserve">
+    <value>Ошибка подключения к коммутатору!</value>
+  </data>
+  <data name="comm_conn_ok" xml:space="preserve">
+    <value>Успешное подключение к коммутатору!</value>
+  </data>
+  <data name="confirmation" xml:space="preserve">
+    <value>Подтверждение</value>
+  </data>
+  <data name="confirm_clear_signals" xml:space="preserve">
+    <value>Очистить сигналы?</value>
+  </data>
+  <data name="confirm_create_traces" xml:space="preserve">
+    <value>Создать трассы по выбранным сигналам?</value>
+  </data>
+  <data name="confirm_delete_all_markers" xml:space="preserve">
+    <value>Удалить все маркеры?</value>
+  </data>
+  <data name="confirm_delete_cur_markers" xml:space="preserve">
+    <value>Удалить имеющиеся маркеры?</value>
+  </data>
+  <data name="confirm_delete_cur_signals" xml:space="preserve">
+    <value>Удалить имеющиеся сигналы?</value>
+  </data>
+  <data name="confirm_delete_cur_trace" xml:space="preserve">
+    <value>Трасса "{0}" ({1}) уже загружена.
+Удалить существующую трассу?</value>
+  </data>
+  <data name="confirm_delete_marked_signals" xml:space="preserve">
+    <value>Действительно удалить выделенные сигналы?</value>
+  </data>
+  <data name="confirm_delete_reports" xml:space="preserve">
+    <value>Действительно удалить выделенные отчеты?</value>
+  </data>
+  <data name="confirm_delete_selected_markers" xml:space="preserve">
+    <value>Удалить выделенные маркеры?</value>
+  </data>
+  <data name="confirm_delete_trace" xml:space="preserve">
+    <value>Действительно удалить трассу "{0}" ({1}-{2}/{3})?</value>
+  </data>
+  <data name="confirm_ks_load" xml:space="preserve">
+    <value>Существующие трассы, маркеры и сигналы будут удалены.
+Продолжить загрузку?</value>
+  </data>
+  <data name="confirm_save_system_settings" xml:space="preserve">
+    <value>Сохранить конфигурацию системы?</value>
+  </data>
+  <data name="confirm_trace_change_params" xml:space="preserve">
+    <value>Трасса содержит точки измерения, которые будут удалены.
+Продолжить изменение параметров?</value>
+  </data>
+  <data name="cursor_name" xml:space="preserve">
+    <value>Курсор</value>
+  </data>
+  <data name="db" xml:space="preserve">
+    <value>дБ</value>
+  </data>
+  <data name="dbm" xml:space="preserve">
+    <value>дБм</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="err_delete_rpu" xml:space="preserve">
+    <value>РПУ сейчас используется и не может быть удалено из системы!</value>
+  </data>
+  <data name="err_ks_not_found" xml:space="preserve">
+    <value>Файл состояния "{0}" не найден!</value>
+  </data>
+  <data name="err_loading_scan_params" xml:space="preserve">
+    <value>Не удалось восстановить параметры сканирования трассы.
+Параметры сканирования сброшены.</value>
+  </data>
+  <data name="err_loading_state" xml:space="preserve">
+    <value>Ошибка загрузки состояния системы радиоконтроля</value>
+  </data>
+  <data name="err_loading_trace" xml:space="preserve">
+    <value>Ошибка загрузки трассы "{0}"</value>
+  </data>
+  <data name="err_points_limit" xml:space="preserve">
+    <value>Количество точек трассы не может превышать 2000000000!</value>
+  </data>
+  <data name="err_save_report" xml:space="preserve">
+    <value>Ошибка сохранения отчета в "{0}"</value>
+  </data>
+  <data name="err_saving_settings" xml:space="preserve">
+    <value>Ошибка сохранения настроек КАОР в файл "{0}"</value>
+  </data>
+  <data name="err_turning_on_rpu" xml:space="preserve">
+    <value>Ошибка включения РПУ {0}!</value>
+  </data>
+  <data name="export_report" xml:space="preserve">
+    <value>Экспорт отчета...</value>
+  </data>
+  <data name="frequency" xml:space="preserve">
+    <value>Частота</value>
+  </data>
+  <data name="ghz" xml:space="preserve">
+    <value>ГГц</value>
+  </data>
+  <data name="hz" xml:space="preserve">
+    <value>Гц</value>
+  </data>
+  <data name="information" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="inf_report_saved" xml:space="preserve">
+    <value>Отчет сохранен в "{0}"</value>
+  </data>
+  <data name="inf_settings_saved" xml:space="preserve">
+    <value>Настройки системы сохранены в файл "{0}"
+Предыдущая копия настроек системы сохранена в файл "{1}"</value>
+  </data>
+  <data name="khz" xml:space="preserve">
+    <value>кГц</value>
+  </data>
+  <data name="kma_filter" xml:space="preserve">
+    <value>Маркеры (*.kma) | *.kma</value>
+  </data>
+  <data name="ksi_filter" xml:space="preserve">
+    <value>Сигналы (*.ksi) | *.ksi</value>
+  </data>
+  <data name="ks_filter" xml:space="preserve">
+    <value>Состояние КАОР (*.ks) | *.ks</value>
+  </data>
+  <data name="ktr_filter" xml:space="preserve">
+    <value>Трасса КАОР (*.ktr) | *.ktr</value>
+  </data>
+  <data name="load_markers" xml:space="preserve">
+    <value>Загрузка маркеров...</value>
+  </data>
+  <data name="load_signals" xml:space="preserve">
+    <value>Загрузка сигналов...</value>
+  </data>
+  <data name="marker" xml:space="preserve">
+    <value>Маркер</value>
+  </data>
+  <data name="measures_count" xml:space="preserve">
+    <value>Число измерений</value>
+  </data>
+  <data name="mhz" xml:space="preserve">
+    <value>МГц</value>
+  </data>
+  <data name="new_trace" xml:space="preserve">
+    <value>Новая трасса</value>
+  </data>
+  <data name="no_rpu" xml:space="preserve">
+    <value>Нет РПУ</value>
+  </data>
+  <data name="no_scan_params" xml:space="preserve">
+    <value>Не заданы параметры сканирования для трассы "{0}"
+Перейти к заданию параметров сканирования?</value>
+  </data>
+  <data name="no_scan_traces" xml:space="preserve">
+    <value>Не выбраны трассы сканирования или контроля!</value>
+  </data>
+  <data name="no_selected_signals" xml:space="preserve">
+    <value>Не выбрано ни одного сигнала</value>
+  </data>
+  <data name="open_trace" xml:space="preserve">
+    <value>Загрузка трассы...</value>
+  </data>
+  <data name="pdf_filter" xml:space="preserve">
+    <value>Отчет КАОР (*.pdf) | *.pdf</value>
+  </data>
+  <data name="power" xml:space="preserve">
+    <value>Мощность, дБмВт</value>
+  </data>
+  <data name="power_allocation" xml:space="preserve">
+    <value>Распределение уровней мощности</value>
+  </data>
+  <data name="question" xml:space="preserve">
+    <value>Вопрос</value>
+  </data>
+  <data name="range_signal" xml:space="preserve">
+    <value>Полосовой сигнал</value>
+  </data>
+  <data name="rcs_descr" xml:space="preserve">
+    <value>Система радиоконтроля</value>
+  </data>
+  <data name="rcs_name" xml:space="preserve">
+    <value>Система радиоконтроля</value>
+  </data>
+  <data name="rpu_cant_create_trace" xml:space="preserve">
+    <value>Невозможно создать трассу!</value>
+  </data>
+  <data name="rpu_cant_scan" xml:space="preserve">
+    <value>РПУ не может использоваться для сканирования!</value>
+  </data>
+  <data name="save_markers" xml:space="preserve">
+    <value>Сохранение маркеров...</value>
+  </data>
+  <data name="save_signals" xml:space="preserve">
+    <value>Сохранение сигналов...</value>
+  </data>
+  <data name="save_trace" xml:space="preserve">
+    <value>Сохранение трассы...</value>
+  </data>
+  <data name="signals_list" xml:space="preserve">
+    <value>Список сигналов</value>
+  </data>
+  <data name="signal_appear" xml:space="preserve">
+    <value>Обнаружено появление сигнала!</value>
+  </data>
+  <data name="signal_disappear" xml:space="preserve">
+    <value>Обнаружено пропадание сигнала!</value>
+  </data>
+  <data name="span" xml:space="preserve">
+    <value>Спан</value>
+  </data>
+  <data name="start_frequency" xml:space="preserve">
+    <value>Начальная частота</value>
+  </data>
+  <data name="status_initializing_base" xml:space="preserve">
+    <value>Инициализация базовой системы...</value>
+  </data>
+  <data name="status_loading_antennas" xml:space="preserve">
+    <value>Загрузка конфигурации антенн...</value>
+  </data>
+  <data name="status_loading_configuration" xml:space="preserve">
+    <value>Загрузка конфигурации системы...</value>
+  </data>
+  <data name="status_loading_rpu" xml:space="preserve">
+    <value>Загрузка конфигурации РПУ...</value>
+  </data>
+  <data name="status_loading_rpu_params" xml:space="preserve">
+    <value>Загрузка параметров РПУ {0}...</value>
+  </data>
+  <data name="status_save_ok" xml:space="preserve">
+    <value>Сохранение ОК!</value>
+  </data>
+  <data name="status_saving" xml:space="preserve">
+    <value>Сохранение {0}</value>
+  </data>
+  <data name="status_turning_on" xml:space="preserve">
+    <value>Включение системы...</value>
+  </data>
+  <data name="status_turning_on_rpu" xml:space="preserve">
+    <value>Включение РПУ {0}</value>
+  </data>
+  <data name="stop_frequency" xml:space="preserve">
+    <value>Конечная частота</value>
+  </data>
+  <data name="str_antenna_descr" xml:space="preserve">
+    <value>Описание антенны</value>
+  </data>
+  <data name="str_new_antenna" xml:space="preserve">
+    <value>Новая антенна</value>
+  </data>
+  <data name="today" xml:space="preserve">
+    <value>Сегодня</value>
+  </data>
+  <data name="trace_no_max" xml:space="preserve">
+    <value>Трасса "{0}" не содержит максимума на видимом диапазоне</value>
+  </data>
+  <data name="trace_scan_reset" xml:space="preserve">
+    <value>Запустить процесс сканирования с начала?</value>
+  </data>
+  <data name="unk_filter" xml:space="preserve">
+    <value>Неизвестный отчет (*.*) | *.*</value>
+  </data>
+  <data name="warning" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+  <data name="wav_filter" xml:space="preserve">
+    <value>Аудио-запись КАОР (*.wav) | *.wav</value>
+  </data>
+  <data name="wrong_frequency_format" xml:space="preserve">
+    <value>Неверный формат частоты!</value>
+  </data>
+  <data name="adaptive_trace_control_descr" xml:space="preserve">
+    <value>Адаптивный контроль по адаптивным верхней и нижней границам</value>
+  </data>
+  <data name="adaptive_trace_control_name" xml:space="preserve">
+    <value>Адаптивный контроль</value>
+  </data>
+  <data name="control_reset_ok" xml:space="preserve">
+    <value>Иницилизация прошла успешно!</value>
+  </data>
+  <data name="no_default_signal" xml:space="preserve">
+    <value>Не задан тип сигнала по-умолчанию!</value>
+  </data>
+  <data name="trace_control" xml:space="preserve">
+    <value>Контроль трассы</value>
+  </data>
+  <data name="alt" xml:space="preserve">
+    <value>выс</value>
+  </data>
+  <data name="err_fstart_fstop" xml:space="preserve">
+    <value>Начальная частота не может быть меньше или равна конечной частоте!</value>
+  </data>
+  <data name="lat" xml:space="preserve">
+    <value>шир</value>
+  </data>
+  <data name="lon" xml:space="preserve">
+    <value>дол</value>
+  </data>
+  <data name="ms" xml:space="preserve">
+    <value>мс</value>
+  </data>
+  <data name="report_among_them" xml:space="preserve">
+    <value>Из них:</value>
+  </data>
+  <data name="report_AntRpu" xml:space="preserve">
+    <value>Антенна / РПУ</value>
+  </data>
+  <data name="report_band" xml:space="preserve">
+    <value>Полоса</value>
+  </data>
+  <data name="report_control" xml:space="preserve">
+    <value>Контроль</value>
+  </data>
+  <data name="report_danger" xml:space="preserve">
+    <value>опасных </value>
+  </data>
+  <data name="report_description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="report_frequency" xml:space="preserve">
+    <value>Частота</value>
+  </data>
+  <data name="report_hit_count" xml:space="preserve">
+    <value>ЧС</value>
+  </data>
+  <data name="report_name" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="report_notes" xml:space="preserve">
+    <value>Примечания</value>
+  </data>
+  <data name="report_no_signals_selected" xml:space="preserve">
+    <value>Не выбрано ни одного сигнала</value>
+  </data>
+  <data name="report_person" xml:space="preserve">
+    <value>Ответственное лицо:</value>
+  </data>
+  <data name="report_safe" xml:space="preserve">
+    <value>безопасных </value>
+  </data>
+  <data name="report_signal" xml:space="preserve">
+    <value>Отчет по сигналу '{0}' ({1})</value>
+  </data>
+  <data name="report_signals_table" xml:space="preserve">
+    <value>Сводный отчет по списку сигналов</value>
+  </data>
+  <data name="report_signals_table2" xml:space="preserve">
+    <value>от {0} {1}</value>
+  </data>
+  <data name="report_signal_header" xml:space="preserve">
+    <value>Центральная частота: {0} / Полоса сигнала: {1} / Описание сигнала: {2} / Количество срабатываний: {3}</value>
+  </data>
+  <data name="report_suspic" xml:space="preserve">
+    <value>подозрительных </value>
+  </data>
+  <data name="report_test_record" xml:space="preserve">
+    <value>Тестовая запись</value>
+  </data>
+  <data name="report_test_report" xml:space="preserve">
+    <value>Тестовый отчет</value>
+  </data>
+  <data name="report_time" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="report_total" xml:space="preserve">
+    <value>Итого:</value>
+  </data>
+  <data name="report_total_hits" xml:space="preserve">
+    <value>Всего фиксаций: {0}</value>
+  </data>
+  <data name="report_unknown" xml:space="preserve">
+    <value>неопределенных </value>
+  </data>
+  <data name="confirm_delete_antenna" xml:space="preserve">
+    <value>Действительно удалить антенну "{0}"?</value>
+  </data>
+  <data name="confirm_save_report" xml:space="preserve">
+    <value>Настройки отчетов сохранены!</value>
+  </data>
+  <data name="err_saving_report_settings" xml:space="preserve">
+    <value>Ошибка сохранения настроек отчета!</value>
+  </data>
+  <data name="report_signals" xml:space="preserve">
+    <value>Отчет по сигналам</value>
+  </data>
+  <data name="selected_markers" xml:space="preserve">
+    <value>Выбранные маркеры:</value>
+  </data>
+  <data name="confirm_clear_hits" xml:space="preserve">
+    <value>Очистить число срабатываний по сигналу?</value>
+  </data>
+  <data name="invalid_altitude" xml:space="preserve">
+    <value>Задана некорректная высота!</value>
+  </data>
+  <data name="invalid_direction" xml:space="preserve">
+    <value>Задано неверное направление антенны!</value>
+  </data>
+  <data name="invalid_dnwidth" xml:space="preserve">
+    <value>Задана некорректная ширина ДН антенны!</value>
+  </data>
+  <data name="invalid_latitude" xml:space="preserve">
+    <value>Задана некорректная широта!</value>
+  </data>
+  <data name="invalid_longitude" xml:space="preserve">
+    <value>Задана некорректная долгота!</value>
+  </data>
+  <data name="limit_max_freq" xml:space="preserve">
+    <value>Значение не может быть больше {0} Гц.</value>
+  </data>
+  <data name="limit_min_freq" xml:space="preserve">
+    <value>Значение не может быть менььше {0} Гц.</value>
+  </data>
+  <data name="confirm_file_overwrite" xml:space="preserve">
+    <value>Файл {0} уже существует. Хотите его переписать?</value>
+  </data>
+  <data name="err_manager_invalid_antenna" xml:space="preserve">
+    <value>Выбрана некорреткная антенна для прямого подключения!</value>
+  </data>
+  <data name="no_rpus_present" xml:space="preserve">
+    <value>Не выбрано РПУ!</value>
+  </data>
+  <data name="load_rcs_state" xml:space="preserve">
+    <value>Выберите файл состояния для загрузки...</value>
+  </data>
+  <data name="save_rcs_state" xml:space="preserve">
+    <value>Выберите файл для сохранения состояния...</value>
+  </data>
+  <data name="add_signal_menu" xml:space="preserve">
+    <value>Добавить сигнал {0}/{1:F1} дБм</value>
+  </data>
+  <data name="single_freq_signal" xml:space="preserve">
+    <value>Одиночная частота</value>
+  </data>
+</root>

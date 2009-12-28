@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolBtnSpanCenter.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIlJREFUOE9jYKAC
+        aMBlxn8Ghv8gjMcOsF4MA5jZ7MCayDOAWcUXbACQHhgDYM4H0WS5AK8BjKr70QIULRBh/geqAhm0iZEb
+        EQtIYYNkCKoBMNthCmDeAPGRXTaYDGBuAyckkPNgcY8cSKAwgMsxKjeD5aBhAfEScyvWlAgzhKxoRHYB
+        3QygKEMDAG5NZqgAqOL8AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnSpanCenter.Text" xml:space="preserve">
+    <value>Центральная частота</value>
+  </data>
+  <data name="toolBtnSpanBegin.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHtJREFUOE9jYKAU
+        /Gdg+A/CZJrTANKJYQAzmx2xBmIxgFnFF2wAkCbCVTQwAOZ8Ir2B6QK8BjCq7kfzFpoBMP8DVWGEA/aw
+        QTUA3dnIfBwuG3ADGNvgCQlr3EP9DZZjVG4GByCyGANjK9aUSEQCginBnpTpawAJtmFVCgB0RGfAnXmz
+        3AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnSpanBegin.Text" xml:space="preserve">
+    <value>Начальная частота</value>
+  </data>
+  <data name="toolBtnSpanEnd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHJJREFUOE9jYKAC
+        aCDHjP8MDP9BGKQXwwBmNjuwBD6A2wBmFV+wAUB6YAyAOZ+QN3B6Aa8BjKr7Yd7CbgDM/0BVGOGAFjZY
+        DUB3NjIf3WWDzACQ87DGPdTfYDlG5WZwAELF8KZEQqkQJD+4DCDGxTjVAAAXHGezxGN2fgAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="toolBtnSpanEnd.Text" xml:space="preserve">
+    <value>Конечная частота</value>
+  </data>
+  <data name="toolBtnSpan.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAG5JREFUOE9jYKAU
+        /Gdg+A/CpJoD14fNAGY2O4IG4jaAWcUXbACQxucq2hkAcz4hb+B0AV4DGFX3w7yF3QCY/4GqMMIBLWyw
+        GoDubGQ+ussGoQFY4x7qb7Aco3IzOAChYnhTIjHJehAZQIxz8akBAPG1lzWKObplAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnSpan.Text" xml:space="preserve">
+    <value>Спан</value>
+  </data>
+  <data name="toolBtnMove.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHBJREFUOE9jYKAG
+        YGaz+w/EvmSbBTWAfEOQDCDPEDQDSDcEiwGkGYLDABRDQIGMM7DxGPAfFjPIajBii9hABKnDGtW4ohHm
+        bGRXoLkIknZw+Q2f12ByeBMf0S4gNgnjDANiDMAbC0QagDsdEGMALjUA0CtU9/Wbt+4AAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="toolBtnMove.Text" xml:space="preserve">
+    <value>Перемещение области</value>
+  </data>
+  <data name="toolBtnZoom.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAARFJREFUOE+dU8Fq
+        wkAQnagsCOaPbD4gxkvBmz/gpeCp10Dv9U96ED9Axf6J4Ae0EKIpcZ/bl45pNooLQ3be7ryZfTMJ5HcN
+        JBmKlM+Z+ZoT6x/DhUjw8S2rHbGuiUrsf47bgJiEEk9xAAsledkXxQZf+EHvaVldtBveqzBkBjiQ0Qzg
+        oSxTbcQZWP+KvfAOsB6ofRB7CVj2LQKtAXW4YM6ZmHaCiemY6FNXUmnACpreT1IKqsVUIjoN7EqtrTNr
+        PAQBs0IrD8FfF0gCIhgC0AXXpfi1kQBgfQ7y/PTGsrX6XgKXKRmypQyCj8x3k7Rl0CS2unFrNb5DL0nT
+        lN1DcjUL/2bcw4Dy1Y/32FNc55Ix7AzO7QQguO4T5wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnZoom.Text" xml:space="preserve">
+    <value>Увеличение области</value>
+  </data>
+  <data name="toolBtnUnZoom.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAI1JREFUOE9jYKAV
+        YGaz+08Mxmk/SPM/BoaY/wwMxrgwSA1RBoAUYjNkiBgAcz42b2D1AiOL7SZQwMACkSQDYNFGlgEgzZ4s
+        YeC4xxY1oFhA9gayZWDnvmHoAWNsiQdkILIByN5C0QwzBJmGuQinATD/EuMCbN6Ae5eYMEBPjRjhhR4L
+        ZGUmJja7o6TkcACi7dE5JSm52wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnUnZoom.Text" xml:space="preserve">
+    <value>Предыдущий вид</value>
+  </data>
+  <data name="toolBtnUnZoomAll.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAI9JREFUOE9jYKAU
+        /Gdg+A/CuMxhZrP7jw+DdBI04B8Dgy82DDKYJANAGpANGmIGwJyP7A28XmBmtWsGxQy6RoIGABX4wqKN
+        ZANgmj1ZwsBxjy+NgWID7oWvDAwfYZrfMPT8B2G8iQdoMooBfxkYNoA0wDTjo2Euo64LYHmB7DBAzkzY
+        YoFQeGANbFg6IJTbAXDn6edKv4MAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnUnZoomAll.Text" xml:space="preserve">
+    <value>Начальный вид</value>
+  </data>
+  <data name="toolBtnPrint.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAVdJREFUOE+1U21L
+        wmAUFYJ+Vn8pijBBRPyyCisoSMuthhlmSVEfsgQjifoUSiikkGYrX9popbKMXuDkc8WJDnUFDQ6M3eee
+        c3fOfSyW/3p84glGRscGoq8232zmxQi09+8uVLUPlJUaEuk7Ik5lyjCQbAbPqFhvfCEWv8be4QUhGI4j
+        EDpFTlL0qXL3L0YCL3+EklwzKKvVBqSSimS6QARzi7swEPi3Yi31t09EY8ku9Z3982aDrKtz7iBmF7Y7
+        E6wKESre3JZInf0vA1OWVQ2PlVdcXmXpjGsmgPmlML2TB77146GO90uECFhRAkzDyflhcwqdCYbl3Vu3
+        uzYwZV/rJhg0QVmpg5nGwMisDh/GrSvmCIpPVeSb2bPmbL5CTZM2r+4ZebDsOaAPvVMUis/UlMo8YGLa
+        YzDa6hBaKbDVbROwbM1Aj7C9y7wY/VWUnDtkXOO/3OwffInh449UbQYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnPrint.Text" xml:space="preserve">
+    <value>Предпросмотр печати</value>
+  </data>
+  <data name="toolBtnPageSetup.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAALdJREFUOE9jYKAW
+        mDxjw390PGnahv8Tpq773zd5zf+rt57/x2sXSPPD////M7PZgWlk3D1h1f/IxJb/V24+w23I5OkbwJqx
+        4Y6+FUDNT8CGXL7xFLshE6etw+mCjt7lYM0wjNUr/VPW4jQA5CqQITCDsBoACihcYQALF7ABCS3YvdA7
+        aTVlBnRNWEmZAZ19FBoA8h9FYQAyAFc6gInjDUSquADkBVh846JxRiPMeSAFhDC1MjDYHADWzqS5UR5I
+        nwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnPageSetup.Text" xml:space="preserve">
+    <value>Настройка страницы</value>
+  </data>
+  <data name="toolBtnCopyClipboard.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAKRJREFUOE/FkzEO
+        gCAMRY0mHMujegFXb2DcHJzcPYQzUuInpbTCJknTAfr4v5Su+331btxlDG685/U4m8RR8eW95wFgE8QC
+        BGBUVoVYgGDDa1EAAZiWLbNBxdIagBmkBQDYm3fKCUIA3M4zV8AB3FZ8JdkDQDQAt0T7KgCHhOzYUNrj
+        OQGMYSoKVIA1bfAqZQOSLHwB5DOqPagpsAaqqqDpI4VDD4WUg6rM4dilAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnCopyClipboard.Text" xml:space="preserve">
+    <value>Копировать в буфер обмена</value>
+  </data>
+  <data name="toolBtnWaterfallZeroSpan.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAJxJREFUOE9jZCAD
+        MLPZ+QK1bQJiP6K1v2Ho+Q9TDDQAzIbRRBlCbQN8QbZDvUKUAxiQXYBVB8g0bKZCxf9iGMBmr8HMZhsM
+        NwxXwMDE0Q1gYrWLQ9YMth0WsjC/wVwFEkcxAGg70IAwDNvxRRPIAKCB4HhHsR1bfGLzDpoBqLajRwe2
+        AAV7ARZwbHaqxMUdkiqC0UjIxGFgAC4vAgBNYku4yjjqrQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnWaterfallZeroSpan.Text" xml:space="preserve">
+    <value>Режим нулевого спана</value>
+  </data>
+  <data name="toolBtnWaterfallWaterfall.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAElJREFUOE9jYMAB
+        mNns/jOELPvPsO79/9zz3/6DAIgNEgPLEQIj3QCQ/8kOA2I044yFgdMMShOE/Eww8RAygFDCI+iCUQNw
+        Z18Ave04cIcFSeQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnWaterfallWaterfall.Text" xml:space="preserve">
+    <value>Режим спектрограммы</value>
+  </data>
+  <data name="toolBtnWaterfallPan.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHBJREFUOE9jYKAG
+        YGaz+w/EvmSbBTWAfEOQDCDPEDQDSDcEiwGkGYLDABRDQIGMM7DxGPAfFjPIajBii9hABKnDGtW4ohHm
+        bGRXoLkIknZw+Q2f12ByeBMf0S4gNgnjDANiDMAbC0QagDsdEGMALjUA0CtU9/Wbt+4AAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="toolBtnWaterfallPan.Text" xml:space="preserve">
+    <value>Перемещение области</value>
+  </data>
+  <data name="toolBtnWaterfallZoom.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAARFJREFUOE+dU8Fq
+        wkAQnagsCOaPbD4gxkvBmz/gpeCp10Dv9U96ED9Axf6J4Ae0EKIpcZ/bl45pNooLQ3be7ryZfTMJ5HcN
+        JBmKlM+Z+ZoT6x/DhUjw8S2rHbGuiUrsf47bgJiEEk9xAAsledkXxQZf+EHvaVldtBveqzBkBjiQ0Qzg
+        oSxTbcQZWP+KvfAOsB6ofRB7CVj2LQKtAXW4YM6ZmHaCiemY6FNXUmnACpreT1IKqsVUIjoN7EqtrTNr
+        PAQBs0IrD8FfF0gCIhgC0AXXpfi1kQBgfQ7y/PTGsrX6XgKXKRmypQyCj8x3k7Rl0CS2unFrNb5DL0nT
+        lN1DcjUL/2bcw4Dy1Y/32FNc55Ix7AzO7QQguO4T5wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnWaterfallZoom.Text" xml:space="preserve">
+    <value>Увеличение области</value>
+  </data>
+  <data name="toolBtnWaterfallUnZoom.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAI1JREFUOE9jYKAV
+        YGaz+08Mxmk/SPM/BoaY/wwMxrgwSA1RBoAUYjNkiBgAcz42b2D1AiOL7SZQwMACkSQDYNFGlgEgzZ4s
+        YeC4xxY1oFhA9gayZWDnvmHoAWNsiQdkILIByN5C0QwzBJmGuQinATD/EuMCbN6Ae5eYMEBPjRjhhR4L
+        ZGUmJja7o6TkcACi7dE5JSm52wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnWaterfallUnZoom.Text" xml:space="preserve">
+    <value>Предыдущий вид</value>
+  </data>
+  <data name="toolBtnWaterfallUnzoomAll.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAI9JREFUOE9jYKAU
+        /Gdg+A/CuMxhZrP7jw+DdBI04B8Dgy82DDKYJANAGpANGmIGwJyP7A28XmBmtWsGxQy6RoIGABX4wqKN
+        ZANgmj1ZwsBxjy+NgWID7oWvDAwfYZrfMPT8B2G8iQdoMooBfxkYNoA0wDTjo2Euo64LYHmB7DBAzkzY
+        YoFQeGANbFg6IJTbAXDn6edKv4MAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnWaterfallUnzoomAll.Text" xml:space="preserve">
+    <value>Начальный вид</value>
+  </data>
+  <data name="toolBtnWaterfallPrint.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAVdJREFUOE+1U21L
+        wmAUFYJ+Vn8pijBBRPyyCisoSMuthhlmSVEfsgQjifoUSiikkGYrX9popbKMXuDkc8WJDnUFDQ6M3eee
+        c3fOfSyW/3p84glGRscGoq8232zmxQi09+8uVLUPlJUaEuk7Ik5lyjCQbAbPqFhvfCEWv8be4QUhGI4j
+        EDpFTlL0qXL3L0YCL3+EklwzKKvVBqSSimS6QARzi7swEPi3Yi31t09EY8ku9Z3982aDrKtz7iBmF7Y7
+        E6wKESre3JZInf0vA1OWVQ2PlVdcXmXpjGsmgPmlML2TB77146GO90uECFhRAkzDyflhcwqdCYbl3Vu3
+        uzYwZV/rJhg0QVmpg5nGwMisDh/GrSvmCIpPVeSb2bPmbL5CTZM2r+4ZebDsOaAPvVMUis/UlMo8YGLa
+        YzDa6hBaKbDVbROwbM1Aj7C9y7wY/VWUnDtkXOO/3OwffInh449UbQYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnWaterfallPrint.Text" xml:space="preserve">
+    <value>Предпросмотр печати</value>
+  </data>
+  <data name="toolBtnWaterfallPageSetup.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAALdJREFUOE9jYKAW
+        mDxjw390PGnahv8Tpq773zd5zf+rt57/x2sXSPPD////M7PZgWlk3D1h1f/IxJb/V24+w23I5OkbwJqx
+        4Y6+FUDNT8CGXL7xFLshE6etw+mCjt7lYM0wjNUr/VPW4jQA5CqQITCDsBoACihcYQALF7ABCS3YvdA7
+        aTVlBnRNWEmZAZ19FBoA8h9FYQAyAFc6gInjDUSquADkBVh846JxRiPMeSAFhDC1MjDYHADWzqS5UR5I
+        nwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnWaterfallPageSetup.Text" xml:space="preserve">
+    <value>Настройка страницы</value>
+  </data>
+  <data name="toolBtnWaterfallCopy.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAKRJREFUOE/FkzEO
+        gCAMRY0mHMujegFXb2DcHJzcPYQzUuInpbTCJknTAfr4v5Su+331btxlDG685/U4m8RR8eW95wFgE8QC
+        BGBUVoVYgGDDa1EAAZiWLbNBxdIagBmkBQDYm3fKCUIA3M4zV8AB3FZ8JdkDQDQAt0T7KgCHhOzYUNrj
+        OQGMYSoKVIA1bfAqZQOSLHwB5DOqPagpsAaqqqDpI4VDD4WUg6rM4dilAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnWaterfallCopy.Text" xml:space="preserve">
+    <value>Копировать в буфер обмена</value>
+  </data>
+  <data name="clmName.Text" xml:space="preserve">
+    <value>Трасса</value>
+  </data>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAm
+        NQAAAk1TRnQBSQFMAgEBEAEAARQBAAEEAQABEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABUAMAAQEBAAEgBgABUP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8AmgABMQIwAU0BMQIw
+        AU0MAAL/AecD/wHnA/8B5wP/AecB/wQAATECMAFNhAABMQIwAU0BgQFbAVgB/wExAjABTRAAAYEBWwFY
+        Af8BgQFbAVgB/wGBAVsBWAH/AYEBWwFYAf8BgQFbAVgB/xgAATECMAFNAYEBWwFYAf8BgQFbAVgB/wEx
+        AjABTQwAAv8B5wH/AWwBIAEtAf8BbAEgAS0D/wHnA/8B5wH/ATECMAFNIAAC/wHnA/8B5wP/AecD/wHn
+        A/8B5wP/AecD/wHnA/8B5wP/AecD/wHnA/8B5wP/AecD/wHnA/8B5wH/LAABgQFbAVgB/wGBAVsBWAH/
+        AYEBWwFYAf8QAAGBAVsBWAH/AYEBWwFYAf8BgQFbAVgB/wGBAVsBWAH/AYEBWwFYAf8YAAGBAVsBWAH/
+        AYEBWwFYAf8BgQFbAVgB/xAAAv8B5wH/AWwBIAEtAf8BbAEgAS0B/wFsASABLQP/AecD/wHnAf8BMQIw
+        AU0cAAL/AecB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFo
+        ARwBKQH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkD/wHnAf8wAAGBAVsBWAH/
+        PAABgQFbAVgB/wGBAVsBWAH/AYEBWwFYAf8BMQIwAU0QAAL/AecB/wFsASABLQH/AWwBIAEtAf8BbAEg
+        AS0B/wFsASABLQP/AecD/wHnAf8BMQIwAU0YAAL/AecB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFo
+        ARwBKQH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEp
+        Af8BaAEcASkD/wHnAf8gAAExAjABTQGBAVsBWAH/CAABgQFbAVgB/wgAAYEBWwFYAf8BMQIwAU0oAAGB
+        AVsBWAH/AYEBWwFYAf8BgQFbAVgB/wExAjABTRQAAv8B5wH/AWwBIAEtAf8BbAEgAS0B/wFsASABLQH/
+        AWwBIAEtAf8BbAEgAS0D/wHnA/8B5wH/AUgCRwGDFAAC/wHnAf8BaAEcASkB/wFoARwBKQH/AWgBHAEp
+        Af8BaAEcASkB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFo
+        ARwBKQH/AWgBHAEpA/8B5wH/CAABgQFbAVgB/wExAjABTRAAAYEBWwFYAf8BgQFbAVgB/wGBAVsBWAH/
+        AYEBWwFYAf8BgQFbAVgB/wGBAVsBWAH/AYEBWwFYAf8BgQFbAVgB/wGBAVsBWAH/CAADKAE8A0sBjgGB
+        AVsBWAH/AYEBWwFYAf8BgQFbAVgB/wNLAY4DQwF3AYEBWwFYAf8BgQFbAVgB/wGBAVsBWAH/HAAC/wHn
+        Af8BbAEgAS0B/wFsASABLQH/AWwBIAEtAf8BbAEgAS0B/wFsASABLQH/AWwBIAEtA/8B5wP/AecB/wEx
+        AjABTRAAAv8B5wH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/
+        AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQP/AecB/wgAAYEBWwFY
+        Af8BgQFbAVgB/wExAjABTQwAATECMAFNAYEBWwFYAf8IAAGBAVsBWAH/CAABgQFbAVgB/wExAjABTQQA
+        AzgBXAGBAVsBWAH/AYEBWwFYAf8BQAI/AW4BSAJHAYMBQAI/AW4BgQFbAVgB/wGBAVsBWAH/AYEBWwFY
+        Af8BgQFbAVgB/yAAAv8B5wH/AWwBIAEtAf8BbAEgAS0B/wFsASABLQH/AWwBIAEtAf8BbAEgAS0B/wFs
+        ASABLQH/AWwBIAEtA/8B5wP/AecB/wExAjABTQwAAv8B5wH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/
+        AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEpAf8BaAEc
+        ASkB/wFoARwBKQP/AecB/wgAAYEBWwFYAf8BgQFbAVgB/wGBAVsBWAH/ATECMAFNGAABgQFbAVgB/xAA
+        AygBPAGBAVsBWAH/Az0BaQFHAkYBgAFaAlgBwAFaAlgBwAFaAlgBwAQAAz0BaQGBAVsBWAH/A0MBdyAA
+        Av8B5wH/AWwBIAEtAf8BbAEgAS0B/wFsASABLQH/AWwBIAEtAf8BbAEgAS0B/wFsASABLQH/AWwBIAEt
+        Af8BbAEgAS0D/wHnAf8BMQIwAU0BMQIwAU0IAAL/AecB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFo
+        ARwBKQH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEp
+        Af8BaAEcASkD/wHnAf8IAAGBAVsBWAH/AYEBWwFYAf8BgQFbAVgB/wGBAVsBWAH/AYEBWwFYAf8BgQFb
+        AVgB/wGBAVsBWAH/CAABgQFbAVgB/wGBAVsBWAH/AYEBWwFYAf8MAANLAY4BgQFbAVgB/wFHAkYBgAFa
+        AlgBwAFaAlgBwAgAAUcCRgGABAABgQFbAVgB/wNLAY4gAAL/AecB/wFsASABLQH/AWwBIAEtAf8BbAEg
+        AS0B/wFsASABLQH/AWwBIAEtAf8BbAEgAS0B/wFsASABLQH/AWwBIAEtA/8B5wH/AUgCRwGDDAAC/wHn
+        Af8BaAEcASkB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFo
+        ARwBKQH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEpA/8B5wH/CAABgQFbAVgB/wGBAVsBWAH/
+        AYEBWwFYAf8BgQFbAVgB/wGBAVsBWAH/AYEBWwFYAf8BMQIwAU0IAAExAjABTQGBAVsBWAH/ATECMAFN
+        DAABgQFbAVgB/wFAAj8BbgQAAUcCRgGAAUcCRgGAAUcCRgGAAUcCRgGAAUcCRgGAAUcCRgGAAUACPwFu
+        AYEBWwFYAf8gAAL/AecB/wFsASABLQH/AWwBIAEtAf8BbAEgAS0B/wFsASABLQH/AWwBIAEtAf8BbAEg
+        AS0B/wFsASABLQP/AecD/wHnAf8BMQIwAU0MAAL/AecB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFo
+        ARwBKQH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEp
+        Af8BaAEcASkD/wHnAf8IAAGBAVsBWAH/AYEBWwFYAf8BgQFbAVgB/wGBAVsBWAH/AYEBWwFYAf8BMQIw
+        AU0kAAGBAVsBWAH/AwQBBgFHAkYBgAFHAkYBgAFHAkYBgAFHAkYBgAFHAkYBgAFHAkYBgAFHAkYBgAME
+        AQYBWgJXAcUEAAGBAVsBWAH/AYEBWwFYAf8UAAL/AecB/wFsASABLQH/AWwBIAEtAf8BbAEgAS0B/wFs
+        ASABLQH/AWwBIAEtAf8BbAEgAS0D/wHnA/8B5wH/ATECMAFNEAAC/wHnAf8BaAEcASkB/wFoARwBKQH/
+        AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEpAf8BaAEc
+        ASkB/wFoARwBKQH/AWgBHAEpA/8B5wH/CAABgQFbAVgB/wGBAVsBWAH/AYEBWwFYAf8BgQFbAVgB/wEx
+        AjABTSgAAYEBWwFYAf8BQAI/AW4BRwJGAYABRwJGAYABRwJGAYABRwJGAYABRwJGAYABRwJGAYABRwJG
+        AYAMAAGBAVsBWAH/AYEBWwFYAf8UAAL/AecB/wFsASABLQH/AWwBIAEtAf8BbAEgAS0B/wFsASABLQH/
+        AWwBIAEtA/8B5wP/AecB/wExAjABTRQAAv8B5wH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEp
+        Af8BaAEcASkB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFo
+        ARwBKQP/AecB/wgAAYEBWwFYAf8BgQFbAVgB/wGBAVsBWAH/ATECMAFNLAADSwGOAYEBWwFYAf8BRwJG
+        AYABRwJGAYABRwJGAYABRwJGAYABRwJGAYABRwJGAYABRwJGAYAEAAGBAVsBWAH/AYEBWwFYAf8BgQFb
+        AVgB/wGBAVsBWAH/AYEBWwFYAf8BgQFbAVgB/wwAAv8B5wH/AWwBIAEtAf8BbAEgAS0B/wFsASABLQH/
+        AWwBIAEtA/8B5wP/AecB/wExAjABTRgAAv8B5wH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEp
+        Af8BaAEcASkB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFo
+        ARwBKQP/AecB/wgAAYEBWwFYAf8BgQFbAVgB/wExAjABTTAAAygBPAGBAVsBWAH/Az0BaQQAAUcCRgGA
+        AUcCRgGAAUcCRgGAAUcCRgGAAz0BaQQAAYEBWwFYAf8BgQFbAVgB/wGBAVsBWAH/AYEBWwFYAf8BgQFb
+        AVgB/wGBAVsBWAH/DAAC/wHnAf8BbAEgAS0B/wFsASABLQH/AWwBIAEtA/8B5wP/AecB/wExAjABTRwA
+        Av8B5wH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQH/AWgBHAEp
+        Af8BaAEcASkB/wFoARwBKQH/AWgBHAEpAf8BaAEcASkB/wFoARwBKQP/AecB/wgAAYEBWwFYAf8BMQIw
+        AU04AAM4AVwBgQFbAVgB/wGBAVsBWAH/AUACPwFuAVgCVgHBAUACPwFuAYEBWwFYAf8DVQGyDAABgQFb
+        AVgB/wGBAVsBWAH/FAAC/wHnAf8BbAEgAS0B/wFsASABLQP/AecD/wHnAf8BMQIwAU0gAAL/AecD/wHn
+        A/8B5wP/AecD/wHnA/8B5wP/AecD/wHnA/8B5wP/AecD/wHnA/8B5wP/AecD/wHnAf9MAAMoATwDSwGO
+        AYEBWwFYAf8BgQFbAVgB/wGBAVsBWAH/A0sBjgMoATwMAAGBAVsBWAH/AYEBWwFYAf8UAAL/AecD/wHn
+        A/8B5wP/AecB/wExAjABTfwAAwMBBAMCAQOEAAGZAXQC/yAAAZkCdAH/AYECdAH/AYECdAH/AYECdAH/
+        AYECdAH/AYECdAH/AYECdAH/AYECdAH/AYECdAH/AZkCdAH/JAAC/wHnA/8B5wP/AecB/zQAAv8B5wP/
+        AecD/wHnAf9EAAGZAXQC/yAAAYECdAH/A/EB/wPxAf8D8QH/A/EB/wPxAf8D8QH/A/EB/wPxAf8BgQJ0
+        Af8gAAL/AecB/wOBAf8B2QGnAYED/wHnAf8wAAL/AecB/wGBAXQBgQH/AYwBdAHsA/8B5wH/RAABmQF0
+        Av8gAAGBAnQB/wPxAf8D8QH/A/EB/wPxAf8D8QH/A/EB/wPxAf8D8QH/AYECdAH/HAAC/wHnAf8DgQH/
+        AdkBpwGBAf8B2QGnAYED/wHnAf8MAAOBAf8cAAL/AecB/wGBAXQBgQH/AYwBdAHsAf8BjAF0AewD/wHn
+        Af8MAAGBAXQBgQH/NAABmQF0Av8gAAGBAnQB/wPxAf8BgQJ0Af8BgQJ0Af8BgQJ0Af8BgQJ0Af8BgQJ0
+        Af8D8QH/A/EB/wGBAnQB/xAAAv8B5wP/AecD/wHnAf8DgQH/AdkBpwGBAf8B2QGnAYEB/wHZAacBgQP/
+        AecB/wQAA4EB/wQAATECMAFNA4EB/wwAAv8B5wP/AecD/wHnAf8BgQF0AYEB/wGMAXQB7AH/AYwBdAHs
+        Af8BjAF0AewD/wHnAf8EAAGBAXQBgQH/BAABMQIwAU0BgQF0AYEB/wgAAYECdAH/AZkCdAH/DAABmQJ0
+        Af8BgQJ0Af8BmQJ0Af8IAAGZAXQC/yAAAYECdAH/A/EB/wPxA/8BzAP/AcwD/wHMA/8BzAP/AcwB/wPx
+        Af8BgQJ0Af8QAAL/AecB/wHZAacBgQH/AaYCgQH/AdkBpwGBAf8B2QGnAYEB/wHZAacBgQH/AdkBpwGB
+        A/8B5wH/BAABMQIwAU0DgQH/ATECMAFNATECMAFNA4EB/wgAAv8B5wH/AYwBdAHsAf8BgQF0AZ4B/wGM
+        AXQB7AH/AYwBdAHsAf8BjAF0AewB/wGMAXQB7AP/AecB/wQAATECMAFNAYEBdAGBAf8BMQIwAU0BMQIw
+        AU0BgQF0AYEB/wgAAYECdAH/DAABgQJ0Af8EAAGBAnQB/wgAAZkBdAL/IAABgQJ0Af8D8QH/AYECdAH/
+        AYECdAH/AYECdAH/AYECdAH/AYECdAL/AewBzAH/A/EB/wGBAnQB/xAAAv8B5wH/AdkBpwGBAf8BvAGC
+        AYEB/wHZAacBgQH/AdkBpwGBAf8B2QGnAYEB/wHZAacBgQP/AecB/wQAATECMAFNATECMAFNA4EB/wEx
+        AjABTQOBAf8IAAL/AecB/wGMAXQB7AH/AYEBdAHJAf8BjAF0AewB/wGMAXQB7AH/AYwBdAHsAf8BjAF0
+        AewD/wHnAf8EAAExAjABTQExAjABTQGBAXQBgQH/ATECMAFNAYEBdAGBAf8IAAGBAnQB/wwAAYECdAH/
+        BAABgQJ0Af8IAAGZAXQC/yAAAYECdAH/A/EB/wPxA/8BzAP/AcwD/wHMA/8BzAP/AcwB/wPxAf8BgQJ0
+        Af8QAAL/AecB/wHZAacBgQH/AdIBqgGjAf8B2QGnAYEB/wHZAacBgQH/AdkBpwGBAf8B2QGnAYED/wHn
+        Af8IAAExAjABTQOBAf8BMQIwAU0DgQH/CAAC/wHnAf8BjAF0AewB/wGqAYEB8AH/AYwBdAHsAf8BjAF0
+        AewB/wGMAXQB7AH/AYwBdAHsA/8B5wH/CAABMQIwAU0BgQF0AYEB/wExAjABTQGBAXQBgQH/CAABmQJ0
+        Af8BgQJ0Af8EAAGBAnQB/wGZAnQB/wQAAZkCdAH/AYECdAH/BAABmQF0Av8gAAGBAnQB/wPxAf8BgQJ0
+        Af8BgQJ0Af8BgQJ0Af8BgQJ0Af8BgQJ0Af8D8QH/A/EB/wGBAnQB/xAAAv8B5wH/AdkBpwGBAf8B0gGq
+        AaMB/wHZAacBgQH/AdkBpwGBAf8B2QGnAYEB/wHZAacBgQP/AecB/wgAATECMAFNA4EB/wExAjABTQOB
+        Af8IAAL/AecB/wGMAXQB7AH/AaoBgQHwAf8BjAF0AewB/wGMAXQB7AH/AYwBdAHsAf8BjAF0AewD/wHn
+        Af8IAAExAjABTQGBAXQBgQH/ATECMAFNAYEBdAGBAf8MAAGBAnQB/wQAAYECdAH/DAABgQJ0Af8EAAGZ
+        AXQC/yAAAYECdAH/A/EB/wPxAf8D8QH/A/EB/wPxAf8D8QH/A/EB/wPxAf8BgQJ0Af8QAAL/AecB/wHZ
+        AacBgQH/AbwBggGBAf8B2QGnAYEB/wHZAacBgQH/AdkBpwGBAf8B2QGnAYED/wHnAf8EAAExAjABTQEx
+        AjABTQOBAf8BMQIwAU0DgQH/CAAC/wHnAf8BjAF0AewB/wGBAXQByQH/AYwBdAHsAf8BjAF0AewB/wGM
+        AXQB7AH/AYwBdAHsA/8B5wH/BAABMQIwAU0BMQIwAU0BgQF0AYEB/wExAjABTQGBAXQBgQH/DAABmQJ0
+        Af8BgQJ0Af8BmQJ0Af8MAAGZAnQB/wGBAnQB/wGZAXQC/yAAAYECdAH/A/EC/wHsAcwB/wPxAf8D8QH/
+        A/EB/wPxAf8D8QH/A/EB/wGBAnQB/xAAAv8B5wH/AdkBpwGBAf8BpgKBAf8B2QGnAYEB/wHZAacBgQH/
+        AdkBpwGBAf8B2QGnAYED/wHnAf8EAAExAjABTQOBAf8BMQIwAU0BMQIwAU0DgQH/CAAC/wHnAf8BjAF0
+        AewB/wGBAXQBngH/AYwBdAHsAf8BjAF0AewB/wGMAXQB7AH/AYwBdAHsA/8B5wH/BAABMQIwAU0BgQF0
+        AYEB/wExAjABTQExAjABTQGBAXQBgQH/LAABmQF0Av8gAAGBAnQB/wPxAf8D8QP/AcwD/wHMA/8BzAP/
+        AcwD/wHMAf8D8QH/AYECdAH/EAAC/wHnA/8B5wP/AecB/wOBAf8B2QGnAYEB/wHZAacBgQH/AdkBpwGB
+        A/8B5wH/BAADgQH/BAABMQIwAU0DgQH/DAAC/wHnA/8B5wP/AecB/wGBAXQBgQH/AYwBdAHsAf8BjAF0
+        AewB/wGMAXQB7AP/AecB/wQAAYEBdAGBAf8EAAExAjABTQGBAXQBgQH/MAABmQF0Av8gAAGBAnQB/wPx
+        Af8BgQJ0Af8BgQJ0Af8BgQJ0Af8BgQJ0Af8BgQJ0Af8D8QH/A/EB/wGBAnQB/xwAAv8B5wH/A4EB/wHZ
+        AacBgQH/AdkBpwGBA/8B5wH/DAADgQH/HAAC/wHnAf8BgQF0AYEB/wGMAXQB7AH/AYwBdAHsA/8B5wH/
+        DAABgQF0AYEB/zQAAZkBdAL/IAABgQJ0Af8D8QH/A/EB/wPxAf8D8QH/A/EB/wPxAf8D8QH/A/EB/wGB
+        AnQB/yAAAv8B5wH/A4EB/wHZAacBgQP/AecB/zAAAv8B5wH/AYEBdAGBAf8BjAF0AewD/wHnAf9EAAGZ
+        AXQC/yAAAZkCdAH/AYECdAH/AYECdAH/AYECdAH/AYECdAH/AYECdAH/AYECdAH/AYECdAH/AYECdAH/
+        AZkCdAH/JAAC/wHnA/8B5wP/AecB/zQAAv8B5wP/AecD/wHnAf+4AAMEAQb/ACEAAYECdAH/AYECdAH/
+        lAAB/wGBAXQC/wGBAXQB/xwAAf8BdAGBAv8BdAGBAf84AAGBAnQB/wGBAnQB/5QAAf8BgQF0Av8BgQF0
+        Af8cAAH/AXQBgQL/AXQBgQH/OAABgQJ0Af8BgQJ0Af+UAAH/AYEBdAL/AYEBdAH/HAAB/wF0AYEC/wF0
+        AYEB/zgAAYECdAH/AYECdAH/lAAB/wGBAXQC/wGBAXQB/xwAAf8BdAGBAv8BdAGBAf84AAGBAnQB/wGB
+        AnQB/0wAA4EB/wOBAf8DgQH/AoEBdAH/AoEBdAH/AXQCgQH/MAAB/wGBAXQC/wGBAXQB/xwAAf8BdAGB
+        Av8BdAGBAf84AAGBAnQB/wGBAnQB/xgAAYECdAH/AYECdAH/AYECdAH/AYECdAH/HAADhgH/A90B/wHM
+        AoEC/wHMAXQC/wHMAXQC/wGZAXQC/wGBAXQB/wHMAoEB/wOWAf8sAAH/AYEBdAL/AYEBdAH/HAAB/wF0
+        AYEC/wF0AYEB/zgAAYECdAH/AYECdAH/EAABgQJ0Af8BgQJ0Af8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0
+        Av8BgQJ0Af8UAAGBAZkBzAH/A90B/wHMApkC/wHMAXQB/wKBAXQB/wN0Af8CgQF0Av8BgQF0Av8BgQF0
+        Af8DzAH/A7IB/ygAAf8BgQF0Av8BgQF0Af8cAAH/AXQBgQL/AXQBgQH/BAABmQF0Av8BmQF0Av8BmQF0
+        Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0
+        Av8BgQJ0Af8BgQJ0Af8EAAGBAnQB/wGBAnQB/wGBAnQB/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZ
+        AXQC/wGZAXQC/wGZAXQC/wGBAnQB/wGBAnQB/wwAA4EB/wHMApkC/wHMAYEC/wHMAXQB/wN0Af8DgQH/
+        AYECdAL/AYEBdAH/AcwBgQF0Af8DzAH/A5kB/wOBAf8gAAH/AYEBdAL/AYEBdAL/AYEBdAL/AYEBdAH/
+        GAAB/wF0AYEC/wF0AYEB/wQAAZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/
+        AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AYECdAH/AYECdAH/BAABgQJ0Af8BmQF0
+        Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0
+        Av8BgQJ0Af8MAAOBAf8BzAGZAYEC/wGZAXQB/wKBAXQB/wGBAXQBgQH/BAAB/wGBAXQB/wGBAnQB/wOB
+        Af8DgQH/IAAB/wGBAXQC/wGBAXQC/wGBAXQC/wGBAXQC/wGBAXQC/wGBAXQB/xQAAf8BdAGBAv8BdAGB
+        Af8EAAGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZ
+        AXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGBAnQB/wGBAnQB/wQAAYECdAH/AZkBdAL/AZkBdAL/AZkBdAL/
+        AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AYECdAH/EAABgQF0
+        AYEB/wGBAnQC/wGBAXQC/wGBAXQB/wGBAnQB/wGBAnQB/wOBAf8DgQH/IAAB/wGBAXQC/wGBAXQB/wQA
+        Af8BgQF0Av8BgQF0Af8EAAH/AYEBdAL/AYEBdAH/EAAB/wF0AYEC/wF0AYEB/wQAAZkBdAL/AZkBdAL/
+        AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/
+        AZkBdAL/AYECdAH/AYECdAH/BAABgQJ0Af8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0
+        Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BgQJ0Af9MAAH/AYEBdAL/AYEBdAH/CAAB/wGB
+        AXQC/wGBAXQB/wgAAf8BgQF0Av8BgQF0Af8MAAH/AXQBgQL/AXQBgQH/BAABmQF0Av8BmQF0Av8BmQF0
+        Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0Av8BmQF0
+        Av8BgQJ0Af8BgQJ0Af8EAAGBAnQB/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZ
+        AXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGBAnQB/0gAAf8BgQF0Av8BgQF0Af8MAAH/AYEBdAL/
+        AYEBdAH/DAAB/wGBAXQC/wGBAXQB/wgAAf8BdAGBAv8BdAGBAf8EAAGZAXQC/wGZAXQC/wGZAXQC/wGZ
+        AXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGB
+        AnQB/wGBAnQB/wQAAYECdAH/AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AYECdAH/AYECdAH/AYECdAH/
+        AYECdAH/AZkBdAL/AZkBdAL/AZkBdAL/AYECdAH/RAAB/wGBAXQC/wGBAXQB/xAAAf8BgQF0Av8BgQF0
+        Af8QAAH/AYEBdAL/AYEBdAH/BAAB/wF0AYEC/wF0AYEB/wQAAZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/
+        AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AZkBdAL/AYECdAH/
+        AYECdAH/BAABgQJ0Af8BmQF0Av8BmQF0Av8BgQJ0Af8BgQJ0Af8QAAGBAnQB/wGZAXQC/wGZAXQC/wGB
+        AnQB/0QAAf8BgQF0Af8UAAH/AYEBdAL/AYEBdAH/FAAB/wGBAXQB/wQAAf8BdAGBAv8BdAGBAf8EAAGZ
+        AXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZAXQC/wGZ
+        AXQC/wGZAXQC/wGZAXQC/wGBAnQB/wGBAnQB/wQAAYECdAH/AYECdAH/AYECdAH/HAABgQJ0Af8BgQJ0
+        Af//ADUAAZkCdAH/AZkCdAH/AcwCdAH/UAADwAH/BAADwAH/A8AB/wPAAf8DhgH/A4YB/wPAAf8sAAGZ
+        AoEB/wGZAoEB/wGZAoEB/wGZAoEB/wGZAoEB/wGZAoEB/wHMAnQB/xAAAZkCdAH/A4EB/wOBAf8BmQJ0
+        Af8YAAGBAnQB/wOBAf8DgQH/AYECdAH/SAADwAH/A8AB/wPAAf8DhgH/A3QB/wN0Af8DdAH/A3QB/wN0
+        Af8DhgH/A4YB/wPAAf8EAAPAAf8DwAH/FAADgQH/A4EB/wOBAf8DgQH/A4EB/wOBAf8DgQH/A4EB/wHM
+        AnQB/wwAAYECdAH/AoEBmQH/AoEBmQH/A4EB/wGZAnQB/xAAAYECdAH/AXQCgQH/AoEBzAH/AoEBmQH/
+        A4EB/xAAAcwCdAH/A3QB/wN0Af8DdAH/AZkCdAH/IAADwAH/A8AB/wOGAf8DdAH/A3QB/wOGAf8DwAH/
+        A8AB/wPAAf8DwAH/A4YB/wN0Af8DhgH/A4YB/wPAAf8DwAH/DAABmQJ0Af8BdAKBAf8BdAKBAf8BdAKB
+        Af8BdAKBAf8BdAKBAf8BdAKBAf8BdAKBAf8BdAKBAf8DgQH/A4EB/wHMAnQB/wgAA4EB/wKBAcwB/wKB
+        AcwB/wKBAZkB/wOBAf8BzAJ0Af8IAAGBAnQB/wF0AoEB/wKBAcwB/wKBAcwB/wKBAZkB/wOBAf8QAAN0
+        Af8DwAH/AswBmQH/ApkBgQH/A3QB/wGZAnQB/xwAA8AB/wN0Af8DdAH/A8AB/wPAAf8DdAH/BAADwAH/
+        A8AB/wQAA3QB/wKBAXQB/wOGAf8DhgH/A4YB/wPAAf8IAAGZAnQB/wF0AYEBmQH/AYEBmQL/AYEBmQL/
+        AYEBmQL/AYEBmQL/AYEBmQL/AYEBmQL/AYEBmQL/AYEBmQL/AXQBgQGZAf8DgQH/A4EB/wHMAnQB/wQA
+        AYECdAH/A4EB/wKBAcwB/wKBAcwB/wKBAZkB/wOBAf8BzAJ0Af8BgQJ0Af8CdAGBAf8CgQHMAf8CgQHM
+        Af8CgQHMAf8CgQGZAf8BgQJ0Af8MAAHMAnQB/wOBAf8BpAKgAf8CzAGZAf8CzAGZAf8DmQH/A3QB/wGZ
+        AnQB/xwAAoEBdAH/AoEBdAH/A3QB/wQAA8AD/wF0Af8BgQJ0Af8BgQJ0Af8BgQJ0Af8IAAPAAf8BgQJ0
+        Af8DhgH/A4YB/wQAAZkCdAH/AoEBzAH/AoEBzAH/AoEBzAH/AoEBzAH/AoEBmQH/AXQCgQH/AXQCgQH/
+        AoEBmQH/AoEBmQH/AoEBmQH/AoEBzAH/AXQCgQH/A4EB/wOBAf8IAAGBAnQB/wOBAf8CgQHMAf8CgQHM
+        Af8CgQGZAf8DgQH/AnQBgQH/AoEBzAH/AoEBzAH/AoEBzAH/AoEBzAH/A4EB/wGZAnQB/wwAA3QB/wPA
+        Af8CzAGZAf8CzAGZAf8CzAGZAf8CzAGZAf8DmQH/A3QB/wGZAnQB/xQAA4YB/wPAAf8DdAH/A8AB/wPA
+        A/8BdAP/AXQC/wJ0Av8CdAL/AnQB/wPAAf8IAAPAAf8BgQJ0Af8DhgH/AZkCdAH/AXQBgQGZAf8BdAGB
+        AcwB/wF0AYEBzAH/AXQBgQGZAf8DgQH/A4EB/wOBAf8CgQF0Af8CgQF0Af8BdAKBAf8BdAKBAf8DgQH/
+        AoEBmQH/AXQCgQH/A4EB/wwAAYECdAH/AnQBgQH/AoEBzAH/AoEBzAH/AoEBzAH/AoEBzAH/AoEBzAH/
+        AoEBzAH/AoEBzAH/A4EB/wGZAnQB/wwAAcwCdAH/A4EB/wLMAZkB/wLMAZkB/wLMAZkB/wN0Af8D4wH/
+        AswBmQH/A5kB/wN0Af8BmQJ0Af8QAAOGAf8DdAH/AYECdAH/AYECdAH/A3QB/wGBAnQC/wJ0Af8DdAH/
+        A3QC/wJ0Af8BgQJ0Af8DwAH/A8AB/wKBAXQB/wKBAXQB/wPAAf8BdAKBAf8BdAGBAcwB/wF0AYEBmQH/
+        A4YB/wPdAf8BzAKBAv8BzAF0Av8BzAF0Av8BmQF0Av8BgQF0Af8BzAKBAf8DlgH/A4EB/wF0AoEB/wKB
+        AZkB/wF0AoEB/xAAAYECdAH/AnQBgQH/AoEBzAH/AoEBzAH/AoEBzAH/AoEBzAH/AoEBzAH/A4EB/wGZ
+        AnQB/xAAA3QB/wPMAf8CzAGZAf8CzAGZAf8DdAH/AZkCdAH/A3QB/wPXAf8CzAGZAf8DmQH/A3QB/wGZ
+        AnQB/wwAAoEBdAH/AoEBdAH/A3QB/wGBAnQB/wKBAXQD/wF0Av8CdAH/A3QC/wJ0Af8EAAN0Af8DwAH/
+        AYECdAH/A4YB/wN0Af8EAAJ0AYEB/wF0AYEBmQH/AYEBmQHMAf8D3QH/AcwCmQL/AcwBdAH/AoEBdAH/
+        A3QB/wKBAXQC/wGBAXQC/wGBAXQB/wPMAf8DsgH/AoEBmQH/AXQCgQH/AoEBmQH/DAABgQJ0Af8DgQH/
+        AoEBzAH/AoEBzAH/AoEBzAH/AoEBzAH/AoEBzAH/AnQBgQH/AYECdAH/FAADdAH/A+MB/wPjAf8DdAH/
+        AcwCdAH/AcwCdAH/AZkCdAH/A3QB/wPXAf8CzAGZAf8DmQH/A3QB/wGZAnQB/wgAAoEBdAH/AoEBdAH/
+        AoEBdAH/A3QB/wGBAnQB/wKBAXQC/wJ0Av8CdAL/AnQD/wF0Af8BgQJ0Af8BgQJ0Af8DwAH/A3QB/wPA
+        Af8EAAF0AoEB/wJ0AYEB/wOBAf8BzAKZAv8BzAGBAv8BzAF0Af8DdAH/A4EB/wGBAnQC/wGBAXQB/wHM
+        AYEBdAH/A8wB/wOZAf8DgQH/A4EB/wF0AoEB/wgAAYECdAH/A4EB/wKBAcwB/wKBAcwB/wKBAcwB/wKB
+        AcwB/wKBAcwB/wKBAcwB/wKBAZkB/wOBAf8BmQJ0Af8QAAHMAnQB/wN0Af8DdAH/AcwCdAH/DAABzAJ0
+        Af8DdAH/A9cB/wLMAZkB/wOZAf8DdAH/AZkCdAH/BAADwAH/A8AB/wPAAf8CgQF0Af8DdAH/A3QB/wN0
+        Af8DdAH/A3QB/wN0Af8DdAH/A8AB/wN0Af8DwAH/CAABdAKBAf8BdAGBAZkB/wJ0AYEB/wOBAf8BzAGZ
+        AYEC/wGZAXQB/wKBAXQB/wGBAXQBgQH/BAAB/wGBAXQB/wGBAnQB/wOBAf8DgQH/A4EB/wN0Af8CdAGB
+        Af8EAAGZAoEB/wOBAf8CgQHMAf8CgQHMAf8CgQHMAf8CgQHMAf8CdAGBAf8BgQJ0Af8CgQHMAf8CgQHM
+        Af8BdAGBAZkB/wJ0AYEB/wGZAnQB/ywAAcwCdAH/A3QB/wPXAf8CzAGZAf8CmQGBAf8DdAH/CAADwAH/
+        A8AB/wOGAf8DhgH/A8AB/wPAAf8DwAH/A8AB/wPAAf8DhgH/A3QB/wPAAf8MAAGZAnQB/wKBAZkB/wF0
+        AYEBmQH/AnQBgQH/AYEBdAGBAf8BgQJ0Av8BgQF0Av8BgQF0Af8BgQJ0Af8BgQJ0Af8DgQH/A4EB/wN0
+        Af8DdAH/AXQCgQH/AYECdAH/BAABgQJ0Af8CgQHMAf8CgQHMAf8CgQHMAf8CgQHMAf8DgQH/AYECdAH/
+        AcwCdAH/A4EB/wKBAcwB/wKBAcwB/wKBAZkB/wJ0AYEB/wGZAnQB/ywAAcwCdAH/A3QB/wPXAf8BzAKZ
+        Af8DdAH/BAADdAH/BAADwAH/A8AB/wOGAf8EAAKBAXQB/wOGAf8CgQF0Af8CgQF0Af8DwAH/DAADwAH/
+        A8AB/wQAAZkCdAH/AoEBzAH/AXQBgQGZAf8BdAGBAZkB/wF0AoEB/wJ0AYEB/wF0AoEB/wF0AoEB/wF0
+        AoEB/wF0AoEB/wJ0AYEB/wF0AoEB/wF0AoEB/wN0Af8IAAOBAf8CgQHMAf8CgQHMAf8CgQHMAf8BdAKB
+        Af8BgQJ0Af8IAAGZAnQB/wOBAf8CgQHMAf8CgQHMAf8CgQGZAf8BgQJ0Af8wAAHMAnQB/wN0Af8DdAH/
+        AZkCdAH/BAADwAH/A3QB/wN0Af8DhgH/A8AB/wOGAf8DhgH/A8AB/wPAAf8MAAPAAf8CgQF0Af8DdAH/
+        DAABmQJ0Af8BgQGZAcwB/wKBAcwB/wF0AYEBzAH/AXQBgQHMAf8BdAGBAZkB/wF0AYEBmQH/AXQCgQH/
+        AXQCgQH/AXQBgQGZAf8BdAKBAf8BgQJ0Af8BmQJ0Af8IAAOBAf8BgQGZAcwB/wKBAcwB/wF0AoEB/wGB
+        AnQB/xAAAZkCdAH/A4EB/wKBAcwB/wKBAZkB/wOBAf9IAAPAAf8DdAH/A3QB/wN0Af8CgQF0Af8CgQF0
+        Af8DwAH/A8AB/wPAAf8DwAH/A3QB/wN0Af8DdAH/FAABmQJ0Af8DgQH/AoEBmQH/AoEBmQH/AoEBmQH/
+        AoEBmQH/AXQCgQH/AXQCgQH/AXQCgQH/A4EB/xAAAYECdAH/A4EB/wOBAf8BgQJ0Af8YAAGZAnQB/wGB
+        AnQB/wGBAnQB/wGZAnQB/1AAA8AB/wN0Af8DdAH/A3QB/wN0Af8DdAH/A3QB/wN0Af8DdAH/VAABzAJ0
+        Af8BmQJ0Af8BmQJ0Af/wAAFCAU0BPgcAAT4DAAEoAwABQAMAAVADAAEBAQABAQUAAYABAhYAA/+BAAP/
+        AfwB4QF/A/8BxwGDAfAB4AF/AYABAQH/AccBgwHxAeABPwGAAQEB/wHvAf8B4QHgAR8BgAEBAf4BbAH/
+        AcMB4AEPAYABAQGeAQABwAEPAeABBwGAAQEBjgFsAYABHwHgAQMBgAEBAYcB7wEBAR8B4AEBAYABAQGA
+        AccBBgGfAeABAwGAAQEBgAHHASABHwHgAQMBgAEBAYEB/wEAARMB4AEHAYABAQGDAf8BAAFzAeABDwGA
+        AQEBhwH/AQABQAHgAR8BgAEBAY8B/wEQAUAB4AE/AYABAQGfAf8BgAFzAeABfwGAAQEC/wHAAXMB4Af/
+        Af4BfwP/Ad8B4AEHAfwBfwH8AX8B/wHfAeABBwH4AX8B+AF/Af8B3wHgAQcB8AF3AfABdwH/Ad8B4AEH
+        AYABUwGAAVMBOAHfAeABBwGAAUEBgAFBAboB3wHgAQcBgAFBAYABQQG6Ad8B4AEHAYABYQGAAWEBkgFf
+        AeABBwGAAWEBgAFhAdcBXwHgAQcBgAFBAYABQQHHAR8B4AEHAYABQQGAAUEB/wHfAeABBwGAAVMBgAFT
+        Af8B3wHgAQcB8AF3AfABdwH/Ad8B4AEHAfgBfwH4AX8B/wHfAeABBwH8AX8B/AF/BP8B/gn/AT8D/wH+
+        AX8BPwH/AT8D/wH+AX8BPwH/AT8D/wH+AX8BPwH/AT8D/wH+AX8BPwH/AT8B/wH4AR8B/gF/AT8B/wE/
+        AQ8B4AEPAf4BfwE/Af8BPAEHAcABBwH+AX8BIAEAASABAQHAAQMB/AE/ASABAAEgAQAB4AGHAfgBHwEg
+        AQABIAEAAfABDwHyAU8BIAEAASABAAL/AeYBZwEgAQABIAEAAv8BzgFzASABAAEgAQAC/wGeAXkBIAEA
+        ASAB8AL/Ab4BfQEgAQABIwH5Cf8B8QL/AegBHwH8AQcBhwHhAv8BgAEEAfgBAwGDAcEB4AH/AgAB4AEB
+        AoEB4AF/AQIBQAHAAQABgAEBAcABPwGIATABgAEAAcABAQHAAR8BAAEYAgAB4AEDAYABDwQAAfABBwGA
+        AQcBAAFBAgAB4AEPAYABAwEAAQECAAHAAQcBhwEBAQABAwEAAoABAwH/AYEBgAEHAgABgAEBAf8BwQFE
+        ARwBgAEBAoEB/wHhAQABcQHAAQEBgwHBAv8BgAEDAeABBwGHAeEC/wHgAQ8C/wGPB/8L
+</value>
+  </data>
+  <data name="toolBtnNewTrace.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHdJREFUOE9jYKAU
+        8DL4/CcVo9gJ0vzw/38wZlj3HoxhfGw0SD1OA/BphMlhNYAiL1Aahgyk2o43DAgFIsi1PAweomQHIlQj
+        KBYQMUGMF9DCCdUAEgIRphGVJs4FxqxQZ2MaQkxKxOsFZAMIpUSyAxHmTRLCi3ilAKNEWzkvv+enAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnNewTrace.Text" xml:space="preserve">
+    <value>Новая трасса</value>
+  </data>
+  <data name="toolBtnOpenTrace.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIpJREFUOE9jZCAS
+        8DL4+KIr/cywZTMR2u1ZQJqf////Hx2DDQURhDBIIzabwOLYTEYXw+VMXAYT4S2IErgBUC/8B9LYMEbg
+        wWwAG0BAM8xArIaQYgC6y8AGUmIAOFYGoQH+vk3g1AaiccQIXByrF5ATEFkGkOUCkFOITAtw5/MweIeg
+        pESi0y4WhQAq8irX3qHvJwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnOpenTrace.Text" xml:space="preserve">
+    <value>Открыть трассу</value>
+  </data>
+  <data name="toolBtnSaveTrace.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAJlJREFUOE9jYKAG
+        EGdw5eZm8J7Py+Dz/+LTt3gxSA1IrSCDCz/cbqDgeZAECD///x8DI8vB2EB6P7IBYM0kGvCffgYgewvJ
+        C9hdgKyAEBurFwhpIuiCuSsO/a9tXoEXwwzBcAFIo79vEzxGCLkGqwGENOH1AsgFA2WAdz7IZlJcAMwP
+        9+FhwM3gq4ecH4jwxnkeBh8bamRkBgC3sWmpNd2cVAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnSaveTrace.Text" xml:space="preserve">
+    <value>Сохранить трассу</value>
+  </data>
+  <data name="toolBtnEditTrace.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMFJREFUOE9jZCAB
+        MLPZ/UdS7vf316EtRGsHaUbHRGsGKQTbvv/z/+f//8MNAhvAy+DjC8T/cWF0zSBDULwC0kgIgDSAbIZp
+        xmoANheADEbWDHM+it+RXeBkUZwc7teUD/IWzFU4/Q4zBWYAugtgtsMCDsPv6AaANIBsRnYBLNqw+h2b
+        AeiBSVS844sFZANwJhpiDMCb4ggFIshbDAyhzES5ABSIYpxBAWlxfVXI4QGyhCgDcKVIQgbgzQvQ9OGL
+        ywUA6qR6ApekRBoAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnEditTrace.Text" xml:space="preserve">
+    <value>Редактировать трассу</value>
+  </data>
+  <data name="toolBtnTraceGo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAOdJREFUOE+tUkEK
+        wjAQ3Fw8tT/yBbG9CN76AS8FT70K3utPPPkABZ8i+AFBioU102ZpLM0KxcCSzWYzO9kdQ34llC2JeG3I
+        7CTGxEcic3rS+SaxyT0lW6SUsbfy3rZX55dDzBZRAFRGYkKrLZIezPvQEO/vwXBiuYQaCeOH4dkXqCP0
+        O+rlD4DuO1EAos1CA8C9CgAGU/8XUGmo2gN2zXN2eTmTRADAV3sQTkFAAATD42EKtoqOcqyDpnkfvnXQ
+        a0QVE5jISEVAOCdkq0BkOohWIQRxfq6yiV3+HWQuizxgMu8rXhsAyj/XMuWdJ7KyeQAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="toolBtnTraceGo.Text" xml:space="preserve">
+    <value>Перейти к трассе</value>
+  </data>
+  <data name="toolBtnDeleteTrace.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIJJREFUOE9jZMAC
+        eBi80xgZGGciS/1n+J/+hWHrLGzqGUAaQHjCzO3/Yfj5////kTGyHEw93DCQAC+Dz39SMEgPimtgphJL
+        Y3iFFNtBamljACzQQAEGsgXGB7FBYsh8rC4YNQARaEM0EEHxCotvXF6AiTMwhDJjzZUMDPVMhJI0ukYA
+        Dx+ccoDbRrkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnDeleteTrace.Text" xml:space="preserve">
+    <value>Удалить трассу</value>
+  </data>
+  <data name="toolBtnScanParams.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAFNJREFUOE9jYKA3
+        eMPQ858iO4eAAcxsdr5A/B9EI/sVKv6XoBdAmkEaYTTMEBgfrwEw22EGwFyBLE7IAJQowuYa2hmAJ+BQ
+        ApRgIBJKZaMGYIYQACGePBUAWs6IAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnScanParams.Text" xml:space="preserve">
+    <value>Параметры сканирования</value>
+  </data>
+  <data name="toolBtnArmScanTrace.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAGxJREFUOE9jYKAU
+        8DL4/AdhkDkwNoyPy2xkPXBNMAPeMPT8B2EURUgmgcSR1eA0AN0gmIEwcZglBA1A1oDOBnsVPQzwaRgi
+        BmALLGxOh0c1vuhCjjKUqENOILgMgKlBTlxYExghAwim9FEDGADLAftf6/4uFgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnArmScanTrace.Text" xml:space="preserve">
+    <value>Параметры контроля</value>
+  </data>
+  <data name="toolBtnTraceMarkers.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHNJREFUOE9jYKAW
+        +M/AAESYgGhxohVC7cBQP7AGMLPZ+QLxfxCNHgpEuQykGaQQRBNjAIaFuAzA5TIM9dgMgGmGuQzmPXRx
+        BpjfoQrBYQHyBoyGhQEucaIV4jQAFmhINqHECCFxeKATFV1IUTTIUiIlORoAh994wcUzH1oAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="toolBtnTraceMarkers.Text" xml:space="preserve">
+    <value>Создание маркеров по порогу</value>
+  </data>
+  <data name="toolBtnReplayTrace.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHdJREFUOE9jZEAC
+        z////4/MZ/j/30+SiWkzihg+DsgAXgYfMAaxwfjfP1+yDCDLEGQXkOUSbAaQ5BJcBhBtCD4DiDKEkAFw
+        Q/7+bcYaM0QbAIxarNFLyACCaYNmgQi3GZffYQFC9YRE0M/oUUGVzAS3FZq1CeVGAEWpQ7m3Pz1pAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnReplayTrace.Text" xml:space="preserve">
+    <value>Воспроизвести запись трассы</value>
+  </data>
+  <data name="xPanelTraces.Text" xml:space="preserve">
+    <value>Трассы сканирования</value>
+  </data>
+  <data name="olvMarkerFreq.Text" xml:space="preserve">
+    <value>Частота</value>
+  </data>
+  <data name="olvMarkerName.Text" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="toolBtnNewMarker.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHdJREFUOE9jYKAU
+        8DL4/CcVo9gJ0vzw/38wZlj3HoxhfGw0SD1OA/BphMlhNYAiL1Aahgyk2o43DAgFIsi1PAweomQHIlQj
+        KBYQMUGMF9DCCdUAEgIRphGVJs4FxqxQZ2MaQkxKxOsFZAMIpUSyAxHmTRLCi3ilAKNEWzkvv+enAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnNewMarker.Text" xml:space="preserve">
+    <value>Добавить маркер</value>
+  </data>
+  <data name="toolBtnLoadMarkers.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIpJREFUOE9jZCAS
+        8DL4+KIr/cywZTMR2u1ZQJqf////Hx2DDQURhDBIIzabwOLYTEYXw+VMXAYT4S2IErgBUC/8B9LYMEbg
+        wWwAG0BAM8xArIaQYgC6y8AGUmIAOFYGoQH+vk3g1AaiccQIXByrF5ATEFkGkOUCkFOITAtw5/MweIeg
+        pESi0y4WhQAq8irX3qHvJwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnLoadMarkers.Text" xml:space="preserve">
+    <value>Открыть набор маркеров</value>
+  </data>
+  <data name="toolBtnSaveMarkers.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAJlJREFUOE9jYKAG
+        EGdw5eZm8J7Py+Dz/+LTt3gxSA1IrSCDCz/cbqDgeZAECD///x8DI8vB2EB6P7IBYM0kGvCffgYgewvJ
+        C9hdgKyAEBurFwhpIuiCuSsO/a9tXoEXwwzBcAFIo79vEzxGCLkGqwGENOH1AsgFA2WAdz7IZlJcAMwP
+        9+FhwM3gq4ecH4jwxnkeBh8bamRkBgC3sWmpNd2cVAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnSaveMarkers.Text" xml:space="preserve">
+    <value>Сохранить набор маркеров</value>
+  </data>
+  <data name="toolBtnEditMarker.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMFJREFUOE9jZCAB
+        MLPZ/UdS7vf316EtRGsHaUbHRGsGKQTbvv/z/+f//8MNAhvAy+DjC8T/cWF0zSBDULwC0kgIgDSAbIZp
+        xmoANheADEbWDHM+it+RXeBkUZwc7teUD/IWzFU4/Q4zBWYAugtgtsMCDsPv6AaANIBsRnYBLNqw+h2b
+        AeiBSVS844sFZANwJhpiDMCb4ggFIshbDAyhzES5ABSIYpxBAWlxfVXI4QGyhCgDcKVIQgbgzQvQ9OGL
+        ywUA6qR6ApekRBoAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnEditMarker.Text" xml:space="preserve">
+    <value>Редактировать маркер</value>
+  </data>
+  <data name="toolBtnMarkerGo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAOdJREFUOE+tUkEK
+        wjAQ3Fw8tT/yBbG9CN76AS8FT70K3utPPPkABZ8i+AFBioU102ZpLM0KxcCSzWYzO9kdQ34llC2JeG3I
+        7CTGxEcic3rS+SaxyT0lW6SUsbfy3rZX55dDzBZRAFRGYkKrLZIezPvQEO/vwXBiuYQaCeOH4dkXqCP0
+        O+rlD4DuO1EAos1CA8C9CgAGU/8XUGmo2gN2zXN2eTmTRADAV3sQTkFAAATD42EKtoqOcqyDpnkfvnXQ
+        a0QVE5jISEVAOCdkq0BkOohWIQRxfq6yiV3+HWQuizxgMu8rXhsAyj/XMuWdJ7KyeQAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="toolBtnMarkerGo.Text" xml:space="preserve">
+    <value>Перейти к маркеру</value>
+  </data>
+  <data name="toolBtnDeleteMarker.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIJJREFUOE9jZMAC
+        eBi80xgZGGciS/1n+J/+hWHrLGzqGUAaQHjCzO3/Yfj5////kTGyHEw93DCQAC+Dz39SMEgPimtgphJL
+        Y3iFFNtBamljACzQQAEGsgXGB7FBYsh8rC4YNQARaEM0EEHxCotvXF6AiTMwhDJjzZUMDPVMhJI0ukYA
+        Dx+ccoDbRrkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnDeleteMarker.Text" xml:space="preserve">
+    <value>Удалить маркер</value>
+  </data>
+  <data name="toolBtnClearMarkers.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAaFJREFUOE+FUz1L
+        A0EQ3VxQJChYKBhj7iOfaMQiCcFCAkpExFjYCBa2io0/QBT9CSm1F/wDol3UTkGwSpPgiRZqyB1aWQjJ
+        6ptzzz05zMHA7ex7b2dm3waY9LVisbzSDpSf271rIaWTkvc+Okp9NPh50gny02HTvJX3WD9b2jgcyh2b
+        +Rlu64l/AxhgwXFFkHhUU0RsRNN8b3Cal/rmeFRZpMA/chfhScIACw4JoGxbN2ri5AdVa0HdL1ZDxf1q
+        OHPlYI0auMzW4gfi5LuxcTrhJjLBB1jZN7I9824l4DJLjV2ChBJBArmbCLDAgMuaetzGAn2+cE5h5pxh
+        WqUFWkO4cnTu7gOLfXBdAQxLCAAsKoHIXwFguwqABLJoR67AV0BuAWAIoCIhgrZEhZ4W5CHKLQgB5OR2
+        sPYMUVwjTPJab9ApcgViiO5gi7NkNvICrlE2Umtnl0T8BJCzvsm/Vv8xEtxo68lNYWVreYVX17eda317
+        p8A/cna24FoZHM+DQuI6kun6mIBpaoktD1ksnoxkAQM6G5ni92raE8hhj/wvfV/FEvvz1S8PQQAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnClearMarkers.Text" xml:space="preserve">
+    <value>Удалить все маркеры</value>
+  </data>
+  <data name="xPanelMarkers.Text" xml:space="preserve">
+    <value>Маркеры</value>
+  </data>
+  <data name="olvSignalFStart.Text" xml:space="preserve">
+    <value>Частота</value>
+  </data>
+  <data name="olvSignalFStop.Text" xml:space="preserve">
+    <value>Полоса</value>
+  </data>
+  <data name="olvSignalTitle.Text" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="imageList2.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACm
+        BwAAAk1TRnQBSQFMAwEBAAEEAQABBAEAARABAAEQAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMA
+        AUADAAEQAwABAQEAAQgGAAEEGAABgAIAAYADAAKAAQABgAMAAYABAAGAAQACgAIAA8ABAAHAAdwBwAEA
+        AfABygGmAQABMwUAATMBAAEzAQABMwEAAjMCAAMWAQADHAEAAyIBAAMpAQADVQEAA00BAANCAQADOQEA
+        AYABfAH/AQACUAH/AQABkwEAAdYBAAH/AewBzAEAAcYB1gHvAQAB1gLnAQABkAGpAa0CAAH/ATMDAAFm
+        AwABmQMAAcwCAAEzAwACMwIAATMBZgIAATMBmQIAATMBzAIAATMB/wIAAWYDAAFmATMCAAJmAgABZgGZ
+        AgABZgHMAgABZgH/AgABmQMAAZkBMwIAAZkBZgIAApkCAAGZAcwCAAGZAf8CAAHMAwABzAEzAgABzAFm
+        AgABzAGZAgACzAIAAcwB/wIAAf8BZgIAAf8BmQIAAf8BzAEAATMB/wIAAf8BAAEzAQABMwEAAWYBAAEz
+        AQABmQEAATMBAAHMAQABMwEAAf8BAAH/ATMCAAMzAQACMwFmAQACMwGZAQACMwHMAQACMwH/AQABMwFm
+        AgABMwFmATMBAAEzAmYBAAEzAWYBmQEAATMBZgHMAQABMwFmAf8BAAEzAZkCAAEzAZkBMwEAATMBmQFm
+        AQABMwKZAQABMwGZAcwBAAEzAZkB/wEAATMBzAIAATMBzAEzAQABMwHMAWYBAAEzAcwBmQEAATMCzAEA
+        ATMBzAH/AQABMwH/ATMBAAEzAf8BZgEAATMB/wGZAQABMwH/AcwBAAEzAv8BAAFmAwABZgEAATMBAAFm
+        AQABZgEAAWYBAAGZAQABZgEAAcwBAAFmAQAB/wEAAWYBMwIAAWYCMwEAAWYBMwFmAQABZgEzAZkBAAFm
+        ATMBzAEAAWYBMwH/AQACZgIAAmYBMwEAA2YBAAJmAZkBAAJmAcwBAAFmAZkCAAFmAZkBMwEAAWYBmQFm
+        AQABZgKZAQABZgGZAcwBAAFmAZkB/wEAAWYBzAIAAWYBzAEzAQABZgHMAZkBAAFmAswBAAFmAcwB/wEA
+        AWYB/wIAAWYB/wEzAQABZgH/AZkBAAFmAf8BzAEAAcwBAAH/AQAB/wEAAcwBAAKZAgABmQEzAZkBAAGZ
+        AQABmQEAAZkBAAHMAQABmQMAAZkCMwEAAZkBAAFmAQABmQEzAcwBAAGZAQAB/wEAAZkBZgIAAZkBZgEz
+        AQABmQEzAWYBAAGZAWYBmQEAAZkBZgHMAQABmQEzAf8BAAKZATMBAAKZAWYBAAOZAQACmQHMAQACmQH/
+        AQABmQHMAgABmQHMATMBAAFmAcwBZgEAAZkBzAGZAQABmQLMAQABmQHMAf8BAAGZAf8CAAGZAf8BMwEA
+        AZkBzAFmAQABmQH/AZkBAAGZAf8BzAEAAZkC/wEAAcwDAAGZAQABMwEAAcwBAAFmAQABzAEAAZkBAAHM
+        AQABzAEAAZkBMwIAAcwCMwEAAcwBMwFmAQABzAEzAZkBAAHMATMBzAEAAcwBMwH/AQABzAFmAgABzAFm
+        ATMBAAGZAmYBAAHMAWYBmQEAAcwBZgHMAQABmQFmAf8BAAHMAZkCAAHMAZkBMwEAAcwBmQFmAQABzAKZ
+        AQABzAGZAcwBAAHMAZkB/wEAAswCAALMATMBAALMAWYBAALMAZkBAAPMAQACzAH/AQABzAH/AgABzAH/
+        ATMBAAGZAf8BZgEAAcwB/wGZAQABzAH/AcwBAAHMAv8BAAHMAQABMwEAAf8BAAFmAQAB/wEAAZkBAAHM
+        ATMCAAH/AjMBAAH/ATMBZgEAAf8BMwGZAQAB/wEzAcwBAAH/ATMB/wEAAf8BZgIAAf8BZgEzAQABzAJm
+        AQAB/wFmAZkBAAH/AWYBzAEAAcwBZgH/AQAB/wGZAgAB/wGZATMBAAH/AZkBZgEAAf8CmQEAAf8BmQHM
+        AQAB/wGZAf8BAAH/AcwCAAH/AcwBMwEAAf8BzAFmAQAB/wHMAZkBAAH/AswBAAH/AcwB/wEAAv8BMwEA
+        AcwB/wFmAQAC/wGZAQAC/wHMAQACZgH/AQABZgH/AWYBAAFmAv8BAAH/AmYBAAH/AWYB/wEAAv8BZgEA
+        ASEBAAGlAQADXwEAA3cBAAOGAQADlgEAA8sBAAOyAQAD1wEAA90BAAPjAQAD6gEAA/EBAAP4AQAB8AH7
+        Af8BAAGkAqABAAOAAwAB/wIAAf8DAAL/AQAB/wMAAf8BAAH/AQAC/wIAA///AEcAAUoBZgFsAmUBIzgA
+        AewB8QGtAtkB0wHNAacB7TYAAVIB8QG1AdkBDQEAAQ0BzQFCAbwB7zUAAUQBtQHbAdkBAAEOAV8BQgHH
+        AbwBkgEUNQABFAG0AdMBDQEMAQABQgEEAW0BQzcAAQwBBAJCAgQBEQEO/wB1AAFCAU0BPgcAAT4DAAEo
+        AwABQAMAARADAAEBAQABAQUAAYAXAAP/AQAC/wYAAv8GAAL/BgAC/wYAAv8GAAH4AR8GAAHgAQ8GAAHA
+        AQcGAAHAAQMGAAHgAYcGAAHwAQ8GAAL/BgAC/wYAAv8GAAL/BgAC/wYACw==
+</value>
+  </data>
+  <data name="RangeSignalToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="RangeSignalToolStripMenuItem.Text" xml:space="preserve">
+    <value>Полосовой сигнал</value>
+  </data>
+  <data name="toolBtnNewSignal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAHdJREFUOE9jYKAU
+        8DL4/CcVo9gJ0vzw/38wZlj3HoxhfGw0SD1OA/BphMlhNYAiL1Aahgyk2o43DAgFIsi1PAweomQHIlQj
+        KBYQMUGMF9DCCdUAEgIRphGVJs4FxqxQZ2MaQkxKxOsFZAMIpUSyAxHmTRLCi3ilAKNEWzkvv+enAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolBtnNewSignal.Text" xml:space="preserve">
+    <value>Новый сигнал</value>
+  </data>
+  <data name="toolBtnLoadSignals.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIpJREFUOE9jZCAS
+        8DL4+KIr/cywZTMR2u1ZQJqf////Hx2DDQURhDBIIzabwOLYTEYXw+VMXAYT4S2IErgBUC/8B9LYMEbg
+        wWwAG0BAM8xArIaQYgC6y8AGUmIAOFYGoQH+vk3g1AaiccQIXByrF5ATEFkGkOUCkFOITAtw5/MweIeg
+        pESi0y4WhQAq8irX3qHvJwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnLoadSignals.Text" xml:space="preserve">
+    <value>Открыть набор сигналов</value>
+  </data>
+  <data name="toolBtnSaveSignals.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAJlJREFUOE9jYKAG
+        EGdw5eZm8J7Py+Dz/+LTt3gxSA1IrSCDCz/cbqDgeZAECD///x8DI8vB2EB6P7IBYM0kGvCffgYgewvJ
+        C9hdgKyAEBurFwhpIuiCuSsO/a9tXoEXwwzBcAFIo79vEzxGCLkGqwGENOH1AsgFA2WAdz7IZlJcAMwP
+        9+FhwM3gq4ecH4jwxnkeBh8bamRkBgC3sWmpNd2cVAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnSaveSignals.Text" xml:space="preserve">
+    <value>Сохранить набор сигналов</value>
+  </data>
+  <data name="toolBtnEditSignal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMFJREFUOE9jZCAB
+        MLPZ/UdS7vf316EtRGsHaUbHRGsGKQTbvv/z/+f//8MNAhvAy+DjC8T/cWF0zSBDULwC0kgIgDSAbIZp
+        xmoANheADEbWDHM+it+RXeBkUZwc7teUD/IWzFU4/Q4zBWYAugtgtsMCDsPv6AaANIBsRnYBLNqw+h2b
+        AeiBSVS844sFZANwJhpiDMCb4ggFIshbDAyhzES5ABSIYpxBAWlxfVXI4QGyhCgDcKVIQgbgzQvQ9OGL
+        ywUA6qR6ApekRBoAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnEditSignal.Text" xml:space="preserve">
+    <value>Редактировать сигнал</value>
+  </data>
+  <data name="toolBtnDeleteSignal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIJJREFUOE9jZMAC
+        eBi80xgZGGciS/1n+J/+hWHrLGzqGUAaQHjCzO3/Yfj5////kTGyHEw93DCQAC+Dz39SMEgPimtgphJL
+        Y3iFFNtBamljACzQQAEGsgXGB7FBYsh8rC4YNQARaEM0EEHxCotvXF6AiTMwhDJjzZUMDPVMhJI0ukYA
+        Dx+ccoDbRrkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnDeleteSignal.Text" xml:space="preserve">
+    <value>Удалить сигнал</value>
+  </data>
+  <data name="toolBtnClearSignals.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAaFJREFUOE+FUz1L
+        A0EQ3VxQJChYKBhj7iOfaMQiCcFCAkpExFjYCBa2io0/QBT9CSm1F/wDol3UTkGwSpPgiRZqyB1aWQjJ
+        6ptzzz05zMHA7ex7b2dm3waY9LVisbzSDpSf271rIaWTkvc+Okp9NPh50gny02HTvJX3WD9b2jgcyh2b
+        +Rlu64l/AxhgwXFFkHhUU0RsRNN8b3Cal/rmeFRZpMA/chfhScIACw4JoGxbN2ri5AdVa0HdL1ZDxf1q
+        OHPlYI0auMzW4gfi5LuxcTrhJjLBB1jZN7I9824l4DJLjV2ChBJBArmbCLDAgMuaetzGAn2+cE5h5pxh
+        WqUFWkO4cnTu7gOLfXBdAQxLCAAsKoHIXwFguwqABLJoR67AV0BuAWAIoCIhgrZEhZ4W5CHKLQgB5OR2
+        sPYMUVwjTPJab9ApcgViiO5gi7NkNvICrlE2Umtnl0T8BJCzvsm/Vv8xEtxo68lNYWVreYVX17eda317
+        p8A/cna24FoZHM+DQuI6kun6mIBpaoktD1ksnoxkAQM6G5ni92raE8hhj/wvfV/FEvvz1S8PQQAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnClearSignals.Text" xml:space="preserve">
+    <value>Удалить все сигналы</value>
+  </data>
+  <data name="unknownToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="unknownToolStripMenuItem.Text" xml:space="preserve">
+    <value>Неизвестные</value>
+  </data>
+  <data name="greenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="greenToolStripMenuItem.Text" xml:space="preserve">
+    <value>Безопасные</value>
+  </data>
+  <data name="yellowToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="yellowToolStripMenuItem.Text" xml:space="preserve">
+    <value>Подозрительные</value>
+  </data>
+  <data name="redToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="redToolStripMenuItem.Text" xml:space="preserve">
+    <value>Опасные</value>
+  </data>
+  <data name="toolBtnSignalFilter.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMFJREFUOE9jYKAU
+        8DL4/CcVo9gJ0vz8/38wZlj3HoxhfLAYIYBsALJGmGagvC/Uhf+gdB6GC3B5AaQQJLfj9I0Dtz59XwCi
+        QXxCjkK34N/drz/mP//7dyaIBhrwjwQX2LOAbNx69Mqxa28+Ldl+6vpBDBfgC0SQTXwM3jloYQCONbgr
+        8AUitlhADi+wIaSkAQYGD3agFkaYHnYG9/ckBSiyYpAhYANIcQFMLUkpET1x4Y0FdMXY+FgNINUbZAcc
+        No0ANllRZewae8gAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnSignalFilter.Text" xml:space="preserve">
+    <value>Фильтр сигналов</value>
+  </data>
+  <data name="toolBtnSignalsReport.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAKBJREFUOE9jZMAC
+        eBl8fIHCm7DJIYn5fWbYshmrGqAB/5///48Xg9TANYNsBAkQwL7IhqIbALQPPwBpWLrpJBiDDMJqADYX
+        wIxF9xZOFzhZFCeH+zXlg7yF7CaiDCDkAoJeANkIsplsF+ALRqICkZABBKORUBgQNAAWBmKcQQFpcX1V
+        JMcCIS+guRCUXyAAJEEIoCQc9BxEbF4gkDvJkwYAOfn6ihrlqP4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnSignalsReport.Text" xml:space="preserve">
+    <value>Отчет по списку сигналов</value>
+  </data>
+  <data name="toolBtnCreateSignalTraces.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAH5JREFUOE/tklEO
+        gCAMQ0tMPJY3wMN6QHE1VsaCmvirhAVW8W0pJLhRgGIxey3uE7BY2OwMAlYg3wXPXBb4OmAYp2xRuHoT
+        oy4TpZ+G8md+5BoAey7dAeptiCaAupAuAPPjzA5sqjPRNaparxsVad6CaK8AMi508Gjo/5SrAxu5FOL9
+        1CTRVwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnCreateSignalTraces.Text" xml:space="preserve">
+    <value>Создать трассы по сигналам</value>
+  </data>
+  <data name="xPanelSignals.Text" xml:space="preserve">
+    <value>Сигналы</value>
+  </data>
+  <data name="btnCreateReport.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAK1JREFUOE9j/P//
+        PwM64GP09QWKbcKQQBXw+/R/82YGkAHomJfB5/9zoCA+DFIDthxEADm+IAEC2BfZQHQDQKbhBSANSzed
+        BGOQQVgNwOYCmKno3sLpAmfLkuRwv+Z8kLeQnUSUAYRcQNALIBtBNpPtAnyhSFQgEjKAYDQSCgOCBsDC
+        QIwrOCAtrq+K5Fgg5AU0F4KiGZ6UCSVEeMpDzzck5QVsGQ9rbsSmEJcYANm0pfU/UYMWAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="btnCreateReport.ToolTip" xml:space="preserve">
+    <value>Отчет по сигналу</value>
+  </data>
+  <data name="btnSpectrogram.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAF5JREFUOE9j+P//
+        PwM2zMxm958hZNl/hnXv/+ee/wZUAlQIZIPEQHIwPVg1gyRHugEg/5MdBsRoxhkLpGoGxRY8GsnRjGEA
+        voSD7GzkhIfiAmJSHnqqHTUALRrJCUQAOE+fF25DkBIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnSpectrogram.ToolTip" xml:space="preserve">
+    <value>Спектрограмма сигнала</value>
+  </data>
+  <data name="btnReplaySignalCycles.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIZJREFUOE9j/P//
+        PwMMvGBgQHAggn4SDAyb4QqwMUAGwPBzIIOXwQeMQWwo9kVWg86GawZJIBtArCF4DSDGEIIGEDKEKAPw
+        GUK0AbgMIckAJEOaYbFBrgG+wBgDRy9JBmBLG0QbgCthEWUAkma434kOA0JJmnZJmZDNOL2ApBGoBpzB
+        8OZGAId6i5+2D+auAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnReplaySignalCycles.ToolTip" xml:space="preserve">
+    <value>Воспроизвести сигнал</value>
+  </data>
+  <data name="btnSetSignalFreq.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAOJJREFUOE+dkj0O
+        wjAMhdulG5woRyALcy/QJRJT10rs5SYsXAAkroLYWVCFwPiFWDJRmlIqPTW1na/+K4mowLMsreHXmrXx
+        hs+zY+1vdDgr2/cRgEWxqlkU5C7P14nPTtlqxKWEyyYENgi4EnVa7GuC34wBegTEFyMIsuvHAHC6CYAv
+        JweoJgDVFMCl6heoNDTbA3Z2rOOdJYEAhClle6Cn4CFKmJJMoU1mkNqDYXhsoz3wOzIKCBBk4keqhO9W
+        22JIcrtSf4rAVmJ+BqhmSoYeMgsQQ/4FWFWOnZ2B1M4QgOwbMF5Wd93hOqwAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnSetSignalFreq.ToolTip" xml:space="preserve">
+    <value>Перейти к сигналу</value>
+  </data>
+  <data name="btnSignalRevertChanges.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAM9JREFUOE9j/P//
+        PwMyYGG3TwHy/YFYD4jFoXIvgfQlIN745+fBOSgaQAaAMDObnSEQbwLiX0D8HwcGyYHUGML0IWs+hkcj
+        uoEgtWBDYAaATMVlKy7xTWADgBpTkJ0NFPy/5cyNh+gGgsRAckjiIO+kgAzYjKwYphDZEGxiUD2bQQbg
+        tK2ic/EhEMblKpBekAE/sPkfphGkGcTGEUY/qGIAxV6gOBApi0ZoMiY/ISHlA/KTMsWZCZazoAaBwgQU
+        sKDYAaUREAaxQWIpyGpBbAAOmag63RczVgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnSignalRevertChanges.ToolTip" xml:space="preserve">
+    <value>Отменить последние изменения</value>
+  </data>
+  <data name="btnNextSignalChart.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAKhJREFUOE9j/P//
+        PwNFAGQAL4PPfyj2BfFhGCgmgUsOpgasGKRo6aaTMEOckQzgQTIAJI9iAdj1MAOeAxlIhoAVorkAqytR
+        DMBhCEwjMg13CYYB6IaAnI3mDRSXYDWAFENwGoBsCDQ8sLqEdgYgxwi+cKB+IGJJC8RHIxbNTFiiECU1
+        YkvKsFTIAtQMwlgTEEZeQM5MQDYXUn7AmoRRDIDGMztyTiSWDQBl7QSEuSn/rgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnNextSignalChart.ToolTip" xml:space="preserve">
+    <value>Следующий сигнал</value>
+  </data>
+  <data name="btnPrevSignalChart.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAKxJREFUOE+lk1EK
+        gCAMhi2EIOq9+/Sax+wC3aKTdAzbxMHcZkUGkjj/b7/TdTFG1/QhQI7ZbQFGzGPhcR5LyV/ECJloD8xX
+        hO7HmeAKIDIXDiiG4guUClARpyxSrAA1cV5P9aDMKC4Af8QSQGfl/5Ctq8yWg2YAv/PChVU85YBXmT0e
+        AiH8uYjskZhOPl3jC6S3IOZLrBzHw2YvIVWAhDB3oxVTzWR1p9FwA63dLQIEhHa9hSQAAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="btnPrevSignalChart.ToolTip" xml:space="preserve">
+    <value>Предыдущий сигнал</value>
+  </data>
+  <data name="xPanelSignalChart.Text" xml:space="preserve">
+    <value>Карточка сигнала</value>
+  </data>
+  <data name="olvReportTime.Text" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="olvReportName.Text" xml:space="preserve">
+    <value>Отчет</value>
+  </data>
+  <data name="lstReports.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAA7QodC10LPQvtC00L3RjwX8////KFN5c3RlbS5XaW5kb3dzLkZvcm1zLkhvcml6b250YWxBbGln
+        bm1lbnQBAAAAB3ZhbHVlX18ACAIAAAAAAAAACgYFAAAACGxzdFRvZGF5Cw==
+</value>
+  </data>
+  <data name="lstReports.Groups1" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAArQktGH0LXRgNCwBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJbHN0VmNoZXJhCw==
+</value>
+  </data>
+  <data name="lstReports.Groups2" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAA1MaXN0Vmlld0dyb3VwBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdu
+        bWVudAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHbHN0RGF0ZQs=
+</value>
+  </data>
+  <data name="reportsAudioFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 22</value>
+  </data>
+  <data name="reportsAudioFilter.Text" xml:space="preserve">
+    <value>Ручные аудио-записи</value>
+  </data>
+  <data name="reportsSignalAudioFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 22</value>
+  </data>
+  <data name="reportsSignalAudioFilter.Text" xml:space="preserve">
+    <value>Автоматические аудио-записи</value>
+  </data>
+  <data name="reportsPDFFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 22</value>
+  </data>
+  <data name="reportsPDFFilter.Text" xml:space="preserve">
+    <value>Отчеты по сигналам</value>
+  </data>
+  <data name="toolStripDropDownButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMFJREFUOE9jYKAU
+        8DL4/CcVo9gJ0vz8/38wZlj3HoxhfLAYIYBsALJGmGagvC/Uhf+gdB6GC3B5AaQQJLfj9I0Dtz59XwCi
+        QXxCjkK34N/drz/mP//7dyaIBhrwjwQX2LOAbNx69Mqxa28+Ldl+6vpBDBfgC0SQTXwM3jloYQCONbgr
+        8AUitlhADi+wIaSkAQYGD3agFkaYHnYG9/ckBSiyYpAhYANIcQFMLUkpET1x4Y0FdMXY+FgNINUbZAcc
+        No0ANllRZewae8gAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripDropDownButton2.Text" xml:space="preserve">
+    <value>Фильтр отчетов</value>
+  </data>
+  <data name="toolBtnExportReport.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAI1JREFUOE9jYKAU
+        8DL4+ALxfwLYF6c9II2EHIFXDUwSmwtgBhNlAEixk0VxcrhfUz7IW8iuIsoAqrgAZDM2F3AzeDtQFIhg
+        zXEK/8E4RhE1RoiJBRQD0A2BGwCzgRQa5BqKDABZRpEBKC7AEcy/f/++z8vgnQ8PRCxhgDcvAKNwPheD
+        lwHOWCCUD2guDwD/q5Pt9FY6egAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnExportReport.Text" xml:space="preserve">
+    <value>Экспорт отчета</value>
+  </data>
+  <data name="toolBtnDeleteReports.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIJJREFUOE9jZMAC
+        eBi80xgZGGciS/1n+J/+hWHrLGzqGUAaQHjCzO3/Yfj5////kTGyHEw93DCQAC+Dz39SMEgPimtgphJL
+        Y3iFFNtBamljACzQQAEGsgXGB7FBYsh8rC4YNQARaEM0EEHxCotvXF6AiTMwhDJjzZUMDPVMhJI0ukYA
+        Dx+ccoDbRrkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolBtnDeleteReports.Text" xml:space="preserve">
+    <value>Удалить отчет</value>
+  </data>
+  <data name="xPanelReports.Text" xml:space="preserve">
+    <value>Отчеты</value>
+  </data>
+  <data name="xPanelConfig.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="btnLoadRCSState.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIdJREFUOE9j/P//
+        PwMxgI/R1xdd3af/mzczgAzAh3kZfFiA2Pc5UBE6BokzgAhCGKQRmyUgcQZsJqOL4XIh2ABKMNwAqBf+
+        A2ls2BevCwhohhmI1RCwC4g0AN1lYAMpMQAcK4PQAH/fJnBqA9E4YgQujtULyAmILAPIcgGZURkC9wIl
+        SRmkFwApUAMqa5vvFQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnLoadRCSState.ToolTip" xml:space="preserve">
+    <value>Открыть состояние...</value>
+  </data>
+  <data name="btnSaveRCSState.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAJhJREFUOE9j/P//
+        PwNFAGQAL4MPNxDPB+L/F5++xYtBaqBq+cGWQw04D5X4/xwogI6R5WBsIL0f2QCQqWBMggFA/QgX0NYA
+        ZFcheQG7C5AVEGJj9QIhTQRdMHfFof+1zSvwYpghGC4AafT3bYIHKCHXYDWAkCa8XgC5YMAMyAfZTKIL
+        7iOHgR7QAHh+IMIbILU2cANADHIxAEnI8DCzS1ieAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnSaveRCSState.ToolTip" xml:space="preserve">
+    <value>Сохранить состояние...</value>
+  </data>
+  <data name="btnQuit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAALlJREFUOE9j/P//
+        PwM6YGG3xxREU/Tn50FGsBDIAHTMzGYHFAIDXygGqfEFioPwf6g8WB+xBvhOn7GhGaSxfsJK8gyAad5y
+        5gZhA6BeQvYC2OkgzQQNYIhT+A/EIL+D/Q3DpBoAMgRmENgQnAZAFcI0YKOpZwDMFXijEc1FZIcB+YGI
+        lCrJi0aQAUhJGZakwYmHqHQAMwCW5pFpkAEEkzI0w8AyDjIN1wxSA/MqSmbCoxmeC5E1gwwBAHRiTgoL
+        5v91AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnQuit.ToolTip" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="chkBtnMode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAHQAAAAdCAYAAAB7YUi1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAABuVJREFUaEPtmldz
+        1FYUxyXd9ZCQSZ7yGUgvNFMNJIAhGAIPmUnvBEwKmOKydANuYKpNaLbpPELymJdMHlLI8KFO/v8jXe1d
+        WVotazMERjtzbK2k1b1zfzr1Hl9EvOLzFK0AgUZQSbaQJ3QNYo5VQD+aJV4t+fgl8T59WbzPXxHvy1fF
+        +/o18Ta/Lt6WN8Xb9pZ4P84Wf8cc8XfNk6BzvgQ9CyTYu1DM/kViDi4Wc2iJmMOQ3lACHAc4p3Jgsfj7
+        FopfhnQ1i79nvng754m3fY4+V5/PcTgex+X4nAfnw3nVmvfsWbIRoMoNyHS/5B9gDq7kzckdn79Lu5/3
+        NAb0EyzcZ1jAL7CQXNRvEzA75oq/GzABJCgvqIAkxCNLxRxrEdMH6V9WkWPLJDjaIgGuK2CC3btIfLwM
+        fmdzOlSOy/E5D86H83pEQPMWPOt6vS9CErD9ngVy4rkXxIodOx/oLixkUnbj3J4F4nUuFK97kXjlxeLt
+        WyLegaXiHVoqfi/BQPqWSzC4QszQO2JOvCvmJOTUSjFnVkmJcpayOpRz4X9eM6chuC8YhuB3Pn7vD0D6
+        Voh3dLl4eL53qCUcj+NyfM6D8+G8OL/knC3khIa6i/I4jgmiHuDuy5I2zykCJUxIFxawBwu5Fwu6Hwt7
+        EDAPt4jvwjwOmMMOSEIkvBHIaGso59dUjkfwHdct2OBkAuoxAD0CwTgcT8fl+JwH58N57YY8IUAtnMFn
+        ZqoJ5X/KdhxbIXALLOulaxxoDe1UmEcizRyINBMwS9A21UgFSYCRXFgrJVd+BlgLF/eZSGOroUJLCfVh
+        tfR/qqF5VsFq8CMEirefZi1NO3vh/2ASg/4QZgnmsnQKcmalNBEmtZHQLkAuAual96R0uSLm0loxOG9w
+        jwFYkwZ1EKYXz1fTeximN01L1ewmtLQAGkW5k/yn9Z0wb2WYuch3+vBpVdoJU1uCzyydJkxop4VpQV4B
+        yCvrpDTmCL9fXicGoGOwhEoTDL+qmjoEnwp/qloKa1DtSzGfbppdSAFU491KHmrfaBdowtxuuTfEELnq
+        M/TPHdXO5pvtk67xRPnfCYAEzLE2af9rpOqe9j9HQ8AAa6GmPgQne36/FGlp5EvzgqNCQ1M01AJNmNtV
+        1zt03QNoTUDfGWnnmrudel59Js0szKtCfXBVzMR6MddC4cdc2yDmKr7z/LgDFb/T6+egqdRSRL6MemOg
+        9KWZZteJdgugaUBT/CdSh9XXd4ZAkaYYpCmlEzC3CITW3O0KgdJvwtQ20V+Ot0UA10tw/X0V/e0NHhMq
+        hFBVU0PTq0Bpes+sDs3uccfsusGRG+0m/WgBNAOom67sQ7pAoDccoBoMJYBG2qnmNAKqMG9uFB/Cj39r
+        I6BCYqhtoem9GGp166/d0nq3O4TP3BTBkYcXqNqP1khfCqA5QJ2AKAbaDw0lUKYqCIbW3os0FEBVOwl0
+        ItRQaiRh+rc2hUBvb4qhqvmNtJS+NPmpAEW0y8CIOWlcZMjIRwugNYAykmwIaJu8eOvDClBoJUEmgQYA
+        Wn5wTc2uBWpGkcYgL63W0AygGukmUpcC6KPRUAJp/3u0poa2/rY/9JspQINTCIxgcnv+uAyTW2jo1Gq5
+        zO0cH7rll5S05f4d9aHNt7dNMpU8oREuIlv60K33z6feY++jD836hEALHzp1oMkqEXyXW1Rwo1wW35tY
+        s01EuQZ+1ELV4IgRbo0oVytHRZSr9dzpreVm5KHxDksiD41Lfk4eWhoLUxc3DzWMbGvkoQa/T+ahcfmv
+        yEMVcmPF+azCfLTLoltmto5ri/KqpU4Nl9FuVClixKtgrYyvn1QpCrUTpT88x/pPpizxVprddSkqRQr1
+        4fdD1Y9yH7So5ebtlEzH9WK3hWXJYrclrMnzjx5QddOK8yzUF/uhmYHJdGhk8hnTr6Fp/TlxP5FtDntD
+        vK1o2vr+bfHRyKWNYewlYlMYG8J60UPE/qGB5VI6jlrvcLS1xr1SCqpKKjym70Xaw2iZ/UbB0bC/yEdz
+        mTaNsWGsAw1jP6FhDOPpuJsxvvYVYT55fUVTaBJrtKdouGmGWDk741mhXJn5vEreS5AHNDmnfB+aBtTt
+        +PsKi/gNGrW+w6K2oxvvB0DdMVcCNoh1R1APoNOPzWGAY/rQFEawQxFcAqaw/jsEiIMoH7KEiCYybRZD
+        F6DC7AFMt1EM4+h4HJfjcx71dP49BqD1vghZvUJuC0pWp5/Tl7QhtrRVJrfO5qV6Gpye5nuyOvUaOV+r
+        a9BeS+sExPpuoFh+k4AmLxTf49hCFy4hdXXtNQLYhZcCMhWiyyoOigqAIcBGJQU6F78m+Hp6cqNn5IIs
+        NHQK8BqB3gjwNJOaN/Z/U9TusjasCZwAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="chkBtnMode.ToolTip" xml:space="preserve">
+    <value>Режим автоматического сканирования и контроля</value>
+  </data>
+  <data name="btnAbout.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAOpJREFUOE9j/P//
+        PwMIsLDb+wKpTWAOFDi29SJzwezdxSaMKIIgA5jZ7HyB+P/Zs2eBXAgA8V16TqOIgfgg9ciYJM24DADb
+        hoxBCnFhbC74f+zJfziGOf3Zs2f/kTHMQKwGINsGMwBkaO2EbRguI8kFUG/VgwwDsuuh/AT0QMTqBWTN
+        MC/CDCHagOtvEGGDZAhKVIKiEacLKiqnLwMZAjMIpwuwBSJQcQLIcJghIBopqn1h3sDpAlAUwgxBTydQ
+        PtgQsAG4ohE5fYDYIHVohvnidQG2xATLNzCDwAaQmpSRDHmIkrPQUxkxfADWwmAU4j7BiwAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="btnAbout.ToolTip" xml:space="preserve">
+    <value>О программе...</value>
+  </data>
+</root>

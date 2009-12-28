@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolBtnSave.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAJlJREFUOE9jYKAG
+        EGdw5eZm8J7Py+Dz/+LTt3gxSA1IrSCDCz/cbqDgeZAECD///x8DI8vB2EB6P7IBYM0kGvCffgYgewvJ
+        C9hdgKyAEBurFwhpIuiCuSsO/a9tXoEXwwzBcAFIo79vEzxGCLkGqwGENOH1AsgFA2WAdz7IZlJcAMwP
+        9+FhwM3gq4ecH4jwxnkeBh8bamRkBgC3sWmpNd2cVAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnSave.Text" xml:space="preserve">
+    <value>Сохранить конфигурацию...</value>
+  </data>
+  <data name="toolBtnReset.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAARpJREFUOE9jYBjU
+        gJfBx7e26/D/ivZD/1v6Dv/vn3r4Py+DpxpRjq5qP/xfXTnvv4ZKHpgGYR21vP+1nYewGwK0DS4BslUd
+        qFFRPue/hHgqUBwk5/NfSjLzv5Zq3v+mnkP/MVwBUqCrAZQEOhWkWVYm+7+EGESza/js/44Rs8FsGZmc
+        /7VdOAxQkM8F2pr3X14uF24rKBxAtoFomCsKG3AYICmVA7Q5978S0OlQZ4M1wwBITBrojfxGHAaIimf+
+        BxkCcomcTBZGYIFdIJX9v6QZhwGwwEKmMVwAtKC+ax9mIBKKW14G72YJicz/MqIJIO+heI2QXrA82P/S
+        uf95GHwyiNKArAikSUoKEjMkawZpANmMLVbIMozqmgB+MY0+0qHGOgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolBtnReset.Text" xml:space="preserve">
+    <value>Перезапуск системы</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="toolBtnReset.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStrip1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbRPUType.Items" xml:space="preserve">
+    <value>РПУ РПВ-3 (20MHz - 3GHz)</value>
+  </data>
+  <data name="cmbRPUType.Items1" xml:space="preserve">
+    <value>РПУ ICOM R-8500 (100kHz - 2GHz)</value>
+  </data>
+  <data name="cmbRPUType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 19</value>
+  </data>
+  <data name="cmbRPUType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 21</value>
+  </data>
+  <data name="cmbRPUType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Тип РПУ:</value>
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRPUEdit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMVJREFUOE+dk0EK
+        wjAQRacI7rySK5f2Zt5F8ALiwpVb7+C6uBKEMX/wl0mYhqSFYULJf/P7kw6b7X4UkUsqe76f28B1U08A
+        LUtVpbWE4hcU17fBWsXYZ5MggngNZAZ4yJKLnRxHFl3O3woRHaBHkL9Y0UOAh1RcZBllabdkkabXAYTw
+        dMoTqQJ4Iv5e4B1EQVkO4YUpAQi1LDrJAHiZNj69E6wPp4cB0LmuAaa0+UwIeq8DTrkzQE73fckBbloU
+        WF+IPT/TD3OcbCF+DzQ2AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnRPUEdit.ToolTip" xml:space="preserve">
+    <value>Параметры РПУ...</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>РПУ</value>
+  </data>
+  <data name="groupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="images.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABy
+        BQAAAk1TRnQBSQFMAgEBAgEAAQQBAAEEAQABDAEAAQwBAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAEw
+        AwABDAMAAQEBAAEgBgABCRIAATECMAFNAUgBAAEJAf8BSAEAAQkB/wFIAQABCQH/AUgBAAEJAf8EAAFI
+        AQABCQH/AUgBAAEJAf8BSAEAAQkB/wFIAQABCQH/AUgBAAEJAf8EAAExAjABTQFIAQABCQH/AUgBAAEJ
+        Af8BSAEAAQkB/wFIAQABCQH/AUgBAAEJAf8BSAEAAQkB/wFIAQABCQH/AUgBAAEJAf8BSAEAAQkB/wFI
+        AQABCQH/ATECMAFNYAABSAEAAQkD/wHnAf8BywGMAUAD/wHnAf8BMQIwAU0BMQIwAU0BSAEAAQkB/wFI
+        AQABCQH/AUgBAAEJAf8BSAEAAQkB/wFIAQABCQH/ATECMAFNAUgBAAEJA/8B5wH/AcsBjAFAA/8B5wP/
+        AecB/wHLAYwBQAP/AecB/wHLAYwBQAP/AecB/wHLAYwBQAP/AecB/wFIAQABCQH/YAABSAEAAQkD/wHn
+        A/8B5wH/ATECMAFNATECMAFNAUgBAAEJAf8BMQIwAU0Q/wFIAQABCQH/AUgBAAEJA/8B5wP/AecD/wHn
+        A/8B5wP/AecD/wHnA/8B5wP/AecD/wHnA/8B5wH/AUgBAAEJAf9gAAFIAQABCQP/AecB/wExAjABTQEx
+        AjABTQFIAQABCQH/ATECMAFNFP8BSAEAAQkB/wFIAQABCQP/AecB/wHLAYwBQAH/AcsBjAFAA/8B5wH/
+        AcsBjAFAAf8BywGMAUAD/wHnAf8BywGMAUAB/wHLAYwBQAP/AecB/wFIAQABCQH/YAABSAEAAQkD/wHn
+        Af8BMQIwAU0BSAEAAQkB/wExAjABTRj/AUgBAAEJAf8BSAEAAQkB/wIAAv8CsgHuA/8B5wH/ArIB7gH/
+        AgAE/wHnA/8B5wP/AecD/wHnA/8B5wH/AUgBAAEJAf9gAAExAjABTQFIAQABCQH/BAABSAEAAQkF/wFI
+        AQABCRX/AUgBAAEJAf8BMQIwAU0BMQEAAVIB/wIAAv8BMQEAAVIB/wIAAv8BMQEAAVIB/wFIAQABCQH/
+        AUgBAAEJAf8BSAEAAQkB/wFIAQABCQH/AUgBAAEJAf8BMQIwAU1kAAFIAQABCQH/BAABSAEAAQkB/wFI
+        AQABCQH/AUgBAAEJFf8BSAEAAQkB/wgAATECMAFNAgAC/wExAjABTRAAAUgBAAEJAf9sAAFIAQABCQH/
+        DAABSAEAAQkF/wFIAQABCQX/AUgBAAEJBf8BSAEAAQkB/wQAATECMAFNAgAC/wExAjABTQIAAv8BMQIw
+        AU0MAAFIAQABCQH/bAABSAEAAQkB/wwAAUgBAAEJBf8BSAEAAQkF/wFIAQABCQX/AUgBAAEJAf8GAAL/
+        ATECMAFNBAABMQIwAU0CAAL/DAABSAEAAQkB/2gAATECMAFNAUgBAAEJAf8BMQIwAU0IAAFIAQABCQX/
+        AUgBAAEJBf8BSAEAAQkF/wFIAQABCQH/IAABMQIwAU0BSAEAAQkB/wExAjABTWgAATECMAFNDAABSAEA
+        AQkF/wFIAQABCQX/AUgBAAEJBf8BSAEAAQkB/yAAATECMAFNATECMAFNATECMAFNeAABMQIwAU0BSAEA
+        AQkB/wExAjABTQFIAQABCQH/ATECMAFNAUgBAAEJAf8BMQIwAU2QAAFCAU0BPgcAAT4DAAEoAwABMAMA
+        AQwDAAEBAQABAQUAAWAXAAP/AQABBAEQJgABIAcAAaABDAF7BQABuAEIATsFAAG4AQkBOwUAARgBDwHx
+        BQABuAEPAfEFAAH4AQ8B/wUACw==
+</value>
+  </data>
+  <data name="btnAntennaDelete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAANJJREFUOE+lUzEO
+        wjAMTNkYWFiQWJi6M3XmAQTxB37AyAP6gr4tD2HNYHxxk7pVVQytdIrl5s72WamIyK36IGCBezbE8NO7
+        X8maiNgsMEec66J0sHNXzyCcuUquqM/pGFoA5IR/BUYdoGrbHF+8oxA3FXYVw34rOWX8yERdnQkXxrs7
+        H+h+qx8cnxAjl/71IksCgS92DJB8MVBywSIQURXkLJJIkot2ASENIj8IyAjZsEHEPEIysfcBbQMgG02U
+        1iGCTuAHgLhsID1Ey0NaurNa4AMpBUc9mBs7nwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnAntennaDelete.ToolTip" xml:space="preserve">
+    <value>Удалить антенну...</value>
+  </data>
+  <data name="btnAntennaEdit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAK5JREFUOE+1k8EN
+        gzAMRV0Vwanr9AgLQIdhwY7DAB3A5Ef5yFiBJIciWSRx/rOdOA9VlZavGyYr+AgAdybrW4Mt2PPsR/V2
+        KbZCjAmQ70+3MCHoALxkXoIp/syIQi8GBIBYPjcnMQDREZ0pMgGITHEOcMrA104x0z+C2AO00e06ovna
+        qwFWbGtvAhDCk7fZna4xV4K/d98zTYBcw1UDrrq1CnDb6qW3UPIXH9PfATsJ53AHoPFONgAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="btnAntennaEdit.ToolTip" xml:space="preserve">
+    <value>Параметры антенны...</value>
+  </data>
+  <data name="btnAntennaAdd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAH5JREFUOE+1k9EN
+        wCAIRFmg63SKukz3T1Ca0CC5CpL0g+CH9zhAiZkpE3SfPKL5u6HYCuWcBiAhcvE6OOhqI1iyVtGKNvs2
+        LEDET1QBk4PtFqSqrW5dqO1wiAiAQHYT0xpXgK+3EgL8YJfvADkoA1Toc9pBCYAGtdXCL4Doq3cPx5LH
+        SLOD4wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnAntennaAdd.ToolTip" xml:space="preserve">
+    <value>Добавить антенну...</value>
+  </data>
+  <data name="olvAntennaName.Text" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="lstAntenna.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Антенны</value>
+  </data>
+  <data name="groupBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnReportSettings.Text" xml:space="preserve">
+    <value>Настройка заголовка отчетов</value>
+  </data>
+  <data name="btnReportSettings.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 321</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

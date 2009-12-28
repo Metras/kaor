@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F39F2109-B794-4862-B3ED-F95335E6E111}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RPURPV3</RootNamespace>
+    <AssemblyName>RPURPV3</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Balloon.NET, Version=1.0.945.30810, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Balloon.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Picker, Version=1.0.3074.24482, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\Picker.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AntennaList\AntennaList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AntennaList\AntennaList.Designer.cs">
+      <DependentUpon>AntennaList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Audio\RPV3AudioDemodulator.cs" />
+    <Compile Include="CheckConnectionWaitDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckConnectionWaitDialog.Designer.cs">
+      <DependentUpon>CheckConnectionWaitDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRPV3private.cs" />
+    <Compile Include="CRPURPV3.cs" />
+    <Compile Include="I18N\Locale.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Locale.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Parameters\RPV3Params.cs" />
+    <Compile Include="PowerMeter\AntennaListItem.cs" />
+    <Compile Include="PowerMeter\RPV3PowerMeter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RPURPV3Control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RPURPV3Control.Designer.cs">
+      <DependentUpon>RPURPV3Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RPV3RecordParamsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPV3RecordParamsDialog.Designer.cs">
+      <DependentUpon>RPV3RecordParamsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RPV3RecordSignalParams.cs" />
+    <Compile Include="RPV3Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPV3Settings.Designer.cs">
+      <DependentUpon>RPV3Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splash\Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trace\SetupScanParams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trace\SetupScanParams.Designer.cs">
+      <DependentUpon>SetupScanParams.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ControlUtils\ControlUtils.csproj">
+      <Project>{222CB546-B1CF-4982-AD66-0F38F4B64059}</Project>
+      <Name>ControlUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KaorCore\KaorCore.csproj">
+      <Project>{DEF642D0-F2BF-4BD0-871F-723CCBDC615B}</Project>
+      <Name>KaorCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RPUICOMR8500\RPUICOMR8500\RPUICOMR8500.csproj">
+      <Project>{DAEEB878-1897-4514-9C98-34AC496FB8EA}</Project>
+      <Name>RPUICOMR8500</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZedGraph\ZedGraph.csproj">
+      <Project>{8CD6FA3F-4934-4DE5-8637-76BF0D173852}</Project>
+      <Name>ZedGraph</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AntennaList\AntennaList.resx">
+      <DependentUpon>AntennaList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckConnectionWaitDialog.resx">
+      <DependentUpon>CheckConnectionWaitDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="I18N\Locale.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Locale.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="I18N\Locale.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPURPV3Control.pt.resx">
+      <DependentUpon>RPURPV3Control.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPURPV3Control.resx">
+      <DependentUpon>RPURPV3Control.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPURPV3Control.ru.resx">
+      <DependentUpon>RPURPV3Control.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPV3RecordParamsDialog.resx">
+      <DependentUpon>RPV3RecordParamsDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPV3RecordParamsDialog.ru.resx">
+      <DependentUpon>RPV3RecordParamsDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPV3Settings.resx">
+      <DependentUpon>RPV3Settings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPV3Settings.ru.resx">
+      <DependentUpon>RPV3Settings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash\Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trace\SetupScanParams.resx">
+      <DependentUpon>SetupScanParams.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trace\SetupScanParams.ru.resx">
+      <DependentUpon>SetupScanParams.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\RPURPV3.PowerMeter.RPV3Trace.datasource" />
+    <None Include="Properties\DataSources\RPV3RecordSignalParams.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>copy /b $(TargetPath) $(SolutionDir)\kaor\$(OutDir)</PostBuildEvent>
+  </PropertyGroup>
+</Project>

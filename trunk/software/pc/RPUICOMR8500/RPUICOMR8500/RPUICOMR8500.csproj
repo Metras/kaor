@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DAEEB878-1897-4514-9C98-34AC496FB8EA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RPUICOMR8500</RootNamespace>
+    <AssemblyName>RPUICOMR8500</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Compile Include="Audio\R8500AudioDemodulator.cs" />
+    <Compile Include="CalibrationForm\CalibrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalibrationForm\CalibrationForm.Designer.cs">
+      <DependentUpon>CalibrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckConnectionWaitDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckConnectionWaitDialog.Designer.cs">
+      <DependentUpon>CheckConnectionWaitDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Demodulator\R8500Demodulator.cs" />
+    <Compile Include="I18N\Locale.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Locale.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PowerMeter\R8500PowerMeter.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="R8500Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="R8500Settings.Designer.cs">
+      <DependentUpon>R8500Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RPUR8500.cs" />
+    <Compile Include="R8500Control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="R8500Control.Designer.cs">
+      <DependentUpon>R8500Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="R8500RecordParamsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="R8500RecordParamsDialog.Designer.cs">
+      <DependentUpon>R8500RecordParamsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="R8500RecordSignalParams.cs" />
+    <Compile Include="Splash\Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trace\SetupScanParams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trace\SetupScanParams.Designer.cs">
+      <DependentUpon>SetupScanParams.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Picker, Version=1.0.3074.24482, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\libs\Picker.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ControlUtils\ControlUtils.csproj">
+      <Project>{222CB546-B1CF-4982-AD66-0F38F4B64059}</Project>
+      <Name>ControlUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\KaorCore\KaorCore.csproj">
+      <Project>{DEF642D0-F2BF-4BD0-871F-723CCBDC615B}</Project>
+      <Name>KaorCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ZedGraph\ZedGraph.csproj">
+      <Project>{8CD6FA3F-4934-4DE5-8637-76BF0D173852}</Project>
+      <Name>ZedGraph</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CalibrationForm\CalibrationForm.resx">
+      <DependentUpon>CalibrationForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckConnectionWaitDialog.resx">
+      <DependentUpon>CheckConnectionWaitDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="I18N\Locale.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Locale.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="I18N\Locale.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="R8500Control.resx">
+      <DependentUpon>R8500Control.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="R8500Control.ru.resx">
+      <DependentUpon>R8500Control.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="R8500RecordParamsDialog.resx">
+      <DependentUpon>R8500RecordParamsDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="R8500RecordParamsDialog.ru.resx">
+      <DependentUpon>R8500RecordParamsDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="R8500Settings.resx">
+      <DependentUpon>R8500Settings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="R8500Settings.ru.resx">
+      <DependentUpon>R8500Settings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash\Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trace\SetupScanParams.resx">
+      <DependentUpon>SetupScanParams.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trace\SetupScanParams.ru.resx">
+      <DependentUpon>SetupScanParams.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ICOMR8500.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup>
+    <PostBuildEvent>copy /b $(TargetPath) $(SolutionDir)\kaor\$(OutDir)
+copy /b $(TargetDir)\ICOMR8500.xml $(SolutionDir)\kaor\$(OutDir)</PostBuildEvent>
+  </PropertyGroup>
+</Project>
