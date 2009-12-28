@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RadioControlSystem type="BaseRadioControlSystem" id="0DBBE5E0-7058-49ad-B365-5FF77D45E4B3">
+  <RPUManager>
+    <RPUDevices>
+      <RPU disabled="true" type="RPURPV3.CRPURPV3" id="7FD5B1BB-A7E4-4f61-A315-0016ADF80892" assembly="RPURPV3">
+        <RFInput1 no="1">
+          <AntennaManager type="KaorCore.AntennaManager.AntennaManagerDirect" assembly="KaorCore">
+            <Antenna managerIn="1" type="antenna">98B2B409-228A-438b-A92F-1747867F5B9E</Antenna>
+          </AntennaManager>
+        </RFInput1>
+        <RFInput2 no="2" disabled="true">
+          <AntennaManager type="KaorCore.AntennaManager.AntennaManagerCrab8x1" assembly="KaorCore">
+            <Antenna managerIn="1" type="antenna" state="OK">22734448-6A02-4110-ABE8-BA5B6C765934</Antenna>
+            <Antenna managerIn="2" type="antenna" state="OK">122E8BE9-0ED3-4efc-8B84-8DDB72B0F761</Antenna>
+            <Antenna managerIn="3" type="antenna" state="OK">F6251C37-4411-4394-A029-2E98A08F0BF5</Antenna>
+            <Antenna managerIn="4" type="antenna" state="OK">1161F2BC-CF86-4b3e-88A8-9631A2102855</Antenna>
+            <Serial port="COM2" baudrate="9600" />
+          </AntennaManager>
+        </RFInput2>
+        <Serial port="COM1" baudrate="57600"></Serial>
+      </RPU>
+      <RPU disabled="true" type="RPUZero.CRPUZero" id="D7256500-3584-45f1-B3CD-413E918880DD" assembly="RPUZero" freqMin="100000" freqMax="2000000000" hasDemodulator="true" hasPowerMeter="true" hasSpectrograph="true">
+        <RFInput1 no="1">
+          <AntennaManager type="KaorCore.AntennaManager.AntennaManagerDirect" assembly="KaorCore">
+            <Antenna managerIn="1" type="antenna">98B2B409-228A-438b-A92F-1747867F5B9E</Antenna>
+          </AntennaManager>
+        </RFInput1>
+        <RFInput2 no="2" disabled="">
+          <AntennaManager type="AntennaManager.AntennaManagerCrab8x1" assembly="KaorCore">
+            <Antenna managerIn="1" type="antenna">22734448-6A02-4110-ABE8-BA5B6C765934</Antenna>
+            <Antenna managerIn="2" type="antenna">122E8BE9-0ED3-4efc-8B84-8DDB72B0F761</Antenna>
+            <Antenna managerIn="3" type="antenna">F6251C37-4411-4394-A029-2E98A08F0BF5</Antenna>
+            <Antenna managerIn="4" type="antenna">1161F2BC-CF86-4b3e-88A8-9631A2102855</Antenna>
+            <Serial port="COM2" baudrate="9600" />
+          </AntennaManager>
+        </RFInput2>
+      </RPU>
+      <RPU disabled="true" type="RPUICOMR8500.RPUR8500" id="2E161512-DB79-4ad8-AB8E-607ED6675E1F" assembly="RPUICOMR8500" calibration="D:\projects\kaor\pc\kaor\R8500calibration.xml">
+        <RFInput1 no="1">
+		  <AntennaManager type="KaorCore.AntennaManager.AntennaManagerDirect" assembly="KaorCore">
+			<Antenna managerIn="1" type="antenna">98B2B409-228A-438b-A92F-1747867F5B9E</Antenna>
+		  </AntennaManager>
+        </RFInput1>
+        <Serial port="COM1" baudrate="19200"></Serial>
+      </RPU>
+    </RPUDevices>
+  </RPUManager>
+  <Antennas>
+    <Antenna type="OmniAntenna" id="98B2B409-228A-438b-A92F-1747867F5B9E">
+	  <name>Первая антенна на крыше</name>
+      <Location type="GPS">
+        <Lat ns="n">1.0</Lat>
+        <Lon ew="e">1.0</Lon>
+      </Location>
+    </Antenna>
+    <Antenna type="OmniAntenna" id="22734448-6A02-4110-ABE8-BA5B6C765934">
+	  <name>Вторая антенна</name>
+      <Location type="GPS">
+        <Lat ns="n">1.0</Lat>
+        <Lon ew="e">1.0</Lon>
+      </Location>
+    </Antenna>
+    <Antenna type="OmniAntenna" id="122E8BE9-0ED3-4efc-8B84-8DDB72B0F761">
+	  <name>Двадцатая антенна внизу</name>
+      <Location type="GPS">
+        <Lat ns="n">1.0</Lat>
+        <Lon ew="e">1.0</Lon>
+      </Location>
+    </Antenna>
+    <Antenna type="OmniAntenna" id="F6251C37-4411-4394-A029-2E98A08F0BF5">
+      <Location type="GPS">
+        <Lat ns="n">1.0</Lat>
+        <Lon ew="e">1.0</Lon>
+      </Location>
+    </Antenna>
+    <Antenna type="OmniAntenna" id="1161F2BC-CF86-4b3e-88A8-9631A2102855">
+      <Location type="GPS">
+        <Lat ns="n">1.0</Lat>
+        <Lon ew="e">1.0</Lon>
+      </Location>
+    </Antenna>
+    <Antenna type="OmniAntenna" id="E8B77EAD-7C14-473f-A6E7-ADB9D3B1ED14">
+      <Location type="GPS">
+        <Lat ns="n">1.0</Lat>
+        <Lon ew="e">1.0</Lon>
+      </Location>
+    </Antenna>
+  </Antennas>
+  <TriggerHandlers>
+    <Handler type="KaorCore.TraceControl.LogTriggerHandler" assembly="KaorCore" />
+	<Handler type="KaorCore.TraceControl.RCSPauseTriggerHandler" assembly="KaorCore" />
+  </TriggerHandlers>
+</RadioControlSystem>

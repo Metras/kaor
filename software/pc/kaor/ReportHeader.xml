@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Body>
+	<Org>Organization</Org>
+	<Station>Post No.1</Station>
+	<Notes>Different notes</Notes>
+	<FileName>Logo.png</FileName>
+	<ImgSize>60</ImgSize>
+	<USize>30</USize>
+</Body>

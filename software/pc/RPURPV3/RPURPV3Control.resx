@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="frequencyRadio1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnPowerMeterM1.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;frequencyRadio1.Type" xml:space="preserve">
+    <value>ControlUtils.FrequencyRadio.FrequencyRadio, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnDemodM3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cmbPowerFilterBand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbMod.Items" xml:space="preserve">
+    <value>AM</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnDemodM3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 80</value>
+  </data>
+  <data name="&gt;&gt;chkMemDemod.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkMemPowermeter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;btnPowerMeterM1.Name" xml:space="preserve">
+    <value>btnPowerMeterM1</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkATT10dB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmbMod.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;chkMemDemod.Name" xml:space="preserve">
+    <value>chkMemDemod</value>
+  </data>
+  <data name="&gt;&gt;cmbAverageTime.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbBand.Items4" xml:space="preserve">
+    <value>230 kHz</value>
+  </data>
+  <data name="&gt;&gt;btnDemodM3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        A/8HiRswJ8ppqPsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;btnPowerMeterM2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnPowerMeterM2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnPowerMeterM1.Text" xml:space="preserve">
+    <value>M1</value>
+  </data>
+  <data name="btnPowerMeterM1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="olvName.Text" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="pnlAudioControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 98</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Powermeter</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;chkATT20dB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDemodM3.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="chkATT10dB.ToolTip" xml:space="preserve">
+    <value>10dB attenuator</value>
+  </data>
+  <data name="lstAntennas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 94</value>
+  </data>
+  <data name="&gt;&gt;frequencyRadio1.Name" xml:space="preserve">
+    <value>frequencyRadio1</value>
+  </data>
+  <data name="&gt;&gt;btnDemodM2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="graphPowerScale1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 59</value>
+  </data>
+  <data name="chkATT20dB.ToolTip" xml:space="preserve">
+    <value>20dB attenuator</value>
+  </data>
+  <data name="btnPowerMeterM3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 25</value>
+  </data>
+  <data name="chkMemDemod.Text" xml:space="preserve">
+    <value>MEM</value>
+  </data>
+  <data name="btnDemodM2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 49</value>
+  </data>
+  <data name="cmbBand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 21</value>
+  </data>
+  <data name="btnDemodM2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbMod.Name" xml:space="preserve">
+    <value>cmbMod</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnDemodM1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 25</value>
+  </data>
+  <data name="btnPowerMeterM3.Text" xml:space="preserve">
+    <value>M3</value>
+  </data>
+  <data name="&gt;&gt;pnlAudioControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkMemPowermeter.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="frequencyRadio1.Mask" xml:space="preserve">
+    <value>0.000.000.000</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RPURPV3Control</value>
+  </data>
+  <data name="chkATT20dB.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cmbAverageTime.Items1" xml:space="preserve">
+    <value>20 ms</value>
+  </data>
+  <data name="cmbAverageTime.Items2" xml:space="preserve">
+    <value>50 ms</value>
+  </data>
+  <data name="btnDemodM2.ToolTip" xml:space="preserve">
+    <value>Memory 2</value>
+  </data>
+  <data name="&gt;&gt;chkATT10dB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbAverageTime.Items5" xml:space="preserve">
+    <value>500 ms</value>
+  </data>
+  <data name="cmbAverageTime.Items6" xml:space="preserve">
+    <value>1000 ms</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 55</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="pnlAudioControl.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;grpAntennas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnDemodM2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnDemodM1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;cmbBand.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbBand.Items" xml:space="preserve">
+    <value>3 kHz</value>
+  </data>
+  <data name="lblPower.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lstAntennas.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnDemodM1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="frequencyRadio1.ToolTip" xml:space="preserve">
+    <value>Receiver frequency</value>
+  </data>
+  <data name="&gt;&gt;lblPower.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkMemDemod.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkATT10dB.Text" xml:space="preserve">
+    <value>ATT 10dB</value>
+  </data>
+  <data name="&gt;&gt;grpAntennas.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pnlAudioControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="chkMemDemod.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;lblPower.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbBand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDemodM2.Name" xml:space="preserve">
+    <value>btnDemodM2</value>
+  </data>
+  <data name="&gt;&gt;btnDemodM3.Name" xml:space="preserve">
+    <value>btnDemodM3</value>
+  </data>
+  <data name="cmbAverageTime.Items4" xml:space="preserve">
+    <value>250 ms</value>
+  </data>
+  <data name="btnDemodM1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 18</value>
+  </data>
+  <data name="btnPowerMeterM1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 25</value>
+  </data>
+  <data name="grpAntennas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 113</value>
+  </data>
+  <data name="&gt;&gt;cmbAverageTime.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="lblPower.Text" xml:space="preserve">
+    <value>-100</value>
+  </data>
+  <data name="&gt;&gt;olvName.Type" xml:space="preserve">
+    <value>ControlUtils.ObjectListView.OLVColumn, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chkATT20dB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>531, 88</value>
+  </data>
+  <data name="&gt;&gt;lstAntennas.Parent" xml:space="preserve">
+    <value>grpAntennas</value>
+  </data>
+  <data name="btnPowerMeterM1.ToolTip" xml:space="preserve">
+    <value>Memory 1</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>470, 113</value>
+  </data>
+  <data name="cmbPowerFilterBand.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbBand.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;chkATT10dB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkMemPowermeter.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;cmbMod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbAverageTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 21</value>
+  </data>
+  <data name="chkMemPowermeter.ToolTip" xml:space="preserve">
+    <value>Store memory</value>
+  </data>
+  <data name="pnlAudioControl.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnPowerMeterM1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 20</value>
+  </data>
+  <data name="chkMemDemod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 80</value>
+  </data>
+  <data name="chkMemPowermeter.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnDemodM1.ToolTip" xml:space="preserve">
+    <value>Memory 1</value>
+  </data>
+  <data name="chkATT10dB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 17</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblPower.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="grpAntennas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="cmbBand.Items1" xml:space="preserve">
+    <value>6 kHz</value>
+  </data>
+  <data name="btnDemodM2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 25</value>
+  </data>
+  <data name="&gt;&gt;cmbAverageTime.Name" xml:space="preserve">
+    <value>cmbAverageTime</value>
+  </data>
+  <data name="graphPowerScale1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 22</value>
+  </data>
+  <data name="graphPowerScale1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btnPowerMeterM2.ToolTip" xml:space="preserve">
+    <value>Memory 2</value>
+  </data>
+  <data name="&gt;&gt;lstAntennas.Type" xml:space="preserve">
+    <value>ControlUtils.ObjectListView.ObjectListView, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lstAntennas.ToolTip" xml:space="preserve">
+    <value>Available antennas list</value>
+  </data>
+  <data name="btnDemodM3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 25</value>
+  </data>
+  <data name="cmbPowerFilterBand.ToolTip" xml:space="preserve">
+    <value>Powermeter filter band</value>
+  </data>
+  <data name="cmbPowerFilterBand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 21</value>
+  </data>
+  <data name="cmbPowerFilterBand.Items6" xml:space="preserve">
+    <value>120 kHz</value>
+  </data>
+  <data name="cmbPowerFilterBand.Items7" xml:space="preserve">
+    <value>280 kHz</value>
+  </data>
+  <data name="cmbPowerFilterBand.Items4" xml:space="preserve">
+    <value>30 kHz</value>
+  </data>
+  <data name="cmbPowerFilterBand.Items5" xml:space="preserve">
+    <value>100 kHz</value>
+  </data>
+  <data name="cmbPowerFilterBand.Items2" xml:space="preserve">
+    <value>7.5 kHz</value>
+  </data>
+  <data name="cmbPowerFilterBand.Items3" xml:space="preserve">
+    <value>10 kHz</value>
+  </data>
+  <data name="cmbAverageTime.Items3" xml:space="preserve">
+    <value>100 ms</value>
+  </data>
+  <data name="cmbPowerFilterBand.Items1" xml:space="preserve">
+    <value>3 kHz</value>
+  </data>
+  <data name="cmbMod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 21</value>
+  </data>
+  <data name="&gt;&gt;pnlAudioControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnPowerMeterM3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbAverageTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbAverageTime.Items" xml:space="preserve">
+    <value>10 ms</value>
+  </data>
+  <data name="btnPowerMeterM1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="grpAntennas.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>755, 60</value>
+  </data>
+  <data name="lstAntennas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;frequencyRadio1.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="btnPowerMeterM2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 25</value>
+  </data>
+  <data name="pnlAudioControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 9</value>
+  </data>
+  <data name="groupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="grpAntennas.Text" xml:space="preserve">
+    <value>Antenna</value>
+  </data>
+  <data name="groupBox4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 113</value>
+  </data>
+  <data name="btnPowerMeterM2.Text" xml:space="preserve">
+    <value>M2</value>
+  </data>
+  <data name="&gt;&gt;btnPowerMeterM2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlAudioControl.Name" xml:space="preserve">
+    <value>pnlAudioControl</value>
+  </data>
+  <data name="&gt;&gt;frequencyRadio1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbPowerFilterBand.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="chkATT20dB.Text" xml:space="preserve">
+    <value>ATT 20dB</value>
+  </data>
+  <data name="cmbAverageTime.ToolTip" xml:space="preserve">
+    <value>Powermeter average time</value>
+  </data>
+  <data name="cmbMod.ToolTip" xml:space="preserve">
+    <value>Demodulator type</value>
+  </data>
+  <data name="cmbPowerFilterBand.Items" xml:space="preserve">
+    <value>1 kHz</value>
+  </data>
+  <data name="btnDemodM3.ToolTip" xml:space="preserve">
+    <value>Memory 3</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>802, 3</value>
+  </data>
+  <data name="&gt;&gt;cmbMod.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="frequencyRadio1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnDemodM3.Text" xml:space="preserve">
+    <value>M3</value>
+  </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 3</value>
+  </data>
+  <data name="&gt;&gt;btnPowerMeterM3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 3</value>
+  </data>
+  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnPowerMeterM3.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="cmbBand.Items2" xml:space="preserve">
+    <value>15 kHz</value>
+  </data>
+  <data name="btnPowerMeterM3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmbMod.Items2" xml:space="preserve">
+    <value>CW</value>
+  </data>
+  <data name="cmbMod.Items1" xml:space="preserve">
+    <value>FM</value>
+  </data>
+  <data name="&gt;&gt;chkMemDemod.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lstAntennas.Name" xml:space="preserve">
+    <value>lstAntennas</value>
+  </data>
+  <data name="&gt;&gt;olvName.Name" xml:space="preserve">
+    <value>olvName</value>
+  </data>
+  <data name="&gt;&gt;chkMemDemod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkATT20dB.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblPower.Name" xml:space="preserve">
+    <value>lblPower</value>
+  </data>
+  <data name="&gt;&gt;btnPowerMeterM3.Name" xml:space="preserve">
+    <value>btnPowerMeterM3</value>
+  </data>
+  <data name="&gt;&gt;chkMemPowermeter.Name" xml:space="preserve">
+    <value>chkMemPowermeter</value>
+  </data>
+  <data name="chkMemDemod.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chkMemPowermeter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 80</value>
+  </data>
+  <data name="&gt;&gt;btnPowerMeterM2.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;cmbPowerFilterBand.Name" xml:space="preserve">
+    <value>cmbPowerFilterBand</value>
+  </data>
+  <data name="chkMemPowermeter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 25</value>
+  </data>
+  <data name="frequencyRadio1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 40</value>
+  </data>
+  <data name="btnDemodM1.Text" xml:space="preserve">
+    <value>M1</value>
+  </data>
+  <data name="btnDemodM1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblPower.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="chkATT20dB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 17</value>
+  </data>
+  <data name="&gt;&gt;btnDemodM1.Name" xml:space="preserve">
+    <value>btnDemodM1</value>
+  </data>
+  <data name="btnPowerMeterM3.ToolTip" xml:space="preserve">
+    <value>Memory 3</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="frequencyRadio1.Text" xml:space="preserve">
+    <value>0020000000</value>
+  </data>
+  <data name="cmbMod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="&gt;&gt;cmbBand.Name" xml:space="preserve">
+    <value>cmbBand</value>
+  </data>
+  <data name="&gt;&gt;chkATT10dB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkATT10dB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 88</value>
+  </data>
+  <data name="&gt;&gt;btnPowerMeterM2.Name" xml:space="preserve">
+    <value>btnPowerMeterM2</value>
+  </data>
+  <data name="&gt;&gt;btnDemodM1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="frequencyRadio1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 26pt</value>
+  </data>
+  <data name="cmbAverageTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 52</value>
+  </data>
+  <data name="cmbPowerFilterBand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 21</value>
+  </data>
+  <data name="&gt;&gt;grpAntennas.Name" xml:space="preserve">
+    <value>grpAntennas</value>
+  </data>
+  <data name="&gt;&gt;graphPowerScale1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbMod.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmbAverageTime.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lstAntennas.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;cmbPowerFilterBand.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnDemodM2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;graphPowerScale1.Type" xml:space="preserve">
+    <value>ControlUtils.GraphPowerScale.GraphPowerScale, ControlUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pnlAudioControl.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="lstAntennas.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbBand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 52</value>
+  </data>
+  <data name="chkMemPowermeter.Text" xml:space="preserve">
+    <value>MEM</value>
+  </data>
+  <data name="&gt;&gt;graphPowerScale1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;graphPowerScale1.Name" xml:space="preserve">
+    <value>graphPowerScale1</value>
+  </data>
+  <data name="frequencyRadio1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 9</value>
+  </data>
+  <data name="cmbBand.Items3" xml:space="preserve">
+    <value>50 kHz</value>
+  </data>
+  <data name="chkATT20dB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbBand.ToolTip" xml:space="preserve">
+    <value>Demodulator filter band</value>
+  </data>
+  <data name="graphPowerScale1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="&gt;&gt;btnPowerMeterM1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkATT20dB.Name" xml:space="preserve">
+    <value>chkATT20dB</value>
+  </data>
+  <data name="chkMemDemod.ToolTip" xml:space="preserve">
+    <value>Store memory</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="chkMemDemod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 25</value>
+  </data>
+  <data name="lblPower.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="btnPowerMeterM2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 49</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Demodulator</value>
+  </data>
+  <data name="&gt;&gt;grpAntennas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkATT10dB.Name" xml:space="preserve">
+    <value>chkATT10dB</value>
+  </data>
+  <data name="grpAntennas.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnDemodM3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnPowerMeterM3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 80</value>
+  </data>
+  <data name="&gt;&gt;lblPower.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkMemPowermeter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkATT20dB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chkATT10dB.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="graphPowerScale1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDemodM2.Text" xml:space="preserve">
+    <value>M2</value>
+  </data>
+  <data name="chkMemPowermeter.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmbMod.Items4" xml:space="preserve">
+    <value>USB</value>
+  </data>
+  <data name="cmbMod.Items3" xml:space="preserve">
+    <value>LSB</value>
+  </data>
+  <data name="cmbBand.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1275, 120</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Russian</value>
+  </metadata>
+</root>
