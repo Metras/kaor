@@ -1,12 +1,15 @@
-This is the AUTHORS file of the KAOR RCS project (http://dev.niistt.ru/projects/kaor).
-Here's list of people that have contributed their time and code to this software:
+This is the AUTHORS file of the KAOR RCS project 
+(http://dev.niistt.ru/projects/kaor).
+
+Here's list of people that have contributed their time and code 
+to this software:
 
 Valentin Yakovenkov <yakovenkov@niistt.ru>
  + Core (base architecture, etc)
  + Most of the other code
  
 Vitaly Lavrukhin <lavruhin@niistt.ru>
- + Adaptive decision algorithm for signal controlling (Adaptator TM)
+ + Adaptive decision algorithm for signal monitoring (Adaptator TM)
  + Some great ideas and very cool psychedelic trance music! :)
 
 Eugene Kovalev <kovaljov@niistt.ru>
