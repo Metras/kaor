@@ -94,14 +94,14 @@ namespace KaorCore.RadioControlSystem
 	public class BaseRadioControlSystem
 	{
 		#region ================ Поля ================
-		
+
 		#region ================ Описание системы ================
-		
+
 		Guid id;
-		
+
 		string name;
 		string description;
-		
+
 		GPSCoordinates location;
 
 		#endregion
@@ -236,7 +236,7 @@ namespace KaorCore.RadioControlSystem
 		{
 			AutoSaveFullState();
 		}
-		
+
 		/// <summary>
 		/// Конструктор СРК
 		/// Производит формирование СРК на основании данных, содержащихся в файле pFileName
@@ -261,10 +261,10 @@ namespace KaorCore.RadioControlSystem
 
 				_mainNode = _doc.SelectSingleNode("RadioControlSystem");
 
-				if(_mainNode.Attributes["id"] != null)
+				if (_mainNode.Attributes["id"] != null)
 					id = new Guid(_mainNode.Attributes["id"].Value);
-				
-				if(_mainNode.Attributes["name"] != null)
+
+				if (_mainNode.Attributes["name"] != null)
 					name = _mainNode.Attributes["name"].Value;
 
 				_node = _mainNode.SelectSingleNode("autosave");
@@ -326,7 +326,7 @@ namespace KaorCore.RadioControlSystem
 				operationMode = value;
 
 				CallOnOperationModeChanged(_oldMode, operationMode);
-				
+
 			}
 		}
 
@@ -532,6 +532,51 @@ namespace KaorCore.RadioControlSystem
 
 			return _trace;
 		}
+
+		/// <summary>
+		/// Загрузка трассы из файла формата "Березина"
+		/// </summary>
+		/// <param name="pFilename"></param>
+		/// <returns></returns>
+		BaseTrace LoadTraceFromBerezina(string pFilename)
+		{
+			BaseTrace _trace = null;
+			FileStream _fs = null;
+			try
+			{
+				// Чтение заголовка файла (92 байт)
+				byte[] _buf = new byte[92];
+				_fs = new FileStream(pFilename, FileMode.Open);
+				int _readResult = _fs.Read(_buf, 0, 92);
+				if (_readResult < 92)
+					return null;
+
+				// Создание трассы
+				Random _rnd = new Random(DateTime.Now.Millisecond);
+				_trace = new BaseTrace(BitConverter.ToInt64(_buf, 40), BitConverter.ToInt64(_buf, 48),
+					BitConverter.ToInt64(_buf, 56), TracePoint.POWER_UNDEFINED,
+					Color.FromArgb(_rnd.Next(100) + 100, _rnd.Next(100) + 100, _rnd.Next(100) + 100));
+				_trace.Name = Path.GetFileNameWithoutExtension(pFilename);
+				_trace.Description = "";
+
+				// Чтение точек
+				int _pointCount = (int)((_trace.Fstop - _trace.Fstart) / _trace.MeasureStep) + 2;
+				_buf = new byte[2 * _pointCount];
+				_readResult = _fs.Read(_buf, 0, 2 * _pointCount);
+				_fs.Close();
+				_fs = null;
+				for (int i = 0; i < _pointCount; i++)
+					_trace.TracePoints[i].Power = (double)(BitConverter.ToInt16(_buf, i * 2)) / 10.0d;
+				return _trace;
+			}
+			catch (Exception ex)
+			{
+				if (_fs != null)
+					_fs.Close();
+				throw ex;
+			}
+		}
+
 		/// <summary>
 		/// Загрузка трассы из файла
 		/// </summary>
@@ -543,20 +588,30 @@ namespace KaorCore.RadioControlSystem
 
 			try
 			{
-				XmlDocument _xmlDoc = new XmlDocument();
-				_xmlDoc.Load(pFilename);
+				// Чтение первых четырех байт для определения принадлежности файла к формату "Березина"
+				FileStream _fstr = new FileStream(pFilename, FileMode.Open);
+				byte[] _buf = new byte[4];
+				int _readResult = _fstr.Read(_buf, 0, 4);
+				_fstr.Close();
+				if (_readResult == 4 && Encoding.ASCII.GetString(_buf) == "TRCK")
+					_trace = LoadTraceFromBerezina(pFilename);
+				else
+				{
+					XmlDocument _xmlDoc = new XmlDocument();
+					_xmlDoc.Load(pFilename);
 
-				XmlNode _node = _xmlDoc.SelectSingleNode("KaorTrace");
-				if (_node == null)
-					return null;
+					XmlNode _node = _xmlDoc.SelectSingleNode("KaorTrace");
+					if (_node == null)
+						return null;
 
-				_trace = LoadTraceFromNode(_node);
+					_trace = LoadTraceFromNode(_node);
+				}
 			}
-			catch(Exception e)
+			catch (Exception e)
 			{
 				_trace = null;
 				MessageBox.Show(String.Format(Locale.err_loading_trace, pFilename),
-					Locale.error, 
+					Locale.error,
 					MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
 			return _trace;
@@ -676,7 +731,7 @@ namespace KaorCore.RadioControlSystem
 					_trace.ScanMode == ETraceScanMode.Control
 					select _trace;
 
-			foreach(BaseTrace _trace in q)
+			foreach (BaseTrace _trace in q)
 			{
 				_trace.StartScan(pNeedReset);
 
@@ -712,10 +767,10 @@ namespace KaorCore.RadioControlSystem
 				_caption = Locale.signal_disappear;
 			}
 
-			_res = control.ShowPauseWindow(pTime, _caption, KaorCore.Utils.FreqUtils.FreqToString(pFreq), 
-				pPower.ToString("0.0") + " " + Locale.dbm, 
-				pSignalName, 
-				pDelta.ToString("0.0") + " " + Locale.db, 
+			_res = control.ShowPauseWindow(pTime, _caption, KaorCore.Utils.FreqUtils.FreqToString(pFreq),
+				pPower.ToString("0.0") + " " + Locale.dbm,
+				pSignalName,
+				pDelta.ToString("0.0") + " " + Locale.db,
 				pBackColor);
 
 			if (_res == DialogResult.Abort)
@@ -806,7 +861,7 @@ namespace KaorCore.RadioControlSystem
 
 			SaveSignalsToXml(_xmlWriter);
 
-			_xmlWriter.WriteEndDocument(); 
+			_xmlWriter.WriteEndDocument();
 			_xmlWriter.Close();
 		}
 
@@ -826,6 +881,45 @@ namespace KaorCore.RadioControlSystem
 				}
 
 				signals.Clear();
+			}
+		}
+
+		void LoadSignalsFormBerezina(string pFileName)
+		{
+			SingleFreqSignal _signal = null;
+			FileStream _fs = null;
+			int _readResult;
+			try
+			{
+				_fs = new FileStream(pFileName, FileMode.Open);
+
+				// Чтение заголовка файла
+				byte[] _buf = new byte[48];
+				_fs.Read(_buf, 0, 48);
+				uint _signalCount = BitConverter.ToUInt32(_buf, 40);
+				_buf = new byte[138];
+				for (uint i = 0; i < _signalCount; i++)
+				{
+					_readResult = _fs.Read(_buf, 0, 138);
+					if (_readResult < 138)
+						throw new Exception("Bad Berezina report file");
+					_signal = new SingleFreqSignal();
+					_signal.Name = "Signal" + (i + 1).ToString();
+					_signal.Frequency = BitConverter.ToInt64(_buf, 0);
+					_signal.Power = (double)BitConverter.ToInt16(_buf, 8) / 10.0d;
+					_signal.Description = Encoding.Default.GetString(_buf, 10, 128).TrimEnd('\0');
+
+					AddSignal(_signal);
+					_signal.IsVisible = true;
+				}
+				_fs.Close();
+				_fs = null;
+			}
+			catch (Exception ex)
+			{
+				if (_fs != null)
+					_fs.Close();
+				throw ex;
 			}
 		}
 
@@ -864,19 +958,34 @@ namespace KaorCore.RadioControlSystem
 		{
 			try
 			{
-				XmlDocument _xmlDoc = new XmlDocument();
-				_xmlDoc.Load(pFileName);
+				// Чтение первых четырех байт для определения принадлежности файла к формату "Березина"
+				FileStream _fstr = new FileStream(pFileName, FileMode.Open);
+				byte[] _buf = new byte[4];
+				int _readResult = _fstr.Read(_buf, 0, 4);
+				_fstr.Close();
+				if (_readResult == 4 && Encoding.ASCII.GetString(_buf) == "RPRT")
+				{
+					// Очистка списка сигналов при необходимости
+					if (pNeedClear)
+						ClearSignals();
+					LoadSignalsFormBerezina(pFileName);
+				}
+				else
+				{
+					XmlDocument _xmlDoc = new XmlDocument();
+					_xmlDoc.Load(pFileName);
 
-				XmlNode _node = _xmlDoc.SelectSingleNode("Signals");
-				if (_node == null)
-					return;
+					XmlNode _node = _xmlDoc.SelectSingleNode("Signals");
+					if (_node == null)
+						return;
 
-				/// Очистка списка сигналов при необходимости
-				if (pNeedClear)
-					ClearSignals();
+					// Очистка списка сигналов при необходимости
+					if (pNeedClear)
+						ClearSignals();
 					//signals.Clear();
 
-				LoadSignalsFromNode(_node);
+					LoadSignalsFromNode(_node);
+				}
 			}
 			catch
 			{
@@ -905,7 +1014,7 @@ namespace KaorCore.RadioControlSystem
 
 		void signal_OnSignalChanged(BaseSignal pSignal)
 		{
-//			signals.Sort();
+			//			signals.Sort();
 			control.UpdateSignal(pSignal);
 			//control.UpdateSignals();
 		}
@@ -945,13 +1054,13 @@ namespace KaorCore.RadioControlSystem
 		/// <param name="pTraceControl"></param>
 		/// <param name="pPoint"></param>
 		/// <param name="pOldPower"></param>
-		public bool SignalAnalyzePoint(BaseTraceControl pTraceControl, TracePoint pPoint, 
+		public bool SignalAnalyzePoint(BaseTraceControl pTraceControl, TracePoint pPoint,
 			double pOldPower, double pDelta)
 		{
 			IEnumerable<BaseSignal> q = from _s in signals
-					where _s.IsTracePointBelongs(pPoint, 
-						pTraceControl.ScanTrace.ScanParams.FilterBand)
-					select _s;
+										where _s.IsTracePointBelongs(pPoint,
+											pTraceControl.ScanTrace.ScanParams.FilterBand)
+										select _s;
 
 			if (pDelta > 0 && q.Count() == 0)
 			{
@@ -968,16 +1077,16 @@ namespace KaorCore.RadioControlSystem
 				_s.Pmin = -140;
 #else
 				_s = pTraceControl.CreateDefaultSignal(pPoint, pOldPower, pDelta);
-#endif		
+#endif
 				if (_s != null)
 				{
-					
+
 
 #if Old_signal_creation
 				_s.RecordRPU = pTraceControl.ScanTrace.ScanParams.RPU;
 #endif
 
-					if (_s.ProcessTrigger(pTraceControl, pPoint, pOldPower, pDelta) == 
+					if (_s.ProcessTrigger(pTraceControl, pPoint, pOldPower, pDelta) ==
 						EBaseSignalTriggerAction.Accept)
 					{
 						/// Добавление сигнала в список
@@ -1134,7 +1243,7 @@ namespace KaorCore.RadioControlSystem
 			XmlTextWriter _xmlWriter = new XmlTextWriter(pFileName, Encoding.UTF8);
 			_xmlWriter.Formatting = Formatting.Indented;
 			_xmlWriter.WriteStartDocument(true);
-			
+
 			SaveMarkersToXml(_xmlWriter);
 
 			_xmlWriter.WriteEndDocument();
@@ -1152,7 +1261,7 @@ namespace KaorCore.RadioControlSystem
 				RemoveMarker(_marker);
 
 			control.UpdateMarkers();
-				//markers.Clear();
+			//markers.Clear();
 		}
 
 
@@ -1212,7 +1321,7 @@ namespace KaorCore.RadioControlSystem
 		}
 
 		#endregion
-		
+
 		#region ================ Синглтон ================
 		static BaseRadioControlSystem instance;
 
@@ -1351,8 +1460,8 @@ namespace KaorCore.RadioControlSystem
 							{
 								AddScanTrace(_trace);
 								control.UpdateTrace(_trace);
-//								_trace.OnTraceScanChanged += new TraceChanged(_trace_OnTraceChanged);
-//								rcs.AddScanTrace(_trace);
+								//								_trace.OnTraceScanChanged += new TraceChanged(_trace_OnTraceChanged);
+								//								rcs.AddScanTrace(_trace);
 							}
 						}
 
@@ -1377,7 +1486,7 @@ namespace KaorCore.RadioControlSystem
 					}
 				}
 
-				catch(Exception e)
+				catch (Exception e)
 				{
 					MessageBox.Show(Locale.err_loading_state,
 						Locale.error,
@@ -1389,7 +1498,7 @@ namespace KaorCore.RadioControlSystem
 		/// Тело процедуры сохранения состояния
 		/// </summary>
 		/// 
-		
+
 		private void SaveMain(string pFileName)
 		{
 			lock (saveLockObject)
