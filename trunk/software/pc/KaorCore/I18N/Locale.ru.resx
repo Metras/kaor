@@ -249,13 +249,13 @@
     <value>Маркеры (*.kma) | *.kma</value>
   </data>
   <data name="ksi_filter" xml:space="preserve">
-    <value>Сигналы (*.ksi) | *.ksi</value>
+    <value>Сигналы (*.ksi)|*.ksi|Отчет "Березина" (*.rfr)|*.rfr</value>
   </data>
   <data name="ks_filter" xml:space="preserve">
     <value>Состояние КАОР (*.ks) | *.ks</value>
   </data>
   <data name="ktr_filter" xml:space="preserve">
-    <value>Трасса КАОР (*.ktr) | *.ktr</value>
+    <value>Трасса КАОР (*.ktr)|*.ktr|Трасса "Березина" (*.tfr)|*.tfr</value>
   </data>
   <data name="load_markers" xml:space="preserve">
     <value>Загрузка маркеров...</value>

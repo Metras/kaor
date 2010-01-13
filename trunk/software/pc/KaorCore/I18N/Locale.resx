@@ -242,13 +242,13 @@ Previous system configuration is saved to "{1}"</value>
     <value>Markers set (*.kma) | *.kma</value>
   </data>
   <data name="ksi_filter" xml:space="preserve">
-    <value>Signals set (*.ksi) | *.ksi</value>
+    <value>Signals set (*.ksi)|*.ksi|"Berezina" report (*.rfr)|*.rfr</value>
   </data>
   <data name="ks_filter" xml:space="preserve">
     <value>System state (*.ks) | *.ks</value>
   </data>
   <data name="ktr_filter" xml:space="preserve">
-    <value>KAOR traces (*.ktr) | *.ktr</value>
+    <value>KAOR traces (*.ktr)|*.ktr|"Berezina" traces (*.tfr)|*.tfr</value>
   </data>
   <data name="load_markers" xml:space="preserve">
     <value>Load markers set...</value>

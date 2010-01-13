@@ -209,6 +209,6 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent>xcopy /e /y $(ProjectDir)bin\$(ConfigurationName) $(SolutionDir)\kaor\$(OutDir)</PostBuildEvent>
+    <PostBuildEvent>xcopy /e /y "$(ProjectDir)bin\$(ConfigurationName)" "$(SolutionDir)kaor\$(OutDir)"</PostBuildEvent>
   </PropertyGroup>
 </Project>
