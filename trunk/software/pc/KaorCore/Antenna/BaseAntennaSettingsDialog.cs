@@ -57,6 +57,8 @@ namespace KaorCore.Antenna
 			txtName.Text = antenna.Name;
 			txtDescription.Text = antenna.Description;
 
+			freqStart.Min = freqStop.Min = antenna.FreqMin;
+			freqStart.Max = freqStop.Max = antenna.FreqMax;
 			freqStart.Frequency = antenna.FreqMin;
 			freqStop.Frequency = antenna.FreqMax;
 

@@ -276,7 +276,7 @@ namespace KaorCore.RadioControlSystem
 
 			rcs.CallOnConfigurationChanged();
 
-			if (rpu.SettingsForm.ShowDialog() == DialogResult.OK)
+			if (rpu.SettingsForm != null && rpu.SettingsForm.ShowDialog() == DialogResult.OK)
 			{
 			}
 		}

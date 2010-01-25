@@ -580,6 +580,7 @@
 			this.xPanelTraces.ColorFlatCaptionGradientEnd = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(239)))), ((int)(((byte)(255)))));
 			this.xPanelTraces.Controls.Add(this.lstScanTraces);
 			this.xPanelTraces.Controls.Add(this.toolStrip1);
+			this.xPanelTraces.Expand = true;
 			this.xPanelTraces.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.xPanelTraces.Image = null;
 			this.xPanelTraces.InnerBorderColor = System.Drawing.Color.White;
@@ -590,6 +591,9 @@
 			// 
 			// lstScanTraces
 			// 
+			this.lstScanTraces.AllColumns.Add(this.clmVisible);
+			this.lstScanTraces.AllColumns.Add(this.clmControl);
+			this.lstScanTraces.AllColumns.Add(this.clmName);
 			this.lstScanTraces.AllColumns.Add(this.clmVisible);
 			this.lstScanTraces.AllColumns.Add(this.clmControl);
 			this.lstScanTraces.AllColumns.Add(this.clmName);
@@ -867,6 +871,9 @@
 			this.lstMarkers.AllColumns.Add(this.olvMarkerVisible);
 			this.lstMarkers.AllColumns.Add(this.olvMarkerFreq);
 			this.lstMarkers.AllColumns.Add(this.olvMarkerName);
+			this.lstMarkers.AllColumns.Add(this.olvMarkerVisible);
+			this.lstMarkers.AllColumns.Add(this.olvMarkerFreq);
+			this.lstMarkers.AllColumns.Add(this.olvMarkerName);
 			this.lstMarkers.AlternateRowBackColor = System.Drawing.Color.Empty;
 			this.lstMarkers.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.olvMarkerVisible,
@@ -1015,6 +1022,11 @@
 			// 
 			// lstSignals
 			// 
+			this.lstSignals.AllColumns.Add(this.olvSignalVisible);
+			this.lstSignals.AllColumns.Add(this.olvSignalFStart);
+			this.lstSignals.AllColumns.Add(this.olvSignalFStop);
+			this.lstSignals.AllColumns.Add(this.olvSignalTitle);
+			this.lstSignals.AllColumns.Add(this.olvHits);
 			this.lstSignals.AllColumns.Add(this.olvSignalVisible);
 			this.lstSignals.AllColumns.Add(this.olvSignalFStart);
 			this.lstSignals.AllColumns.Add(this.olvSignalFStop);
@@ -1316,7 +1328,6 @@
 			this.xPanelSignalChart.ColorFlatCaptionGradientBegin = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(225)))), ((int)(((byte)(252)))));
 			this.xPanelSignalChart.ColorFlatCaptionGradientEnd = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(239)))), ((int)(((byte)(255)))));
 			this.xPanelSignalChart.Controls.Add(this.splitContainer4);
-			this.xPanelSignalChart.Expand = true;
 			this.xPanelSignalChart.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.xPanelSignalChart.Image = null;
 			this.xPanelSignalChart.InnerBorderColor = System.Drawing.Color.White;
@@ -1435,6 +1446,9 @@
 			// 
 			// lstReports
 			// 
+			this.lstReports.AllColumns.Add(this.olvReportType);
+			this.lstReports.AllColumns.Add(this.olvReportTime);
+			this.lstReports.AllColumns.Add(this.olvReportName);
 			this.lstReports.AllColumns.Add(this.olvReportType);
 			this.lstReports.AllColumns.Add(this.olvReportTime);
 			this.lstReports.AllColumns.Add(this.olvReportName);

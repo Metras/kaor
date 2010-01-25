@@ -24,11 +24,11 @@ namespace ControlUtils.FrequencyRadio
             this.TextMaskFormat = MaskFormat.ExcludePromptAndLiterals;
             this.FrequencyChanged += new FrequencyChangedHandler(OnFrequencyChanged);
             this.Min = 20000000;
-            this.Max = 3000000000;
+            this.Max = 18000000000;
             evtFreq = new AutoResetEvent(false);
             this.Frequency = 20000000;
-            base.Mask = "0.000.000.000";
-            this.Text = "0020000000";
+            base.Mask = "00.000.000.000";
+            this.Text = "00020000000";
             
             needRedrawLock = new object();
             bgwRedraw.RunWorkerAsync();
@@ -48,7 +48,7 @@ namespace ControlUtils.FrequencyRadio
         //изменение цифры колесиком
         protected override void OnMouseWheel(MouseEventArgs e)
         {
-            if (this.SelectionStart <= 12)
+            if (this.SelectionStart <= 13)
             {
 				long _newFreq = frequency;
 
@@ -56,7 +56,7 @@ namespace ControlUtils.FrequencyRadio
                 int _prePos = this.SelectionStart;
                 //рассчет текущего разряда
                 //с пропуском запятых
-                int _position = (int)Math.Ceiling((12 - this.SelectionStart) / 4.0 * 3);
+                int _position = (int)Math.Ceiling((13 - this.SelectionStart) / 4.0 * 3);
                 if (e.Delta > 0)
                     _newFreq += (Int64)Math.Pow(10, _position);
                 if (e.Delta < 0)
@@ -78,10 +78,10 @@ namespace ControlUtils.FrequencyRadio
         protected override void OnMouseClick(MouseEventArgs e)
         {
             base.OnMouseClick(e);
-            if (SelectionStart >= 13)
-                SelectionStart = 12;
+            if (SelectionStart >= 14)
+                SelectionStart = 13;
             //не выделять запятые
-            if (((this.SelectionStart - 1) % 4) == 0)
+			if (((this.SelectionStart - 1) % 4) == 1)
                 this.SelectionStart--;
             //выделить один символ
             this.SelectionLength = 1;
@@ -108,8 +108,8 @@ namespace ControlUtils.FrequencyRadio
                 if (this.SelectionStart > 0)
                 {
                     this.SelectionStart--;
-                    if (SelectionStart >= 13)
-                        SelectionStart = 12;
+                    if (SelectionStart >= 14)
+                        SelectionStart = 13;
                     this.SelectionLength = 1;
                     
                 }
@@ -120,7 +120,7 @@ namespace ControlUtils.FrequencyRadio
                 {
                     this.SelectionStart--;
                     this.SelectionLength = 1;
-                    if (((this.SelectionStart - 1) % 4) == 0)
+                    if (((this.SelectionStart - 1) % 4) == 1)
                         this.SelectionStart--;
                 }
             }
@@ -134,7 +134,7 @@ namespace ControlUtils.FrequencyRadio
             if (e.KeyChar == ' ')
                 e.KeyChar = '0';
             base.OnKeyPress(e);
-            if (((this.SelectionStart - 1) % 4) == 0)
+			if (((this.SelectionStart - 1) % 4) == 1)
                 this.SelectionStart++;
             this.SelectionLength = 1;
 
@@ -144,7 +144,7 @@ namespace ControlUtils.FrequencyRadio
         protected override void OnKeyUp(KeyEventArgs e)
         {
             this.SelectionLength = 1;
-            if (((this.SelectionStart - 1) % 4) == 0)
+			if (((this.SelectionStart - 1) % 4) == 1)
                 this.SelectionStart++;
             base.OnKeyUp(e);
         }
@@ -220,7 +220,7 @@ namespace ControlUtils.FrequencyRadio
             {
                 int _curPos = SelectionStart;
                 txt = pValue;
-                while (txt.Length < 10)
+                while (txt.Length < 11)
                     txt = "0" + txt;
                 SelectionStart = _curPos;
                 SelectionLength = 1;
@@ -262,7 +262,7 @@ namespace ControlUtils.FrequencyRadio
                 catch
                 {
                 }
-                while (base.Text.Length < 10)
+                while (base.Text.Length < 11)
                     base.Text = "0" + base.Text;
             }
             else

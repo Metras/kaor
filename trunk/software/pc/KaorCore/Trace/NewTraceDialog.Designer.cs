@@ -111,19 +111,19 @@
 			// 
 			// txtFstop
 			// 
-			this.txtFstop.Frequency = ((long)(0));
+			this.txtFstop.Frequency = ((long)(20000000));
 			resources.ApplyResources(this.txtFstop, "txtFstop");
 			this.txtFstop.Max = ((long)(40000000000));
-			this.txtFstop.Min = ((long)(0));
+			this.txtFstop.Min = ((long)(20000000));
 			this.txtFstop.Name = "txtFstop";
 			this.txtFstop.TextChanged += new System.EventHandler(this.txtFstop_TextChanged);
 			// 
 			// txtFstart
 			// 
-			this.txtFstart.Frequency = ((long)(0));
+			this.txtFstart.Frequency = ((long)(20000000));
 			resources.ApplyResources(this.txtFstart, "txtFstart");
-			this.txtFstart.Max = ((long)(3000000000));
-			this.txtFstart.Min = ((long)(0));
+			this.txtFstart.Max = ((long)(40000000000));
+			this.txtFstart.Min = ((long)(20000000));
 			this.txtFstart.Name = "txtFstart";
 			this.txtFstart.TextChanged += new System.EventHandler(this.txtFstart_TextChanged);
 			// 
