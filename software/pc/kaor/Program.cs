@@ -69,6 +69,8 @@ namespace kaor
 			AppDomain.CurrentDomain.SetData("revision", revisionSVN);
 			AppDomain.CurrentDomain.SetData("version", version);
 			AppDomain.CurrentDomain.SetData("versionstring", _versionString);
+			AppDomain.CurrentDomain.SetData("low_band", 20000000L);	// Нижняя граница диапазона
+			AppDomain.CurrentDomain.SetData("high_band", 18000000000L);	// Верхняя граница диапазона
 
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
@@ -145,9 +147,7 @@ namespace kaor
 				}
 			}
 			else
-
 				AppDomain.CurrentDomain.SetData("ApplicationCrash", false);
-
 		}
 
 		static void Application_ThreadException(object sender, ThreadExceptionEventArgs e)
@@ -161,7 +161,6 @@ namespace kaor
 			{
 				BaseRadioControlSystem.Instance.SaveFullState();
 			}
-
 			if (_cf.checkBox1.Checked)
 			{
 				Semaphore s = Semaphore.OpenExisting("KAOR RCS");

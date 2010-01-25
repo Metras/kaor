@@ -232,7 +232,6 @@ namespace KaorCore.RPU
 			get;
 			
 			set;
-			
 		}
 
 		public abstract BaseRPUParams Parameters

@@ -111,7 +111,7 @@ namespace KaorCore.RPUZero
 
 		public override System.Windows.Forms.Form SettingsForm
 		{
-			get { throw new NotImplementedException(); }
+			get { return null; throw new NotImplementedException(); }
 		}
 
 		public override System.Windows.Forms.UserControl RPUControl

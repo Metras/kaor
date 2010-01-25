@@ -390,7 +390,7 @@
     <value>7</value>
   </data>
   <data name="txtFstop.Text" xml:space="preserve">
-    <value>0</value>
+    <value>20000000</value>
   </data>
   <data name="&gt;&gt;txtFstop.Name" xml:space="preserve">
     <value>txtFstop</value>
@@ -414,7 +414,7 @@
     <value>6</value>
   </data>
   <data name="txtFstart.Text" xml:space="preserve">
-    <value>0</value>
+    <value>20000000</value>
   </data>
   <data name="&gt;&gt;txtFstart.Name" xml:space="preserve">
     <value>txtFstart</value>

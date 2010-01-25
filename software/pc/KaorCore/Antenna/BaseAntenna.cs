@@ -119,15 +119,17 @@ namespace KaorCore.Antenna
 		public BaseAntenna(GPSCoordinates pCoord)
 			: this(pCoord, Locale.str_new_antenna, 
 			Locale.str_antenna_descr,
-			EAntennaType.Omni, 0, 0, 3000000000, 0, EAntennaState.BAD)
+			EAntennaType.Omni, 0, (long)AppDomain.CurrentDomain.GetData("low_band"), 
+			(long)AppDomain.CurrentDomain.GetData("high_band"), 0, EAntennaState.BAD)
 		{
 		}
 
 
 		public BaseAntenna(GPSCoordinates pCoord, //IAntennaManager pAntennaManager, 
 			string pName, EAntennaType pType, double pDirection)
-			: this(pCoord, pName, Locale.str_antenna_descr, 
-			pType, pDirection, 0, 3000000000, 0, EAntennaState.BAD)
+			: this(pCoord, pName, Locale.str_antenna_descr,
+			pType, pDirection, (long)AppDomain.CurrentDomain.GetData("low_band"),
+			(long)AppDomain.CurrentDomain.GetData("high_band"), 0, EAntennaState.BAD)
 		{
 		}
 

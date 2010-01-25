@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnDemodM3.ToolTip" xml:space="preserve">
+    <value>Ячейка памяти 3</value>
+  </data>
+  <data name="chkMemDemod.ToolTip" xml:space="preserve">
+    <value>Запись в ячейку памяти</value>
+  </data>
+  <data name="btnDemodM2.ToolTip" xml:space="preserve">
+    <value>Ячейка памяти 2</value>
+  </data>
+  <data name="cmbBand.Items" xml:space="preserve">
+    <value>3 кГц</value>
+  </data>
+  <data name="cmbBand.Items1" xml:space="preserve">
+    <value>6 кГц</value>
+  </data>
+  <data name="cmbBand.Items2" xml:space="preserve">
+    <value>15 кГц</value>
+  </data>
+  <data name="cmbBand.Items3" xml:space="preserve">
+    <value>50 кГц</value>
+  </data>
+  <data name="cmbBand.Items4" xml:space="preserve">
+    <value>230 кГц</value>
+  </data>
+  <data name="cmbBand.ToolTip" xml:space="preserve">
+    <value>Полоса фильтра демодулятора</value>
+  </data>
+  <data name="cmbMod.ToolTip" xml:space="preserve">
+    <value>Тип демодулятора</value>
+  </data>
+  <data name="btnDemodM1.ToolTip" xml:space="preserve">
+    <value>Ячейка памяти 1</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Демодулятор</value>
+  </data>
+  <data name="btnPowerMeterM3.ToolTip" xml:space="preserve">
+    <value>Ячейка памяти 3</value>
+  </data>
+  <data name="chkMemPowermeter.ToolTip" xml:space="preserve">
+    <value>Запись в ячейку памяти</value>
+  </data>
+  <data name="cmbAverageTime.Items" xml:space="preserve">
+    <value>10 мс</value>
+  </data>
+  <data name="cmbAverageTime.Items1" xml:space="preserve">
+    <value>20 мс</value>
+  </data>
+  <data name="cmbAverageTime.Items2" xml:space="preserve">
+    <value>50 мс</value>
+  </data>
+  <data name="cmbAverageTime.Items3" xml:space="preserve">
+    <value>100 мс</value>
+  </data>
+  <data name="cmbAverageTime.Items4" xml:space="preserve">
+    <value>250 мс</value>
+  </data>
+  <data name="cmbAverageTime.Items5" xml:space="preserve">
+    <value>500 мс</value>
+  </data>
+  <data name="cmbAverageTime.Items6" xml:space="preserve">
+    <value>1000 мс</value>
+  </data>
+  <data name="cmbAverageTime.ToolTip" xml:space="preserve">
+    <value>Время усреднения измерителя мощности</value>
+  </data>
+  <data name="btnPowerMeterM2.ToolTip" xml:space="preserve">
+    <value>Ячейка памяти 2</value>
+  </data>
+  <data name="cmbPowerFilterBand.Items" xml:space="preserve">
+    <value>1 кГц</value>
+  </data>
+  <data name="cmbPowerFilterBand.Items1" xml:space="preserve">
+    <value>3 кГц</value>
+  </data>
+  <data name="cmbPowerFilterBand.Items2" xml:space="preserve">
+    <value>7.5 кГц</value>
+  </data>
+  <data name="cmbPowerFilterBand.Items3" xml:space="preserve">
+    <value>10 кГц</value>
+  </data>
+  <data name="cmbPowerFilterBand.Items4" xml:space="preserve">
+    <value>30 кГц</value>
+  </data>
+  <data name="cmbPowerFilterBand.Items5" xml:space="preserve">
+    <value>100 кГц</value>
+  </data>
+  <data name="cmbPowerFilterBand.Items6" xml:space="preserve">
+    <value>120 кГц</value>
+  </data>
+  <data name="cmbPowerFilterBand.Items7" xml:space="preserve">
+    <value>280 кГц</value>
+  </data>
+  <data name="cmbPowerFilterBand.ToolTip" xml:space="preserve">
+    <value>Полоса измерителя мощности</value>
+  </data>
+  <data name="btnPowerMeterM1.ToolTip" xml:space="preserve">
+    <value>Ячейка памяти 1</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Измеритель мощности</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panel4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        Qis7mqk/GLhBf+D6g35uepzZ7fw6CNiJJQysLgO+JopmFtYvNbMmslZopZCLi4vCvvnqFyeG4K4uGAxq
+        +g4Grs+Ar4GqjVYvbZqg0Ppie3l56ax9/umPTsyvjP3bxCS7OMMBMbgpDIy18Cejj6/z/6NEVtXXJh4O
+        h65io6H75KNvM/tusvX/l/1U07JsmW+jjJg6U31MTR/jQyhNUz2z1i/5QnlTy2tLP2+fZ4md70Nq++bB
+        f0p/atpZ4jpLfK6TZ5ZYNtU3z7JmbVPpQ1UXR26U6WSSyIbEVgq4urpyV2/ehM2eu8rSiOVpTR49lm+z
+        43ke2U7S2q1/TMoqyjTl+mVqnVqH+lvsqz+mXtumSh3Wf5Mvb5MfC//Y5HwlDtpem1fTBWIbircf25q/
+        JpZN56J8b+hr8cm2Kd/30hY+Bo7n/ejFKuhnoNxa3058sT6pLz6PFW61/lAbjW81Bm0+y7XPUqAMP+YV
+        Pi1bdmxoX/oxbxiDWkeF9RBXNr/HaY3XlnHcpAU1vkx9FVYC46CxTKsRXrxqutDAbjFubd/548Vjw5at
+        nFX4fxP8FNe4XNB04qZ8DKCdfOSFARiYBwPJImszzMMBygBkGICBdWTgWuJKZiJABIgAEZhPBP4Hrm1K
+        8h46oZ8AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="frequencyRadio1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 9</value>
+  </data>
+  <data name="frequencyRadio1.Mask" xml:space="preserve">
+    <value>00.000.000.000</value>
+  </data>
+  <data name="frequencyRadio1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 40</value>
+  </data>
+  <data name="frequencyRadio1.ToolTip" xml:space="preserve">
+    <value>Текущая частота РПУ</value>
+  </data>
+  <data name="olvName.Text" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="lstAntennas.ToolTip" xml:space="preserve">
+    <value>Подключенные антенны</value>
+  </data>
+  <data name="grpAntennas.Text" xml:space="preserve">
+    <value>Антенна</value>
+  </data>
+  <data name="chkATT20dB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>541, 88</value>
+  </data>
+  <data name="chkATT20dB.ToolTip" xml:space="preserve">
+    <value>Аттенюятор 20дБ</value>
+  </data>
+  <data name="chkATT10dB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 88</value>
+  </data>
+  <data name="chkATT10dB.ToolTip" xml:space="preserve">
+    <value>Аттенюатор 10дБ</value>
+  </data>
+  <data name="cmbSignalConverter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 21</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Конвертор</value>
+  </data>
+  <data name="graphPowerScale1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+</root>

@@ -76,7 +76,7 @@
     <Compile Include="FrequencyRadio\FrequencyRadio.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="FrequencyRadio\FrequencyRadio.Designer.cs">
+    <Compile Include="FrequencyRadio\FrequencyRadio.designer.cs">
       <DependentUpon>FrequencyRadio.cs</DependentUpon>
     </Compile>
     <Compile Include="FrequencyTextBox\FrequencyTextBox.cs">
@@ -135,10 +135,6 @@
       <DependentUpon>Balloon.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrequencyRadio\FrequencyRadio.resx">
-      <DependentUpon>FrequencyRadio.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="GraphPowerScale\GraphPowerScale.resx">
       <DependentUpon>GraphPowerScale.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -170,6 +166,9 @@
   <ItemGroup>
     <EmbeddedResource Include="ComplexAnimatedPlot\ComplexAnimatePlot.resx">
       <DependentUpon>ComplexAnimatePlot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrequencyRadio\FrequencyRadio.resx">
+      <DependentUpon>FrequencyRadio.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
